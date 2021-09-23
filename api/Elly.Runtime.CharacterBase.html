@@ -1,0 +1,1548 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CharacterBase
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CharacterBase
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Elly.Runtime.CharacterBase">
+  
+  
+  <h1 id="Elly_Runtime_CharacterBase" data-uid="Elly.Runtime.CharacterBase" class="text-break">Class CharacterBase
+  </h1>
+  <div class="markdown level0 summary"><p>Basic character component</p>
+<pre><code>// You can create an custom character by inherit it
+public class CustomCharacter : CharacterBase</code></pre>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">CharacterBase</span></div>
+      <div class="level6"><a class="xref" href="Elly.Runtime.FPSCharacter.html">FPSCharacter</a></div>
+      <div class="level6"><a class="xref" href="Elly.Runtime.GhostCharacter.html">GhostCharacter</a></div>
+      <div class="level6"><a class="xref" href="Elly.Runtime.NoneCameraCharacter.html">NoneCameraCharacter</a></div>
+      <div class="level6"><a class="xref" href="Elly.Runtime.PlatformCharacter.html">PlatformCharacter</a></div>
+      <div class="level6"><a class="xref" href="Elly.Runtime.TopdownCharacter.html">TopdownCharacter</a></div>
+      <div class="level6"><a class="xref" href="Elly.Runtime.TPSCharacter.html">TPSCharacter</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Elly.Runtime.html">Elly.Runtime</a></h6>
+  <h6><strong>Assembly</strong>: Elly.Character.dll</h6>
+  <h5 id="Elly_Runtime_CharacterBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class CharacterBase : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase___Camera" data-uid="Elly.Runtime.CharacterBase.__Camera">__Camera</h4>
+  <div class="markdown level1 summary"><p><a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__Camera">_Camera</a> property temp</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Camera __Camera</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Camera</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase___CameraCenter" data-uid="Elly.Runtime.CharacterBase.__CameraCenter">__CameraCenter</h4>
+  <div class="markdown level1 summary"><p><a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CameraCenter">_CameraCenter</a> property temp</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Transform __CameraCenter</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase__CamCenterMovingDest" data-uid="Elly.Runtime.CharacterBase._CamCenterMovingDest">_CamCenterMovingDest</h4>
+  <div class="markdown level1 summary"><p>Camera center transform smooth moving destination <br>
+Notice: in local space</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector3 _CamCenterMovingDest</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase__CamCenterMovingVelocity" data-uid="Elly.Runtime.CharacterBase._CamCenterMovingVelocity">_CamCenterMovingVelocity</h4>
+  <div class="markdown level1 summary"><p>Camera center transform smooth moving velocity</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector3 _CamCenterMovingVelocity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase__CamCenterRotatingVelocity" data-uid="Elly.Runtime.CharacterBase._CamCenterRotatingVelocity">_CamCenterRotatingVelocity</h4>
+  <div class="markdown level1 summary"><p>Camera center transform smooth rotating velocity</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector2 _CamCenterRotatingVelocity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase__CamCenterRotationDest" data-uid="Elly.Runtime.CharacterBase._CamCenterRotationDest">_CamCenterRotationDest</h4>
+  <div class="markdown level1 summary"><p>Camera center transform smooth rotating destination <br>
+Notice: in local space</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector2 _CamCenterRotationDest</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase__CamMovingDest" data-uid="Elly.Runtime.CharacterBase._CamMovingDest">_CamMovingDest</h4>
+  <div class="markdown level1 summary"><p>Camera transform smooth moving destination <br>
+Notice: in local space</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector3 _CamMovingDest</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase__CamMovingVelocity" data-uid="Elly.Runtime.CharacterBase._CamMovingVelocity">_CamMovingVelocity</h4>
+  <div class="markdown level1 summary"><p>Camera transform smooth moving velocity</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector3 _CamMovingVelocity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase__CamRotatingVelocity" data-uid="Elly.Runtime.CharacterBase._CamRotatingVelocity">_CamRotatingVelocity</h4>
+  <div class="markdown level1 summary"><p>Camera transform smooth rotating velocity</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector2 _CamRotatingVelocity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase__CamRotationDest" data-uid="Elly.Runtime.CharacterBase._CamRotationDest">_CamRotationDest</h4>
+  <div class="markdown level1 summary"><p>Camera transform smooth rotating destination <br>
+Notice: in local space</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector2 _CamRotationDest</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase__CanMove" data-uid="Elly.Runtime.CharacterBase._CanMove">_CanMove</h4>
+  <div class="markdown level1 summary"><p>The trigger tell if player moving control is enable</p>
+<pre><code>if (_CanMove){
+    // Insert moving related code here
+}</code></pre>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;Moving control enable&quot;)]
+protected bool _CanMove</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase__CanSee" data-uid="Elly.Runtime.CharacterBase._CanSee">_CanSee</h4>
+  <div class="markdown level1 summary"><p>The trigger tell if player looking control is enable</p>
+<pre><code>if (_CanSee){
+    // Insert seeing related code here
+}</code></pre>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;Rotate control enable&quot;)]
+protected bool _CanSee</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase_CamCenterMoveSmoothSpeed" data-uid="Elly.Runtime.CharacterBase.CamCenterMoveSmoothSpeed">CamCenterMoveSmoothSpeed</h4>
+  <div class="markdown level1 summary"><p>Camera center transform smoothing moving speed <br>
+The small the number, the faster it move <br>
+If it's 0 then it won't called smoothdamp function, it will just apply the <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterMovingDest">_CamCenterMovingDest</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;The lower the value, the faster it move&quot;)]
+[Range(0F, 2F)]
+protected float CamCenterMoveSmoothSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase_CamCenterRotateSmoothSpeed" data-uid="Elly.Runtime.CharacterBase.CamCenterRotateSmoothSpeed">CamCenterRotateSmoothSpeed</h4>
+  <div class="markdown level1 summary"><p>Camera center transform smoothing rotating speed <br>
+The small the number, the faster it rotate <br>
+If it's 0 then it won't called smoothdamp function, it will just apply the <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterRotationDest">_CamCenterRotationDest</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;The lower the value, the faster it rotate&quot;)]
+[Range(0F, 2F)]
+protected float CamCenterRotateSmoothSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase_CamMoveSmoothSpeed" data-uid="Elly.Runtime.CharacterBase.CamMoveSmoothSpeed">CamMoveSmoothSpeed</h4>
+  <div class="markdown level1 summary"><p>Camera transform smoothing moving speed <br>
+The small the number, the faster it move <br>
+If it's 0 then it won't called smoothdamp function, it will just apply the <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamMovingDest">_CamMovingDest</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;The lower the value, the faster it move&quot;)]
+[Range(0F, 2F)]
+protected float CamMoveSmoothSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase_CamRotateSmoothSpeed" data-uid="Elly.Runtime.CharacterBase.CamRotateSmoothSpeed">CamRotateSmoothSpeed</h4>
+  <div class="markdown level1 summary"><p>Camera transform smoothing rotating speed <br>
+The small the number, the faster it rotate <br>
+If it's 0 then it won't called smoothdamp function, it will just apply the <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRotationDest">_CamRotationDest</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;The lower the value, the faster it rotate&quot;)]
+[Range(0F, 2F)]
+protected float CamRotateSmoothSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_CharacterBase_InverseY" data-uid="Elly.Runtime.CharacterBase.InverseY">InverseY</h4>
+  <div class="markdown level1 summary"><p>Player look control y will multiply by -1 <br>
+If false then it will multiply by 1</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Base Setting&quot;)]
+[SerializeField]
+[Tooltip(&quot;Inverse mouse y&quot;)]
+protected bool InverseY</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Elly_Runtime_CharacterBase__Camera_" data-uid="Elly.Runtime.CharacterBase._Camera*"></a>
+  <h4 id="Elly_Runtime_CharacterBase__Camera" data-uid="Elly.Runtime.CharacterBase._Camera">_Camera</h4>
+  <div class="markdown level1 summary"><p>Character use camera <br>
+In the <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Update">Update()</a> method, it will trying to update the position and rotation <br>
+Default getter path: <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraCenterRoot">CameraCenterRoot()</a>.find(&quot;Camera Center/Camera&quot;) <br>
+Link variable : <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase___Camera">__Camera</a></p>
+<pre><code>// You can override the camera search path 
+public override Camera _Camera { 
+    get { 
+        // Insert getter path 
+    } 
+}</code></pre>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Camera _Camera { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Camera</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase__CameraCenter_" data-uid="Elly.Runtime.CharacterBase._CameraCenter*"></a>
+  <h4 id="Elly_Runtime_CharacterBase__CameraCenter" data-uid="Elly.Runtime.CharacterBase._CameraCenter">_CameraCenter</h4>
+  <div class="markdown level1 summary"><p>Character use camera parent <br>
+In the <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Update">Update()</a> method, it will trying to update the position and rotation <br>
+Default getter path: <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraCenterRoot">CameraCenterRoot()</a>.find(&quot;Camera Center&quot;) <br>
+Link variable : <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase___CameraCenter">__CameraCenter</a></p>
+<pre><code>// You can override the camera center search path 
+public override Transform _CameraCenter {
+    get {
+        // Insert getter path 
+    }
+}</code></pre>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Transform _CameraCenter { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_CameraFrontRay_" data-uid="Elly.Runtime.CharacterBase.CameraFrontRay*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_CameraFrontRay" data-uid="Elly.Runtime.CharacterBase.CameraFrontRay">CameraFrontRay</h4>
+  <div class="markdown level1 summary"><p>Return <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__Camera">_Camera</a> normalized front ray by go through center point of screen <br>
+Return null if camera is null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Ray? CameraFrontRay { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">UnityEngine.Ray</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_CharacterFrontRay_" data-uid="Elly.Runtime.CharacterBase.CharacterFrontRay*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_CharacterFrontRay" data-uid="Elly.Runtime.CharacterBase.CharacterFrontRay">CharacterFrontRay</h4>
+  <div class="markdown level1 summary"><p>Return character normalized front ray</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Ray CharacterFrontRay { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Ray</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_Awake_" data-uid="Elly.Runtime.CharacterBase.Awake*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_Awake" data-uid="Elly.Runtime.CharacterBase.Awake">Awake()</h4>
+  <div class="markdown level1 summary"><p>Awake is called when the script instance is being loaded</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Awake()</code></pre>
+  </div>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_CameraCenterRoot_" data-uid="Elly.Runtime.CharacterBase.CameraCenterRoot*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_CameraCenterRoot" data-uid="Elly.Runtime.CharacterBase.CameraCenterRoot">CameraCenterRoot()</h4>
+  <div class="markdown level1 summary"><p>This helps editor script detect if camera structure is exist or not <br>
+Default is self transform</p>
+<pre><code>// You can change the default structure 
+public override Transform CameraCenterRoot() { return transform.parent; }</code></pre>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Transform CameraCenterRoot()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><p>Who's the camera center parent</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_CameraCenterRotateForView_" data-uid="Elly.Runtime.CharacterBase.CameraCenterRotateForView*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_CameraCenterRotateForView_System_Single_System_Single_System_Boolean_" data-uid="Elly.Runtime.CharacterBase.CameraCenterRotateForView(System.Single,System.Single,System.Boolean)">CameraCenterRotateForView(Single, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Detect mouse x y delta and apply to <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterRotationDest">_CamCenterRotationDest</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CameraCenterRotateForView(float bounds, float viewSpeed, bool rootYRotate = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bounds</span></td>
+        <td><p>Up down degree limit</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">viewSpeed</span></td>
+        <td><p>View speed multiplier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">rootYRotate</span></td>
+        <td><p>Transfer the y rotate delta to transform.localEulerAngles.y</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_CameraCenterRotateForView_" data-uid="Elly.Runtime.CharacterBase.CameraCenterRotateForView*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_CameraCenterRotateForView_System_Single_System_Single_System_Single_System_Boolean_" data-uid="Elly.Runtime.CharacterBase.CameraCenterRotateForView(System.Single,System.Single,System.Single,System.Boolean)">CameraCenterRotateForView(Single, Single, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Detect mouse x y delta and apply to <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterRotationDest">_CamCenterRotationDest</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CameraCenterRotateForView(float upperAngle, float lowerAngle, float viewSpeed, bool rootYRotate = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">upperAngle</span></td>
+        <td><p>Self define upper angle bound</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">lowerAngle</span></td>
+        <td><p>Self define lower angle bound</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">viewSpeed</span></td>
+        <td><p>View speed multiplier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">rootYRotate</span></td>
+        <td><p>Transfer the y rotate delta to transform.localEulerAngles.y</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_CameraCenterRotateForView_" data-uid="Elly.Runtime.CharacterBase.CameraCenterRotateForView*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_CameraCenterRotateForView_System_Single_System_Single_UnityEngine_Vector2_System_Boolean_" data-uid="Elly.Runtime.CharacterBase.CameraCenterRotateForView(System.Single,System.Single,UnityEngine.Vector2,System.Boolean)">CameraCenterRotateForView(Single, Single, Vector2, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Detect mouse x y delta and apply to <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterRotationDest">_CamCenterRotationDest</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CameraCenterRotateForView(float upperBound, float lowerBound, Vector2 delta, bool rootYRotate = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">upperBound</span></td>
+        <td><p>Upper position degree</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">lowerBound</span></td>
+        <td><p>Lower negative degree</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">delta</span></td>
+        <td><p>Rotate delta</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">rootYRotate</span></td>
+        <td><p>Transfer the y rotate delta to transform.localEulerAngles.y</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_CameraCenterRotateForView_" data-uid="Elly.Runtime.CharacterBase.CameraCenterRotateForView*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_CameraCenterRotateForView_System_Single_UnityEngine_Vector2_System_Boolean_" data-uid="Elly.Runtime.CharacterBase.CameraCenterRotateForView(System.Single,UnityEngine.Vector2,System.Boolean)">CameraCenterRotateForView(Single, Vector2, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Detect mouse x y delta and apply to <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterRotationDest">_CamCenterRotationDest</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CameraCenterRotateForView(float bounds, Vector2 delta, bool rootYRotate = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bounds</span></td>
+        <td><p>Up down degree limit</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">delta</span></td>
+        <td><p>Rotate delta</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">rootYRotate</span></td>
+        <td><p>Transfer the y rotate delta to transform.localEulerAngles.y</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_CameraLookAtForView_" data-uid="Elly.Runtime.CharacterBase.CameraLookAtForView*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_CameraLookAtForView_UnityEngine_Vector2_" data-uid="Elly.Runtime.CharacterBase.CameraLookAtForView(UnityEngine.Vector2)">CameraLookAtForView(Vector2)</h4>
+  <div class="markdown level1 summary"><p><a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRotationDest">_CamRotationDest</a> will look at self transform with offset <br>
+The offset is local depend on <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__Camera">_Camera</a> rotation <br>
+Useful when design third-person base character</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CameraLookAtForView(Vector2 offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>View center offset</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_CameraRotateForView_" data-uid="Elly.Runtime.CharacterBase.CameraRotateForView*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_CameraRotateForView_System_Single_System_Single_System_Boolean_" data-uid="Elly.Runtime.CharacterBase.CameraRotateForView(System.Single,System.Single,System.Boolean)">CameraRotateForView(Single, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Detect mouse x y delta and apply to <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRotationDest">_CamRotationDest</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CameraRotateForView(float bounds, float viewSpeed, bool rootYRotate = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bounds</span></td>
+        <td><p>Up down degree limit</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">viewSpeed</span></td>
+        <td><p>View speed multiplier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">rootYRotate</span></td>
+        <td><p>Transfer the y rotate delta to transform.localEulerAngles.y</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_CameraRotateForView_" data-uid="Elly.Runtime.CharacterBase.CameraRotateForView*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_CameraRotateForView_System_Single_System_Single_System_Single_System_Boolean_" data-uid="Elly.Runtime.CharacterBase.CameraRotateForView(System.Single,System.Single,System.Single,System.Boolean)">CameraRotateForView(Single, Single, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Detect mouse x y delta and apply to <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRotationDest">_CamRotationDest</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CameraRotateForView(float upperAngle, float lowerAngle, float viewSpeed, bool rootYRotate = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">upperAngle</span></td>
+        <td><p>Self define upper angle bound</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">lowerAngle</span></td>
+        <td><p>Self define lower angle bound</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">viewSpeed</span></td>
+        <td><p>View speed multiplier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">rootYRotate</span></td>
+        <td><p>Transfer the y rotate delta to transform.localEulerAngles.y</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_CameraRotateForView_" data-uid="Elly.Runtime.CharacterBase.CameraRotateForView*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_CameraRotateForView_System_Single_System_Single_UnityEngine_Vector2_System_Boolean_" data-uid="Elly.Runtime.CharacterBase.CameraRotateForView(System.Single,System.Single,UnityEngine.Vector2,System.Boolean)">CameraRotateForView(Single, Single, Vector2, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Detect mouse x y delta and apply to <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRotationDest">_CamRotationDest</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CameraRotateForView(float upperBound, float lowerBound, Vector2 delta, bool rootYRotate = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">upperBound</span></td>
+        <td><p>Upper negative degree</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">lowerBound</span></td>
+        <td><p>Lower position degree</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">delta</span></td>
+        <td><p>Rotate delta</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">rootYRotate</span></td>
+        <td><p>Transfer the y rotate delta to transform.localEulerAngles.y</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_CameraRotateForView_" data-uid="Elly.Runtime.CharacterBase.CameraRotateForView*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_CameraRotateForView_System_Single_UnityEngine_Vector2_System_Boolean_" data-uid="Elly.Runtime.CharacterBase.CameraRotateForView(System.Single,UnityEngine.Vector2,System.Boolean)">CameraRotateForView(Single, Vector2, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Detect mouse x y delta and apply to <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRotationDest">_CamRotationDest</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CameraRotateForView(float bounds, Vector2 delta, bool rootYRotate = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bounds</span></td>
+        <td><p>Up down degree limit</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">delta</span></td>
+        <td><p>Rotate delta</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">rootYRotate</span></td>
+        <td><p>Transfer the y rotate delta to transform.localEulerAngles.y</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_ChangeCanMove_" data-uid="Elly.Runtime.CharacterBase.ChangeCanMove*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_ChangeCanMove_System_Boolean_" data-uid="Elly.Runtime.CharacterBase.ChangeCanMove(System.Boolean)">ChangeCanMove(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Change moving controller enable</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeCanMove(bool value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_ChangeCanSee_" data-uid="Elly.Runtime.CharacterBase.ChangeCanSee*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_ChangeCanSee_System_Boolean_" data-uid="Elly.Runtime.CharacterBase.ChangeCanSee(System.Boolean)">ChangeCanSee(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Change seeing controller enable</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeCanSee(bool value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_ChangeInverseY_" data-uid="Elly.Runtime.CharacterBase.ChangeInverseY*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_ChangeInverseY_System_Boolean_" data-uid="Elly.Runtime.CharacterBase.ChangeInverseY(System.Boolean)">ChangeInverseY(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Change inverse y setting</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeInverseY(bool value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_LookVector_" data-uid="Elly.Runtime.CharacterBase.LookVector*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_LookVector_UnityEngine_Vector2_System_Single_" data-uid="Elly.Runtime.CharacterBase.LookVector(UnityEngine.Vector2,System.Single)">LookVector(Vector2, Single)</h4>
+  <div class="markdown level1 summary"><p>Apply vector to delta time and <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_InverseY">InverseY</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector2 LookVector(Vector2 origin, float viewSpeed = 1F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">origin</span></td>
+        <td><p>Target vector</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">viewSpeed</span></td>
+        <td><p>Speed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_MoveVector_" data-uid="Elly.Runtime.CharacterBase.MoveVector*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_MoveVector_UnityEngine_Vector3_System_Single_System_Single_" data-uid="Elly.Runtime.CharacterBase.MoveVector(UnityEngine.Vector3,System.Single,System.Single)">MoveVector(Vector3, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Apply vector to delta time</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector3 MoveVector(Vector3 origin, float horizontalSpeed = 1F, float VerticalSpeed = 1F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">origin</span></td>
+        <td><p>Target vector</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">horizontalSpeed</span></td>
+        <td><p>x, z Speed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">VerticalSpeed</span></td>
+        <td><p>y Speed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_Reset_" data-uid="Elly.Runtime.CharacterBase.Reset*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_Reset" data-uid="Elly.Runtime.CharacterBase.Reset">Reset()</h4>
+  <div class="markdown level1 summary"><p>Editor reset to default value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Reset()</code></pre>
+  </div>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_SimpleMove_" data-uid="Elly.Runtime.CharacterBase.SimpleMove*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_SimpleMove_UnityEngine_Vector3_System_Boolean_" data-uid="Elly.Runtime.CharacterBase.SimpleMove(UnityEngine.Vector3,System.Boolean)">SimpleMove(Vector3, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Apply character movement <br>
+There will be no smoothdamp, it just apply the vector to self transform position <br>
+Moving vector y won't effect by rotation, only x and z effect by direction reference rotation y</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SimpleMove(Vector3 vec, bool dependYAxis = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">vec</span></td>
+        <td><p>Moving vec</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">dependYAxis</span></td>
+        <td><p>False if you want move it globally</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_SimpleMove_" data-uid="Elly.Runtime.CharacterBase.SimpleMove*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_SimpleMove_UnityEngine_Vector3_UnityEngine_Transform_System_Boolean_" data-uid="Elly.Runtime.CharacterBase.SimpleMove(UnityEngine.Vector3,UnityEngine.Transform,System.Boolean)">SimpleMove(Vector3, Transform, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Apply character movement <br>
+There will be no smoothdamp, it just apply the vector to self transform position <br>
+Moving vector y won't effect by rotation, only x and z effect by direction reference rotation y</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SimpleMove(Vector3 vec, Transform directionRef, bool dependYAxis = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">vec</span></td>
+        <td><p>Moving vec</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">directionRef</span></td>
+        <td><p>Rotation reference</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">dependYAxis</span></td>
+        <td><p>False if you want move it globally</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_Start_" data-uid="Elly.Runtime.CharacterBase.Start*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_Start" data-uid="Elly.Runtime.CharacterBase.Start">Start()</h4>
+  <div class="markdown level1 summary"><p>Start is called before <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Update">Update()</a> method is called</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Start()</code></pre>
+  </div>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_SwitchAction_" data-uid="Elly.Runtime.CharacterBase.SwitchAction*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_SwitchAction_Elly_Runtime_CharacterBase_" data-uid="Elly.Runtime.CharacterBase.SwitchAction(Elly.Runtime.CharacterBase)">SwitchAction(CharacterBase)</h4>
+  <div class="markdown level1 summary"><p>When <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_SwitchType_System_Type_">SwitchType(Type)</a> happen, Switch target type will call this method with source <a class="xref" href="Elly.Runtime.CharacterBase.html">CharacterBase</a> as arugment <br>
+User can writing custom transition code in here</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SwitchAction(CharacterBase source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Elly.Runtime.CharacterBase.html">CharacterBase</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_SwitchType_" data-uid="Elly.Runtime.CharacterBase.SwitchType*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_SwitchType_System_Type_" data-uid="Elly.Runtime.CharacterBase.SwitchType(System.Type)">SwitchType(Type)</h4>
+  <div class="markdown level1 summary"><p>Switch character type <br>
+the new component will apply old component's <a class="xref" href="Elly.Runtime.CharacterBase.html">CharacterBase</a> variables <br>
+Then the subclass will be default value, but it will call <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_SwitchAction_Elly_Runtime_CharacterBase_">SwitchAction(CharacterBase)</a> method To notice it<br>
+You can trying to cast it by override the method</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SwitchType(Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_SwitchType_" data-uid="Elly.Runtime.CharacterBase.SwitchType*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_SwitchType__1" data-uid="Elly.Runtime.CharacterBase.SwitchType``1">SwitchType&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Switch character type <br>
+the new component will apply old component's <a class="xref" href="Elly.Runtime.CharacterBase.html">CharacterBase</a> variables <br>
+Then the subclass will be default value, but it will call <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_SwitchAction_Elly_Runtime_CharacterBase_">SwitchAction(CharacterBase)</a> method To notice it<br>
+You can trying to cast it by override the method</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SwitchType&lt;T&gt;()
+    where T : CharacterBase</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_CharacterBase_Update_" data-uid="Elly.Runtime.CharacterBase.Update*"></a>
+  <h4 id="Elly_Runtime_CharacterBase_Update" data-uid="Elly.Runtime.CharacterBase.Update">Update()</h4>
+  <div class="markdown level1 summary"><p>Update is called every frame, if script is enable <br>
+Default update will trying to smoothly moving and rotating <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__Camera">_Camera</a> and <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CameraCenter">_CameraCenter</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Update()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
