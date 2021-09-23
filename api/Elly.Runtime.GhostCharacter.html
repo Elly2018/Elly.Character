@@ -398,14 +398,14 @@ protected float ViewSpeed</code></pre>
   </h3>
   
   
-  <a id="Elly_Runtime_GhostCharacter_LookAction_" data-uid="Elly.Runtime.GhostCharacter.LookAction*"></a>
-  <h4 id="Elly_Runtime_GhostCharacter_LookAction_UnityEngine_InputSystem_InputAction_CallbackContext_" data-uid="Elly.Runtime.GhostCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)">LookAction(InputAction.CallbackContext)</h4>
+  <a id="Elly_Runtime_GhostCharacter_OnLook_" data-uid="Elly.Runtime.GhostCharacter.OnLook*"></a>
+  <h4 id="Elly_Runtime_GhostCharacter_OnLook_UnityEngine_InputSystem_InputValue_" data-uid="Elly.Runtime.GhostCharacter.OnLook(UnityEngine.InputSystem.InputValue)">OnLook(InputValue)</h4>
   <div class="markdown level1 summary"><p>Apply vector 2D data to <a class="xref" href="Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_lookDir">lookDir</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void LookAction(InputAction.CallbackContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void OnLook(InputValue context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -418,7 +418,7 @@ protected float ViewSpeed</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.InputSystem.InputAction.CallbackContext</span></td>
+        <td><span class="xref">UnityEngine.InputSystem.InputValue</span></td>
         <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
@@ -426,14 +426,14 @@ protected float ViewSpeed</code></pre>
   </table>
   
   
-  <a id="Elly_Runtime_GhostCharacter_MoveAction2D_" data-uid="Elly.Runtime.GhostCharacter.MoveAction2D*"></a>
-  <h4 id="Elly_Runtime_GhostCharacter_MoveAction2D_UnityEngine_InputSystem_InputAction_CallbackContext_" data-uid="Elly.Runtime.GhostCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)">MoveAction2D(InputAction.CallbackContext)</h4>
+  <a id="Elly_Runtime_GhostCharacter_OnMove_" data-uid="Elly.Runtime.GhostCharacter.OnMove*"></a>
+  <h4 id="Elly_Runtime_GhostCharacter_OnMove_UnityEngine_InputSystem_InputValue_" data-uid="Elly.Runtime.GhostCharacter.OnMove(UnityEngine.InputSystem.InputValue)">OnMove(InputValue)</h4>
   <div class="markdown level1 summary"><p>Apply vector 2D data to <a class="xref" href="Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_movingDir">movingDir</a> x, z</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void MoveAction2D(InputAction.CallbackContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void OnMove(InputValue context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -446,7 +446,7 @@ protected float ViewSpeed</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.InputSystem.InputAction.CallbackContext</span></td>
+        <td><span class="xref">UnityEngine.InputSystem.InputValue</span></td>
         <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
@@ -454,14 +454,14 @@ protected float ViewSpeed</code></pre>
   </table>
   
   
-  <a id="Elly_Runtime_GhostCharacter_MoveAction3D_" data-uid="Elly.Runtime.GhostCharacter.MoveAction3D*"></a>
-  <h4 id="Elly_Runtime_GhostCharacter_MoveAction3D_UnityEngine_InputSystem_InputAction_CallbackContext_" data-uid="Elly.Runtime.GhostCharacter.MoveAction3D(UnityEngine.InputSystem.InputAction.CallbackContext)">MoveAction3D(InputAction.CallbackContext)</h4>
+  <a id="Elly_Runtime_GhostCharacter_OnMove3D_" data-uid="Elly.Runtime.GhostCharacter.OnMove3D*"></a>
+  <h4 id="Elly_Runtime_GhostCharacter_OnMove3D_UnityEngine_InputSystem_InputValue_" data-uid="Elly.Runtime.GhostCharacter.OnMove3D(UnityEngine.InputSystem.InputValue)">OnMove3D(InputValue)</h4>
   <div class="markdown level1 summary"><p>Apply vector 3D data to <a class="xref" href="Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_movingDir">movingDir</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void MoveAction3D(InputAction.CallbackContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void OnMove3D(InputValue context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -474,7 +474,35 @@ protected float ViewSpeed</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.InputSystem.InputAction.CallbackContext</span></td>
+        <td><span class="xref">UnityEngine.InputSystem.InputValue</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_GhostCharacter_OnVertical_" data-uid="Elly.Runtime.GhostCharacter.OnVertical*"></a>
+  <h4 id="Elly_Runtime_GhostCharacter_OnVertical_UnityEngine_InputSystem_InputValue_" data-uid="Elly.Runtime.GhostCharacter.OnVertical(UnityEngine.InputSystem.InputValue)">OnVertical(InputValue)</h4>
+  <div class="markdown level1 summary"><p>Apply float data to <a class="xref" href="Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_movingDir">movingDir</a> y</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnVertical(InputValue context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.InputSystem.InputValue</span></td>
         <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
@@ -524,34 +552,6 @@ Change to zero, Because we only rotate camera center</p>
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Update">CharacterBase.Update()</a></div>
-  
-  
-  <a id="Elly_Runtime_GhostCharacter_VerticalMovement_" data-uid="Elly.Runtime.GhostCharacter.VerticalMovement*"></a>
-  <h4 id="Elly_Runtime_GhostCharacter_VerticalMovement_UnityEngine_InputSystem_InputAction_CallbackContext_" data-uid="Elly.Runtime.GhostCharacter.VerticalMovement(UnityEngine.InputSystem.InputAction.CallbackContext)">VerticalMovement(InputAction.CallbackContext)</h4>
-  <div class="markdown level1 summary"><p>Apply float data to <a class="xref" href="Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_movingDir">movingDir</a> y</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void VerticalMovement(InputAction.CallbackContext context)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.InputSystem.InputAction.CallbackContext</span></td>
-        <td><span class="parametername">context</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           

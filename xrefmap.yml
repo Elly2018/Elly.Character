@@ -142,6 +142,19 @@ references:
   isSpec: "True"
   fullName: Elly.Editor.CharacterEditor.CreateTopDownCharacter
   nameWithType: CharacterEditor.CreateTopDownCharacter
+- uid: Elly.Editor.CharacterEditor.Docs
+  name: Docs()
+  href: api/Elly.Editor.CharacterEditor.html#Elly_Editor_CharacterEditor_Docs
+  commentId: M:Elly.Editor.CharacterEditor.Docs
+  fullName: Elly.Editor.CharacterEditor.Docs()
+  nameWithType: CharacterEditor.Docs()
+- uid: Elly.Editor.CharacterEditor.Docs*
+  name: Docs
+  href: api/Elly.Editor.CharacterEditor.html#Elly_Editor_CharacterEditor_Docs_
+  commentId: Overload:Elly.Editor.CharacterEditor.Docs
+  isSpec: "True"
+  fullName: Elly.Editor.CharacterEditor.Docs
+  nameWithType: CharacterEditor.Docs
 - uid: Elly.Editor.CustomCharacter
   name: CustomCharacter
   href: api/Elly.Editor.CustomCharacter.html
@@ -732,51 +745,12 @@ references:
   commentId: F:Elly.Runtime.FPSCharacter.jump
   fullName: Elly.Runtime.FPSCharacter.jump
   nameWithType: FPSCharacter.jump
-- uid: Elly.Runtime.FPSCharacter.JumpAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: JumpAction(InputAction.CallbackContext)
-  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_JumpAction_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.FPSCharacter.JumpAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.FPSCharacter.JumpAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: FPSCharacter.JumpAction(InputAction.CallbackContext)
-- uid: Elly.Runtime.FPSCharacter.JumpAction*
-  name: JumpAction
-  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_JumpAction_
-  commentId: Overload:Elly.Runtime.FPSCharacter.JumpAction
-  isSpec: "True"
-  fullName: Elly.Runtime.FPSCharacter.JumpAction
-  nameWithType: FPSCharacter.JumpAction
-- uid: Elly.Runtime.FPSCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: LookAction(InputAction.CallbackContext)
-  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_LookAction_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.FPSCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.FPSCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: FPSCharacter.LookAction(InputAction.CallbackContext)
-- uid: Elly.Runtime.FPSCharacter.LookAction*
-  name: LookAction
-  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_LookAction_
-  commentId: Overload:Elly.Runtime.FPSCharacter.LookAction
-  isSpec: "True"
-  fullName: Elly.Runtime.FPSCharacter.LookAction
-  nameWithType: FPSCharacter.LookAction
 - uid: Elly.Runtime.FPSCharacter.lookDir
   name: lookDir
   href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_lookDir
   commentId: F:Elly.Runtime.FPSCharacter.lookDir
   fullName: Elly.Runtime.FPSCharacter.lookDir
   nameWithType: FPSCharacter.lookDir
-- uid: Elly.Runtime.FPSCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: MoveAction2D(InputAction.CallbackContext)
-  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_MoveAction2D_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.FPSCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.FPSCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: FPSCharacter.MoveAction2D(InputAction.CallbackContext)
-- uid: Elly.Runtime.FPSCharacter.MoveAction2D*
-  name: MoveAction2D
-  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_MoveAction2D_
-  commentId: Overload:Elly.Runtime.FPSCharacter.MoveAction2D
-  isSpec: "True"
-  fullName: Elly.Runtime.FPSCharacter.MoveAction2D
-  nameWithType: FPSCharacter.MoveAction2D
 - uid: Elly.Runtime.FPSCharacter.MoveSpeed
   name: MoveSpeed
   href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_MoveSpeed
@@ -789,19 +763,58 @@ references:
   commentId: F:Elly.Runtime.FPSCharacter.movingDir
   fullName: Elly.Runtime.FPSCharacter.movingDir
   nameWithType: FPSCharacter.movingDir
-- uid: Elly.Runtime.FPSCharacter.SqautAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: SqautAction(InputAction.CallbackContext)
-  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_SqautAction_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.FPSCharacter.SqautAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.FPSCharacter.SqautAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: FPSCharacter.SqautAction(InputAction.CallbackContext)
-- uid: Elly.Runtime.FPSCharacter.SqautAction*
-  name: SqautAction
-  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_SqautAction_
-  commentId: Overload:Elly.Runtime.FPSCharacter.SqautAction
+- uid: Elly.Runtime.FPSCharacter.OnJump(UnityEngine.InputSystem.InputValue)
+  name: OnJump(InputValue)
+  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_OnJump_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.FPSCharacter.OnJump(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.FPSCharacter.OnJump(UnityEngine.InputSystem.InputValue)
+  nameWithType: FPSCharacter.OnJump(InputValue)
+- uid: Elly.Runtime.FPSCharacter.OnJump*
+  name: OnJump
+  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_OnJump_
+  commentId: Overload:Elly.Runtime.FPSCharacter.OnJump
   isSpec: "True"
-  fullName: Elly.Runtime.FPSCharacter.SqautAction
-  nameWithType: FPSCharacter.SqautAction
+  fullName: Elly.Runtime.FPSCharacter.OnJump
+  nameWithType: FPSCharacter.OnJump
+- uid: Elly.Runtime.FPSCharacter.OnLook(UnityEngine.InputSystem.InputValue)
+  name: OnLook(InputValue)
+  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_OnLook_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.FPSCharacter.OnLook(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.FPSCharacter.OnLook(UnityEngine.InputSystem.InputValue)
+  nameWithType: FPSCharacter.OnLook(InputValue)
+- uid: Elly.Runtime.FPSCharacter.OnLook*
+  name: OnLook
+  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_OnLook_
+  commentId: Overload:Elly.Runtime.FPSCharacter.OnLook
+  isSpec: "True"
+  fullName: Elly.Runtime.FPSCharacter.OnLook
+  nameWithType: FPSCharacter.OnLook
+- uid: Elly.Runtime.FPSCharacter.OnMove(UnityEngine.InputSystem.InputValue)
+  name: OnMove(InputValue)
+  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_OnMove_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.FPSCharacter.OnMove(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.FPSCharacter.OnMove(UnityEngine.InputSystem.InputValue)
+  nameWithType: FPSCharacter.OnMove(InputValue)
+- uid: Elly.Runtime.FPSCharacter.OnMove*
+  name: OnMove
+  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_OnMove_
+  commentId: Overload:Elly.Runtime.FPSCharacter.OnMove
+  isSpec: "True"
+  fullName: Elly.Runtime.FPSCharacter.OnMove
+  nameWithType: FPSCharacter.OnMove
+- uid: Elly.Runtime.FPSCharacter.OnSquat(UnityEngine.InputSystem.InputValue)
+  name: OnSquat(InputValue)
+  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_OnSquat_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.FPSCharacter.OnSquat(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.FPSCharacter.OnSquat(UnityEngine.InputSystem.InputValue)
+  nameWithType: FPSCharacter.OnSquat(InputValue)
+- uid: Elly.Runtime.FPSCharacter.OnSquat*
+  name: OnSquat
+  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_OnSquat_
+  commentId: Overload:Elly.Runtime.FPSCharacter.OnSquat
+  isSpec: "True"
+  fullName: Elly.Runtime.FPSCharacter.OnSquat
+  nameWithType: FPSCharacter.OnSquat
 - uid: Elly.Runtime.FPSCharacter.squat
   name: squat
   href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_squat
@@ -858,51 +871,12 @@ references:
   commentId: F:Elly.Runtime.GhostCharacter.DegreeBounds
   fullName: Elly.Runtime.GhostCharacter.DegreeBounds
   nameWithType: GhostCharacter.DegreeBounds
-- uid: Elly.Runtime.GhostCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: LookAction(InputAction.CallbackContext)
-  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_LookAction_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.GhostCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.GhostCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: GhostCharacter.LookAction(InputAction.CallbackContext)
-- uid: Elly.Runtime.GhostCharacter.LookAction*
-  name: LookAction
-  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_LookAction_
-  commentId: Overload:Elly.Runtime.GhostCharacter.LookAction
-  isSpec: "True"
-  fullName: Elly.Runtime.GhostCharacter.LookAction
-  nameWithType: GhostCharacter.LookAction
 - uid: Elly.Runtime.GhostCharacter.lookDir
   name: lookDir
   href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_lookDir
   commentId: F:Elly.Runtime.GhostCharacter.lookDir
   fullName: Elly.Runtime.GhostCharacter.lookDir
   nameWithType: GhostCharacter.lookDir
-- uid: Elly.Runtime.GhostCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: MoveAction2D(InputAction.CallbackContext)
-  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_MoveAction2D_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.GhostCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.GhostCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: GhostCharacter.MoveAction2D(InputAction.CallbackContext)
-- uid: Elly.Runtime.GhostCharacter.MoveAction2D*
-  name: MoveAction2D
-  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_MoveAction2D_
-  commentId: Overload:Elly.Runtime.GhostCharacter.MoveAction2D
-  isSpec: "True"
-  fullName: Elly.Runtime.GhostCharacter.MoveAction2D
-  nameWithType: GhostCharacter.MoveAction2D
-- uid: Elly.Runtime.GhostCharacter.MoveAction3D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: MoveAction3D(InputAction.CallbackContext)
-  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_MoveAction3D_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.GhostCharacter.MoveAction3D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.GhostCharacter.MoveAction3D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: GhostCharacter.MoveAction3D(InputAction.CallbackContext)
-- uid: Elly.Runtime.GhostCharacter.MoveAction3D*
-  name: MoveAction3D
-  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_MoveAction3D_
-  commentId: Overload:Elly.Runtime.GhostCharacter.MoveAction3D
-  isSpec: "True"
-  fullName: Elly.Runtime.GhostCharacter.MoveAction3D
-  nameWithType: GhostCharacter.MoveAction3D
 - uid: Elly.Runtime.GhostCharacter.MoveSpeed
   name: MoveSpeed
   href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_MoveSpeed
@@ -915,6 +889,58 @@ references:
   commentId: F:Elly.Runtime.GhostCharacter.movingDir
   fullName: Elly.Runtime.GhostCharacter.movingDir
   nameWithType: GhostCharacter.movingDir
+- uid: Elly.Runtime.GhostCharacter.OnLook(UnityEngine.InputSystem.InputValue)
+  name: OnLook(InputValue)
+  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_OnLook_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.GhostCharacter.OnLook(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.GhostCharacter.OnLook(UnityEngine.InputSystem.InputValue)
+  nameWithType: GhostCharacter.OnLook(InputValue)
+- uid: Elly.Runtime.GhostCharacter.OnLook*
+  name: OnLook
+  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_OnLook_
+  commentId: Overload:Elly.Runtime.GhostCharacter.OnLook
+  isSpec: "True"
+  fullName: Elly.Runtime.GhostCharacter.OnLook
+  nameWithType: GhostCharacter.OnLook
+- uid: Elly.Runtime.GhostCharacter.OnMove(UnityEngine.InputSystem.InputValue)
+  name: OnMove(InputValue)
+  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_OnMove_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.GhostCharacter.OnMove(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.GhostCharacter.OnMove(UnityEngine.InputSystem.InputValue)
+  nameWithType: GhostCharacter.OnMove(InputValue)
+- uid: Elly.Runtime.GhostCharacter.OnMove*
+  name: OnMove
+  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_OnMove_
+  commentId: Overload:Elly.Runtime.GhostCharacter.OnMove
+  isSpec: "True"
+  fullName: Elly.Runtime.GhostCharacter.OnMove
+  nameWithType: GhostCharacter.OnMove
+- uid: Elly.Runtime.GhostCharacter.OnMove3D(UnityEngine.InputSystem.InputValue)
+  name: OnMove3D(InputValue)
+  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_OnMove3D_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.GhostCharacter.OnMove3D(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.GhostCharacter.OnMove3D(UnityEngine.InputSystem.InputValue)
+  nameWithType: GhostCharacter.OnMove3D(InputValue)
+- uid: Elly.Runtime.GhostCharacter.OnMove3D*
+  name: OnMove3D
+  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_OnMove3D_
+  commentId: Overload:Elly.Runtime.GhostCharacter.OnMove3D
+  isSpec: "True"
+  fullName: Elly.Runtime.GhostCharacter.OnMove3D
+  nameWithType: GhostCharacter.OnMove3D
+- uid: Elly.Runtime.GhostCharacter.OnVertical(UnityEngine.InputSystem.InputValue)
+  name: OnVertical(InputValue)
+  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_OnVertical_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.GhostCharacter.OnVertical(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.GhostCharacter.OnVertical(UnityEngine.InputSystem.InputValue)
+  nameWithType: GhostCharacter.OnVertical(InputValue)
+- uid: Elly.Runtime.GhostCharacter.OnVertical*
+  name: OnVertical
+  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_OnVertical_
+  commentId: Overload:Elly.Runtime.GhostCharacter.OnVertical
+  isSpec: "True"
+  fullName: Elly.Runtime.GhostCharacter.OnVertical
+  nameWithType: GhostCharacter.OnVertical
 - uid: Elly.Runtime.GhostCharacter.SwitchAction(Elly.Runtime.CharacterBase)
   name: SwitchAction(CharacterBase)
   href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_SwitchAction_Elly_Runtime_CharacterBase_
@@ -941,19 +967,6 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.GhostCharacter.Update
   nameWithType: GhostCharacter.Update
-- uid: Elly.Runtime.GhostCharacter.VerticalMovement(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: VerticalMovement(InputAction.CallbackContext)
-  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_VerticalMovement_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.GhostCharacter.VerticalMovement(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.GhostCharacter.VerticalMovement(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: GhostCharacter.VerticalMovement(InputAction.CallbackContext)
-- uid: Elly.Runtime.GhostCharacter.VerticalMovement*
-  name: VerticalMovement
-  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_VerticalMovement_
-  commentId: Overload:Elly.Runtime.GhostCharacter.VerticalMovement
-  isSpec: "True"
-  fullName: Elly.Runtime.GhostCharacter.VerticalMovement
-  nameWithType: GhostCharacter.VerticalMovement
 - uid: Elly.Runtime.GhostCharacter.ViewSpeed
   name: ViewSpeed
   href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_ViewSpeed
@@ -972,32 +985,6 @@ references:
   commentId: T:Elly.Runtime.PlatformCharacter
   fullName: Elly.Runtime.PlatformCharacter
   nameWithType: PlatformCharacter
-- uid: Elly.Runtime.PlatformCharacter._Camera
-  name: _Camera
-  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter__Camera
-  commentId: P:Elly.Runtime.PlatformCharacter._Camera
-  fullName: Elly.Runtime.PlatformCharacter._Camera
-  nameWithType: PlatformCharacter._Camera
-- uid: Elly.Runtime.PlatformCharacter._Camera*
-  name: _Camera
-  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter__Camera_
-  commentId: Overload:Elly.Runtime.PlatformCharacter._Camera
-  isSpec: "True"
-  fullName: Elly.Runtime.PlatformCharacter._Camera
-  nameWithType: PlatformCharacter._Camera
-- uid: Elly.Runtime.PlatformCharacter._CameraCenter
-  name: _CameraCenter
-  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter__CameraCenter
-  commentId: P:Elly.Runtime.PlatformCharacter._CameraCenter
-  fullName: Elly.Runtime.PlatformCharacter._CameraCenter
-  nameWithType: PlatformCharacter._CameraCenter
-- uid: Elly.Runtime.PlatformCharacter._CameraCenter*
-  name: _CameraCenter
-  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter__CameraCenter_
-  commentId: Overload:Elly.Runtime.PlatformCharacter._CameraCenter
-  isSpec: "True"
-  fullName: Elly.Runtime.PlatformCharacter._CameraCenter
-  nameWithType: PlatformCharacter._CameraCenter
 - uid: Elly.Runtime.PlatformCharacter.CameraCenterRoot
   name: CameraCenterRoot()
   href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_CameraCenterRoot
@@ -1060,38 +1047,12 @@ references:
   commentId: F:Elly.Runtime.PlatformCharacter.Distance
   fullName: Elly.Runtime.PlatformCharacter.Distance
   nameWithType: PlatformCharacter.Distance
-- uid: Elly.Runtime.PlatformCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: LookAction(InputAction.CallbackContext)
-  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_LookAction_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.PlatformCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.PlatformCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: PlatformCharacter.LookAction(InputAction.CallbackContext)
-- uid: Elly.Runtime.PlatformCharacter.LookAction*
-  name: LookAction
-  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_LookAction_
-  commentId: Overload:Elly.Runtime.PlatformCharacter.LookAction
-  isSpec: "True"
-  fullName: Elly.Runtime.PlatformCharacter.LookAction
-  nameWithType: PlatformCharacter.LookAction
 - uid: Elly.Runtime.PlatformCharacter.lookDir
   name: lookDir
   href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_lookDir
   commentId: F:Elly.Runtime.PlatformCharacter.lookDir
   fullName: Elly.Runtime.PlatformCharacter.lookDir
   nameWithType: PlatformCharacter.lookDir
-- uid: Elly.Runtime.PlatformCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: MoveAction2D(InputAction.CallbackContext)
-  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_MoveAction2D_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.PlatformCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.PlatformCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: PlatformCharacter.MoveAction2D(InputAction.CallbackContext)
-- uid: Elly.Runtime.PlatformCharacter.MoveAction2D*
-  name: MoveAction2D
-  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_MoveAction2D_
-  commentId: Overload:Elly.Runtime.PlatformCharacter.MoveAction2D
-  isSpec: "True"
-  fullName: Elly.Runtime.PlatformCharacter.MoveAction2D
-  nameWithType: PlatformCharacter.MoveAction2D
 - uid: Elly.Runtime.PlatformCharacter.MoveSpeed
   name: MoveSpeed
   href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_MoveSpeed
@@ -1110,6 +1071,32 @@ references:
   commentId: F:Elly.Runtime.PlatformCharacter.OffsetDirection
   fullName: Elly.Runtime.PlatformCharacter.OffsetDirection
   nameWithType: PlatformCharacter.OffsetDirection
+- uid: Elly.Runtime.PlatformCharacter.OnLook(UnityEngine.InputSystem.InputValue)
+  name: OnLook(InputValue)
+  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_OnLook_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.PlatformCharacter.OnLook(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.PlatformCharacter.OnLook(UnityEngine.InputSystem.InputValue)
+  nameWithType: PlatformCharacter.OnLook(InputValue)
+- uid: Elly.Runtime.PlatformCharacter.OnLook*
+  name: OnLook
+  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_OnLook_
+  commentId: Overload:Elly.Runtime.PlatformCharacter.OnLook
+  isSpec: "True"
+  fullName: Elly.Runtime.PlatformCharacter.OnLook
+  nameWithType: PlatformCharacter.OnLook
+- uid: Elly.Runtime.PlatformCharacter.OnMove(UnityEngine.InputSystem.InputValue)
+  name: OnMove(InputValue)
+  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_OnMove_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.PlatformCharacter.OnMove(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.PlatformCharacter.OnMove(UnityEngine.InputSystem.InputValue)
+  nameWithType: PlatformCharacter.OnMove(InputValue)
+- uid: Elly.Runtime.PlatformCharacter.OnMove*
+  name: OnMove
+  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_OnMove_
+  commentId: Overload:Elly.Runtime.PlatformCharacter.OnMove
+  isSpec: "True"
+  fullName: Elly.Runtime.PlatformCharacter.OnMove
+  nameWithType: PlatformCharacter.OnMove
 - uid: Elly.Runtime.PlatformCharacter.Update
   name: Update()
   href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_Update
@@ -1172,19 +1159,6 @@ references:
   commentId: F:Elly.Runtime.TopdownCharacter.HitLayer
   fullName: Elly.Runtime.TopdownCharacter.HitLayer
   nameWithType: TopdownCharacter.HitLayer
-- uid: Elly.Runtime.TopdownCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: LookAction(InputAction.CallbackContext)
-  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_LookAction_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.TopdownCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.TopdownCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: TopdownCharacter.LookAction(InputAction.CallbackContext)
-- uid: Elly.Runtime.TopdownCharacter.LookAction*
-  name: LookAction
-  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_LookAction_
-  commentId: Overload:Elly.Runtime.TopdownCharacter.LookAction
-  isSpec: "True"
-  fullName: Elly.Runtime.TopdownCharacter.LookAction
-  nameWithType: TopdownCharacter.LookAction
 - uid: Elly.Runtime.TopdownCharacter.lookDir
   name: lookDir
   href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_lookDir
@@ -1197,19 +1171,6 @@ references:
   commentId: F:Elly.Runtime.TopdownCharacter.lookMode
   fullName: Elly.Runtime.TopdownCharacter.lookMode
   nameWithType: TopdownCharacter.lookMode
-- uid: Elly.Runtime.TopdownCharacter.LookMode(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: LookMode(InputAction.CallbackContext)
-  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_LookMode_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.TopdownCharacter.LookMode(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.TopdownCharacter.LookMode(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: TopdownCharacter.LookMode(InputAction.CallbackContext)
-- uid: Elly.Runtime.TopdownCharacter.LookMode*
-  name: LookMode
-  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_LookMode_
-  commentId: Overload:Elly.Runtime.TopdownCharacter.LookMode
-  isSpec: "True"
-  fullName: Elly.Runtime.TopdownCharacter.LookMode
-  nameWithType: TopdownCharacter.LookMode
 - uid: Elly.Runtime.TopdownCharacter.MaxDistance
   name: MaxDistance
   href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_MaxDistance
@@ -1274,19 +1235,6 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.TopdownCharacter.MouseRay
   nameWithType: TopdownCharacter.MouseRay
-- uid: Elly.Runtime.TopdownCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: MoveAction2D(InputAction.CallbackContext)
-  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_MoveAction2D_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.TopdownCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.TopdownCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: TopdownCharacter.MoveAction2D(InputAction.CallbackContext)
-- uid: Elly.Runtime.TopdownCharacter.MoveAction2D*
-  name: MoveAction2D
-  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_MoveAction2D_
-  commentId: Overload:Elly.Runtime.TopdownCharacter.MoveAction2D
-  isSpec: "True"
-  fullName: Elly.Runtime.TopdownCharacter.MoveAction2D
-  nameWithType: TopdownCharacter.MoveAction2D
 - uid: Elly.Runtime.TopdownCharacter.MoveSpeed
   name: MoveSpeed
   href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_MoveSpeed
@@ -1312,6 +1260,58 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.TopdownCharacter.Offset
   nameWithType: TopdownCharacter.Offset
+- uid: Elly.Runtime.TopdownCharacter.OnLook(UnityEngine.InputSystem.InputValue)
+  name: OnLook(InputValue)
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_OnLook_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.TopdownCharacter.OnLook(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.TopdownCharacter.OnLook(UnityEngine.InputSystem.InputValue)
+  nameWithType: TopdownCharacter.OnLook(InputValue)
+- uid: Elly.Runtime.TopdownCharacter.OnLook*
+  name: OnLook
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_OnLook_
+  commentId: Overload:Elly.Runtime.TopdownCharacter.OnLook
+  isSpec: "True"
+  fullName: Elly.Runtime.TopdownCharacter.OnLook
+  nameWithType: TopdownCharacter.OnLook
+- uid: Elly.Runtime.TopdownCharacter.OnLookMode(UnityEngine.InputSystem.InputValue)
+  name: OnLookMode(InputValue)
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_OnLookMode_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.TopdownCharacter.OnLookMode(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.TopdownCharacter.OnLookMode(UnityEngine.InputSystem.InputValue)
+  nameWithType: TopdownCharacter.OnLookMode(InputValue)
+- uid: Elly.Runtime.TopdownCharacter.OnLookMode*
+  name: OnLookMode
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_OnLookMode_
+  commentId: Overload:Elly.Runtime.TopdownCharacter.OnLookMode
+  isSpec: "True"
+  fullName: Elly.Runtime.TopdownCharacter.OnLookMode
+  nameWithType: TopdownCharacter.OnLookMode
+- uid: Elly.Runtime.TopdownCharacter.OnMove(UnityEngine.InputSystem.InputValue)
+  name: OnMove(InputValue)
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_OnMove_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.TopdownCharacter.OnMove(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.TopdownCharacter.OnMove(UnityEngine.InputSystem.InputValue)
+  nameWithType: TopdownCharacter.OnMove(InputValue)
+- uid: Elly.Runtime.TopdownCharacter.OnMove*
+  name: OnMove
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_OnMove_
+  commentId: Overload:Elly.Runtime.TopdownCharacter.OnMove
+  isSpec: "True"
+  fullName: Elly.Runtime.TopdownCharacter.OnMove
+  nameWithType: TopdownCharacter.OnMove
+- uid: Elly.Runtime.TopdownCharacter.OnVertical(UnityEngine.InputSystem.InputValue)
+  name: OnVertical(InputValue)
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_OnVertical_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.TopdownCharacter.OnVertical(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.TopdownCharacter.OnVertical(UnityEngine.InputSystem.InputValue)
+  nameWithType: TopdownCharacter.OnVertical(InputValue)
+- uid: Elly.Runtime.TopdownCharacter.OnVertical*
+  name: OnVertical
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_OnVertical_
+  commentId: Overload:Elly.Runtime.TopdownCharacter.OnVertical
+  isSpec: "True"
+  fullName: Elly.Runtime.TopdownCharacter.OnVertical
+  nameWithType: TopdownCharacter.OnVertical
 - uid: Elly.Runtime.TopdownCharacter.Start
   name: Start()
   href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_Start
@@ -1344,19 +1344,6 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.TopdownCharacter.Update
   nameWithType: TopdownCharacter.Update
-- uid: Elly.Runtime.TopdownCharacter.VerticalMovement(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: VerticalMovement(InputAction.CallbackContext)
-  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_VerticalMovement_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.TopdownCharacter.VerticalMovement(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.TopdownCharacter.VerticalMovement(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: TopdownCharacter.VerticalMovement(InputAction.CallbackContext)
-- uid: Elly.Runtime.TopdownCharacter.VerticalMovement*
-  name: VerticalMovement
-  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_VerticalMovement_
-  commentId: Overload:Elly.Runtime.TopdownCharacter.VerticalMovement
-  isSpec: "True"
-  fullName: Elly.Runtime.TopdownCharacter.VerticalMovement
-  nameWithType: TopdownCharacter.VerticalMovement
 - uid: Elly.Runtime.TopdownCharacter.ViewPos
   name: ViewPos
   href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_ViewPos
@@ -1437,51 +1424,12 @@ references:
   commentId: F:Elly.Runtime.TPSCharacter.jump
   fullName: Elly.Runtime.TPSCharacter.jump
   nameWithType: TPSCharacter.jump
-- uid: Elly.Runtime.TPSCharacter.JumpAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: JumpAction(InputAction.CallbackContext)
-  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_JumpAction_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.TPSCharacter.JumpAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.TPSCharacter.JumpAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: TPSCharacter.JumpAction(InputAction.CallbackContext)
-- uid: Elly.Runtime.TPSCharacter.JumpAction*
-  name: JumpAction
-  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_JumpAction_
-  commentId: Overload:Elly.Runtime.TPSCharacter.JumpAction
-  isSpec: "True"
-  fullName: Elly.Runtime.TPSCharacter.JumpAction
-  nameWithType: TPSCharacter.JumpAction
-- uid: Elly.Runtime.TPSCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: LookAction(InputAction.CallbackContext)
-  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_LookAction_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.TPSCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.TPSCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: TPSCharacter.LookAction(InputAction.CallbackContext)
-- uid: Elly.Runtime.TPSCharacter.LookAction*
-  name: LookAction
-  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_LookAction_
-  commentId: Overload:Elly.Runtime.TPSCharacter.LookAction
-  isSpec: "True"
-  fullName: Elly.Runtime.TPSCharacter.LookAction
-  nameWithType: TPSCharacter.LookAction
 - uid: Elly.Runtime.TPSCharacter.lookDir
   name: lookDir
   href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_lookDir
   commentId: F:Elly.Runtime.TPSCharacter.lookDir
   fullName: Elly.Runtime.TPSCharacter.lookDir
   nameWithType: TPSCharacter.lookDir
-- uid: Elly.Runtime.TPSCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: MoveAction2D(InputAction.CallbackContext)
-  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_MoveAction2D_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.TPSCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.TPSCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: TPSCharacter.MoveAction2D(InputAction.CallbackContext)
-- uid: Elly.Runtime.TPSCharacter.MoveAction2D*
-  name: MoveAction2D
-  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_MoveAction2D_
-  commentId: Overload:Elly.Runtime.TPSCharacter.MoveAction2D
-  isSpec: "True"
-  fullName: Elly.Runtime.TPSCharacter.MoveAction2D
-  nameWithType: TPSCharacter.MoveAction2D
 - uid: Elly.Runtime.TPSCharacter.MoveSpeed
   name: MoveSpeed
   href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_MoveSpeed
@@ -1494,19 +1442,58 @@ references:
   commentId: F:Elly.Runtime.TPSCharacter.movingDir
   fullName: Elly.Runtime.TPSCharacter.movingDir
   nameWithType: TPSCharacter.movingDir
-- uid: Elly.Runtime.TPSCharacter.SqautAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  name: SqautAction(InputAction.CallbackContext)
-  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_SqautAction_UnityEngine_InputSystem_InputAction_CallbackContext_
-  commentId: M:Elly.Runtime.TPSCharacter.SqautAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  fullName: Elly.Runtime.TPSCharacter.SqautAction(UnityEngine.InputSystem.InputAction.CallbackContext)
-  nameWithType: TPSCharacter.SqautAction(InputAction.CallbackContext)
-- uid: Elly.Runtime.TPSCharacter.SqautAction*
-  name: SqautAction
-  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_SqautAction_
-  commentId: Overload:Elly.Runtime.TPSCharacter.SqautAction
+- uid: Elly.Runtime.TPSCharacter.OnJump(UnityEngine.InputSystem.InputValue)
+  name: OnJump(InputValue)
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_OnJump_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.TPSCharacter.OnJump(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.TPSCharacter.OnJump(UnityEngine.InputSystem.InputValue)
+  nameWithType: TPSCharacter.OnJump(InputValue)
+- uid: Elly.Runtime.TPSCharacter.OnJump*
+  name: OnJump
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_OnJump_
+  commentId: Overload:Elly.Runtime.TPSCharacter.OnJump
   isSpec: "True"
-  fullName: Elly.Runtime.TPSCharacter.SqautAction
-  nameWithType: TPSCharacter.SqautAction
+  fullName: Elly.Runtime.TPSCharacter.OnJump
+  nameWithType: TPSCharacter.OnJump
+- uid: Elly.Runtime.TPSCharacter.OnLook(UnityEngine.InputSystem.InputValue)
+  name: OnLook(InputValue)
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_OnLook_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.TPSCharacter.OnLook(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.TPSCharacter.OnLook(UnityEngine.InputSystem.InputValue)
+  nameWithType: TPSCharacter.OnLook(InputValue)
+- uid: Elly.Runtime.TPSCharacter.OnLook*
+  name: OnLook
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_OnLook_
+  commentId: Overload:Elly.Runtime.TPSCharacter.OnLook
+  isSpec: "True"
+  fullName: Elly.Runtime.TPSCharacter.OnLook
+  nameWithType: TPSCharacter.OnLook
+- uid: Elly.Runtime.TPSCharacter.OnMove(UnityEngine.InputSystem.InputValue)
+  name: OnMove(InputValue)
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_OnMove_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.TPSCharacter.OnMove(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.TPSCharacter.OnMove(UnityEngine.InputSystem.InputValue)
+  nameWithType: TPSCharacter.OnMove(InputValue)
+- uid: Elly.Runtime.TPSCharacter.OnMove*
+  name: OnMove
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_OnMove_
+  commentId: Overload:Elly.Runtime.TPSCharacter.OnMove
+  isSpec: "True"
+  fullName: Elly.Runtime.TPSCharacter.OnMove
+  nameWithType: TPSCharacter.OnMove
+- uid: Elly.Runtime.TPSCharacter.OnSquat(UnityEngine.InputSystem.InputValue)
+  name: OnSquat(InputValue)
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_OnSquat_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.TPSCharacter.OnSquat(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.TPSCharacter.OnSquat(UnityEngine.InputSystem.InputValue)
+  nameWithType: TPSCharacter.OnSquat(InputValue)
+- uid: Elly.Runtime.TPSCharacter.OnSquat*
+  name: OnSquat
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_OnSquat_
+  commentId: Overload:Elly.Runtime.TPSCharacter.OnSquat
+  isSpec: "True"
+  fullName: Elly.Runtime.TPSCharacter.OnSquat
+  nameWithType: TPSCharacter.OnSquat
 - uid: Elly.Runtime.TPSCharacter.squat
   name: squat
   href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_squat

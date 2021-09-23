@@ -5,11 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Elly.Runtime
-   </title>
+    <title>Feature </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Elly.Runtime
-   ">
+    <meta name="title" content="Feature ">
     <meta name="generator" content="docfx 2.58.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -68,70 +66,28 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Elly.Runtime">
-  
-  <h1 id="Elly_Runtime" data-uid="Elly.Runtime" class="text-break">Namespace Elly.Runtime
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
-  </h3>
-      <h4><a class="xref" href="Elly.Runtime.CharacterBase.html">CharacterBase</a></h4>
-      <section><p>Basic character component</p>
-<pre><code>// You can create an custom character by inherit it
-public class CustomCharacter : CharacterBase</code></pre>
-</section>
-      <h4><a class="xref" href="Elly.Runtime.DefaultAICharacter.html">DefaultAICharacter</a></h4>
-      <section><p>Build-In AI character controller <br>
-Have randomly walking patterm</p>
-<pre><code>// You can create an custom character by inherit it
-public class CustomCharacter : DefaultAICharacter</code></pre>
-</section>
-      <h4><a class="xref" href="Elly.Runtime.DoNotNeedCamera.html">DoNotNeedCamera</a></h4>
-      <section><p>When class inherit <a class="xref" href="Elly.Runtime.CharacterBase.html">CharacterBase</a> and have this attribute <br>
-their editor will trying to hide control fields</p>
-</section>
-      <h4><a class="xref" href="Elly.Runtime.FPSCharacter.html">FPSCharacter</a></h4>
-      <section><p>Build-In first-Person character controller <br>
-Have basic moving, looking jump, squat action</p>
-<pre><code>// You can create an custom character by inherit it
-public class CustomCharacter : FPSCharacter</code></pre>
-</section>
-      <h4><a class="xref" href="Elly.Runtime.GhostCharacter.html">GhostCharacter</a></h4>
-      <section><p>Build-In noclip character controller <br>
-Have basic moving in 3D action</p>
-<pre><code>// You can create an custom character by inherit it
-public class CustomCharacter : GhostCharacter</code></pre>
-</section>
-      <h4><a class="xref" href="Elly.Runtime.NoneCameraCharacter.html">NoneCameraCharacter</a></h4>
-      <section><p>Build-In none camera character controller <br>
-This could use in NPC character or mob etc... <br>
-Have basic moving, jump, squat action</p>
-</section>
-      <h4><a class="xref" href="Elly.Runtime.PlatformCharacter.html">PlatformCharacter</a></h4>
-      <section><p>Build-In platform character controller <br>
-Have basic moving, looking jump, squat action</p>
-<pre><code>// You can create an custom character by inherit it
-public class CustomCharacter : PlatformCharacter</code></pre>
-</section>
-      <h4><a class="xref" href="Elly.Runtime.TopdownCharacter.html">TopdownCharacter</a></h4>
-      <section><p>Build-In top-down character controller <br>
-Have basic moving, looking jump, squat action</p>
-<pre><code>// You can create an custom character by inherit it
-public class CustomCharacter : TopdownCharacter</code></pre>
-</section>
-      <h4><a class="xref" href="Elly.Runtime.TPSCharacter.html">TPSCharacter</a></h4>
-      <section><p>Build-In third-Person character controller <br>
-Have basic moving, looking jump, squat action</p>
-<pre><code>// You can create an custom character by inherit it
-public class CustomCharacter : TPSCharacter</code></pre>
-</section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="Elly.Runtime.PlatformCharacter.Direction.html">PlatformCharacter.Direction</a></h4>
-      <section><p>Platform facing direction</p>
-</section>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="feature">Feature</h1>
+
+<p>Here is some main mechanism this plugin provide</p>
+<h2 id="use-inputsystem-support"><strong>Use InputSystem Support</strong></h2>
+<p><img src="..%5Cimages%5CNewInputSystem.png" alt="NewInputSystem"></p>
+<p>Built-in character script have virtual methods for new input system to handle, You can get the input action asset in each demo folder</p>
+<h2 id="camera-control"><strong>Camera Control</strong></h2>
+<p><img src="..%5Cimages%5CCameraStructure.png" alt="CameraStructure"></p>
+<p>User can easily control camera transform, It use a camera rigging to handle the problem.</p>
+<p>Parent children transform structure:<br>
+<strong>Character</strong> -&gt; <strong>Camera rigging</strong> -&gt; <strong>Camera</strong> (Attached camera component)</p>
+<p>In this form of structure, it has more flexibility to control the camera</p>
+<h2 id="menu-item-quick-setup"><strong>Menu Item Quick Setup</strong></h2>
+<p><img src="..%5Cimages%5CMenuItem.png" alt="MenuItem"></p>
+<h2 id="camera-vibration"><strong>Camera Vibration</strong></h2>
+<p>User can switch the vibration behaviour easily</p>
+<h2 id="rotation-handling"><strong>Rotation Handling</strong></h2>
+<p>Provide freedom of degree, user can lock x axis camera rotation or camera rigging upper limit and lower limit, so it won't rotate over 90 or -90 degree causing problem.</p>
+<h2 id="movement"><strong>Movement</strong></h2>
+<p>Provide basic movement method, simply moving the character position, you can choose depending rotation, So it won't only moving in world rotation</p>
+<h2 id="customization"><strong>Customization</strong></h2>
 </article>
           </div>
           

@@ -12,7 +12,7 @@
           "hash": "9fOzWcJ+XB6wgJgRSccKIKYsdopmHaD8N9rAQuv7gQ0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Editor.CharacterEditor.html",
-          "hash": "hLKC4PgAdoe/dOF/pPIj6ZBHGMpudLkX7q+P0EDnLdU="
+          "hash": "fEmoqrRAVjtlOOGyYdd51rb/qZLs9tMXB84z6nu3ZAs="
         }
       },
       "is_incremental": true,
@@ -60,7 +60,7 @@
           "hash": "2NwK7uxfp6LZm6PeA4MfqDdfTRkKmd7RiE4+37jCqHA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Runtime.CharacterBase.html",
-          "hash": "VJQQ9vkaa/GeKuDfW4cjndtQJq2LykMBTlzqdjFx/Kc="
+          "hash": "f6wsc/zCV4H6vJYU2jDwEqVa4Kr57Sk45kxeo2pBliE="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Runtime.FPSCharacter.html",
-          "hash": "QMW1m5/Kqrvt50gdJdfgK7AoCFCO98y9vmc+fgImPqw="
+          "hash": "k7QotiyoRSzD96WWRck3jYn40vhlR8kZlVEhcOwdkIY="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Runtime.GhostCharacter.html",
-          "hash": "iYnun6qSsdnslbzTMmz5NOfNqS52wPRBBnJucMQA1Cw="
+          "hash": "zMdBWT93jOM38MHnaFmXVF3UwuSAb9JwX5w+vcV6k3Y="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Runtime.PlatformCharacter.html",
-          "hash": "1Th0rggLj/jCOGY27q05yuQmlerAY9tS9HWxSbjf+tM="
+          "hash": "fUQg0MYOyifFAYp9XCxHMJ3spTP1O+Z3thAxMC7n3zk="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Runtime.TPSCharacter.html",
-          "hash": "w0F1hZe9wuXJmh6T01WgafBoAm8GyaV8sjaerH+E12s="
+          "hash": "IQRcjzKbx3+MgxeN+O4YwUFCnXND830FVExrGkFuWXA="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Runtime.TopdownCharacter.html",
-          "hash": "Ylz/c9lHk2HI3S4tIWRHxamuhMk6z3PMMKzexeOwNqg="
+          "hash": "9qNKHpk9rUW+6fhJ4oZxHSftWU7PqACWDor90tIifQI="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Runtime.html",
-          "hash": "nLBDYqn31Jm8+5uYnfKDz22hH5EeADX+wjx9dLYLlVg="
+          "hash": "7wJyOKpZSYLM+mP+CxHi6F7YpSVIDBmmbu3OlcN1jms="
         }
       },
       "is_incremental": false,
@@ -257,14 +257,53 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/custom.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/custom.html",
+          "hash": "ZM9+fTLAMEuBsrKilF1CYQIBCYEINifRFPr20Dfazlg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/demo.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/demo.html",
+          "hash": "kUGB1mfGBH9HcHl0OEC7AkzFEydM6FoPyC448i/l6pk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/feature.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/feature.html",
+          "hash": "bGHxmfTCtdO0ttkOAnKifSnS2p50MJqizfkCQquTxmY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "UqBhcuwcV3ik3S7oy2oy6fKIcAUWJbMm2yFd2AloP2w="
+          "hash": "suGFQfslBOEl69qS8o9NQ0kfxaKZmg/sTeRTjI3mvpY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -273,7 +312,40 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+          "hash": "sH7XM8Xct5OrRWMqueVXBDRaWQ1NbHZ4ceBJLwgNIf4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/CameraStructure.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/CameraStructure.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/MenuItem.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/MenuItem.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/NewInputSystem.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NewInputSystem.png"
         }
       },
       "is_incremental": false,
@@ -316,14 +388,21 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 3
+          "total_file_count": 6,
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 19,
-          "skipped_file_count": 17
+          "skipped_file_count": 10
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

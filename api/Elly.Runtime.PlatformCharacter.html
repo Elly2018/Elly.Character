@@ -119,7 +119,13 @@ public class CustomCharacter : PlatformCharacter</code></pre>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraFrontRay">CharacterBase.CameraFrontRay</a>
     </div>
     <div>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__Camera">CharacterBase._Camera</a>
+    </div>
+    <div>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase___Camera">CharacterBase.__Camera</a>
+    </div>
+    <div>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CameraCenter">CharacterBase._CameraCenter</a>
     </div>
     <div>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase___CameraCenter">CharacterBase.__CameraCenter</a>
@@ -227,7 +233,8 @@ public class PlatformCharacter : CharacterBase</code></pre>
   
   
   <h4 id="Elly_Runtime_PlatformCharacter_Distance" data-uid="Elly.Runtime.PlatformCharacter.Distance">Distance</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The distance between camera and character</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -376,62 +383,6 @@ protected float ViewDegree</code></pre>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Elly_Runtime_PlatformCharacter__Camera_" data-uid="Elly.Runtime.PlatformCharacter._Camera*"></a>
-  <h4 id="Elly_Runtime_PlatformCharacter__Camera" data-uid="Elly.Runtime.PlatformCharacter._Camera">_Camera</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Camera _Camera { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.Camera</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__Camera">CharacterBase._Camera</a></div>
-  
-  
-  <a id="Elly_Runtime_PlatformCharacter__CameraCenter_" data-uid="Elly.Runtime.PlatformCharacter._CameraCenter*"></a>
-  <h4 id="Elly_Runtime_PlatformCharacter__CameraCenter" data-uid="Elly.Runtime.PlatformCharacter._CameraCenter">_CameraCenter</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Transform _CameraCenter { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.Transform</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CameraCenter">CharacterBase._CameraCenter</a></div>
   <h3 id="methods">Methods
   </h3>
   
@@ -473,13 +424,14 @@ protected float ViewDegree</code></pre>
   </div>
   
   
-  <a id="Elly_Runtime_PlatformCharacter_LookAction_" data-uid="Elly.Runtime.PlatformCharacter.LookAction*"></a>
-  <h4 id="Elly_Runtime_PlatformCharacter_LookAction_UnityEngine_InputSystem_InputAction_CallbackContext_" data-uid="Elly.Runtime.PlatformCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)">LookAction(InputAction.CallbackContext)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Elly_Runtime_PlatformCharacter_OnLook_" data-uid="Elly.Runtime.PlatformCharacter.OnLook*"></a>
+  <h4 id="Elly_Runtime_PlatformCharacter_OnLook_UnityEngine_InputSystem_InputValue_" data-uid="Elly.Runtime.PlatformCharacter.OnLook(UnityEngine.InputSystem.InputValue)">OnLook(InputValue)</h4>
+  <div class="markdown level1 summary"><p>Apply vector 2D data to <a class="xref" href="Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_lookDir">lookDir</a></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void LookAction(InputAction.CallbackContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void OnLook(InputValue context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -492,7 +444,7 @@ protected float ViewDegree</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.InputSystem.InputAction.CallbackContext</span></td>
+        <td><span class="xref">UnityEngine.InputSystem.InputValue</span></td>
         <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
@@ -500,13 +452,14 @@ protected float ViewDegree</code></pre>
   </table>
   
   
-  <a id="Elly_Runtime_PlatformCharacter_MoveAction2D_" data-uid="Elly.Runtime.PlatformCharacter.MoveAction2D*"></a>
-  <h4 id="Elly_Runtime_PlatformCharacter_MoveAction2D_UnityEngine_InputSystem_InputAction_CallbackContext_" data-uid="Elly.Runtime.PlatformCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)">MoveAction2D(InputAction.CallbackContext)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Elly_Runtime_PlatformCharacter_OnMove_" data-uid="Elly.Runtime.PlatformCharacter.OnMove*"></a>
+  <h4 id="Elly_Runtime_PlatformCharacter_OnMove_UnityEngine_InputSystem_InputValue_" data-uid="Elly.Runtime.PlatformCharacter.OnMove(UnityEngine.InputSystem.InputValue)">OnMove(InputValue)</h4>
+  <div class="markdown level1 summary"><p>Apply vector 2D data to <a class="xref" href="Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_movingDir">movingDir</a></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void MoveAction2D(InputAction.CallbackContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void OnMove(InputValue context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -519,7 +472,7 @@ protected float ViewDegree</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.InputSystem.InputAction.CallbackContext</span></td>
+        <td><span class="xref">UnityEngine.InputSystem.InputValue</span></td>
         <td><span class="parametername">context</span></td>
         <td></td>
       </tr>

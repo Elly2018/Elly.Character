@@ -154,7 +154,7 @@ public class CustomCharacter : CharacterBase</code></pre>
   
   
   <h4 id="Elly_Runtime_CharacterBase__CamCenterMovingDest" data-uid="Elly.Runtime.CharacterBase._CamCenterMovingDest">_CamCenterMovingDest</h4>
-  <div class="markdown level1 summary"><p>Camera center transform smooth moving destination <br>
+  <div class="markdown level1 summary"><p>Camera rigging transform smooth moving destination <br>
 Notice: in local space</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -180,7 +180,7 @@ Notice: in local space</p>
   
   
   <h4 id="Elly_Runtime_CharacterBase__CamCenterMovingVelocity" data-uid="Elly.Runtime.CharacterBase._CamCenterMovingVelocity">_CamCenterMovingVelocity</h4>
-  <div class="markdown level1 summary"><p>Camera center transform smooth moving velocity</p>
+  <div class="markdown level1 summary"><p>Camera rigging transform smooth moving velocity</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -205,7 +205,7 @@ Notice: in local space</p>
   
   
   <h4 id="Elly_Runtime_CharacterBase__CamCenterRotatingVelocity" data-uid="Elly.Runtime.CharacterBase._CamCenterRotatingVelocity">_CamCenterRotatingVelocity</h4>
-  <div class="markdown level1 summary"><p>Camera center transform smooth rotating velocity</p>
+  <div class="markdown level1 summary"><p>Camera rigging transform smooth rotating velocity</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -230,7 +230,7 @@ Notice: in local space</p>
   
   
   <h4 id="Elly_Runtime_CharacterBase__CamCenterRotationDest" data-uid="Elly.Runtime.CharacterBase._CamCenterRotationDest">_CamCenterRotationDest</h4>
-  <div class="markdown level1 summary"><p>Camera center transform smooth rotating destination <br>
+  <div class="markdown level1 summary"><p>Camera rigging transform smooth rotating destination <br>
 Notice: in local space</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -418,7 +418,7 @@ protected bool _CanSee</code></pre>
   
   
   <h4 id="Elly_Runtime_CharacterBase_CamCenterMoveSmoothSpeed" data-uid="Elly.Runtime.CharacterBase.CamCenterMoveSmoothSpeed">CamCenterMoveSmoothSpeed</h4>
-  <div class="markdown level1 summary"><p>Camera center transform smoothing moving speed <br>
+  <div class="markdown level1 summary"><p>Camera rigging transform smoothing moving speed <br>
 The small the number, the faster it move <br>
 If it's 0 then it won't called smoothdamp function, it will just apply the <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterMovingDest">_CamCenterMovingDest</a></p>
 </div>
@@ -448,7 +448,7 @@ protected float CamCenterMoveSmoothSpeed</code></pre>
   
   
   <h4 id="Elly_Runtime_CharacterBase_CamCenterRotateSmoothSpeed" data-uid="Elly.Runtime.CharacterBase.CamCenterRotateSmoothSpeed">CamCenterRotateSmoothSpeed</h4>
-  <div class="markdown level1 summary"><p>Camera center transform smoothing rotating speed <br>
+  <div class="markdown level1 summary"><p>Camera rigging transform smoothing rotating speed <br>
 The small the number, the faster it rotate <br>
 If it's 0 then it won't called smoothdamp function, it will just apply the <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterRotationDest">_CamCenterRotationDest</a></p>
 </div>
@@ -572,7 +572,7 @@ protected bool InverseY</code></pre>
   <h4 id="Elly_Runtime_CharacterBase__Camera" data-uid="Elly.Runtime.CharacterBase._Camera">_Camera</h4>
   <div class="markdown level1 summary"><p>Character use camera <br>
 In the <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Update">Update()</a> method, it will trying to update the position and rotation <br>
-Default getter path: <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraCenterRoot">CameraCenterRoot()</a>.find(&quot;Camera Center/Camera&quot;) <br>
+Default getter path: <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraCenterRoot">CameraCenterRoot()</a>.find(&quot;Camera Rigging/Camera&quot;) <br>
 Link variable : <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase___Camera">__Camera</a></p>
 <pre><code>// You can override the camera search path 
 public override Camera _Camera { 
@@ -607,9 +607,9 @@ public override Camera _Camera {
   <h4 id="Elly_Runtime_CharacterBase__CameraCenter" data-uid="Elly.Runtime.CharacterBase._CameraCenter">_CameraCenter</h4>
   <div class="markdown level1 summary"><p>Character use camera parent <br>
 In the <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Update">Update()</a> method, it will trying to update the position and rotation <br>
-Default getter path: <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraCenterRoot">CameraCenterRoot()</a>.find(&quot;Camera Center&quot;) <br>
+Default getter path: <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraCenterRoot">CameraCenterRoot()</a>.find(&quot;Camera Rigging&quot;) <br>
 Link variable : <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase___CameraCenter">__CameraCenter</a></p>
-<pre><code>// You can override the camera center search path 
+<pre><code>// You can override the camera rigging search path 
 public override Transform _CameraCenter {
     get {
         // Insert getter path 
@@ -727,7 +727,7 @@ public override Transform CameraCenterRoot() { return transform.parent; }</code>
     <tbody>
       <tr>
         <td><span class="xref">UnityEngine.Transform</span></td>
-        <td><p>Who's the camera center parent</p>
+        <td><p>Who's the camera rigging parent</p>
 </td>
       </tr>
     </tbody>

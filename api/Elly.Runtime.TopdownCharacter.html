@@ -73,7 +73,10 @@
   
   <h1 id="Elly_Runtime_TopdownCharacter" data-uid="Elly.Runtime.TopdownCharacter" class="text-break">Class TopdownCharacter
   </h1>
-  <div class="markdown level0 summary"><p>Build-In top-down character controller</p>
+  <div class="markdown level0 summary"><p>Build-In top-down character controller <br>
+Have basic moving, looking jump, squat action</p>
+<pre><code>// You can create an custom character by inherit it
+public class CustomCharacter : TopdownCharacter</code></pre>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -781,14 +784,14 @@ And keep distance between camera to character right</p>
   </div>
   
   
-  <a id="Elly_Runtime_TopdownCharacter_LookAction_" data-uid="Elly.Runtime.TopdownCharacter.LookAction*"></a>
-  <h4 id="Elly_Runtime_TopdownCharacter_LookAction_UnityEngine_InputSystem_InputAction_CallbackContext_" data-uid="Elly.Runtime.TopdownCharacter.LookAction(UnityEngine.InputSystem.InputAction.CallbackContext)">LookAction(InputAction.CallbackContext)</h4>
+  <a id="Elly_Runtime_TopdownCharacter_OnLook_" data-uid="Elly.Runtime.TopdownCharacter.OnLook*"></a>
+  <h4 id="Elly_Runtime_TopdownCharacter_OnLook_UnityEngine_InputSystem_InputValue_" data-uid="Elly.Runtime.TopdownCharacter.OnLook(UnityEngine.InputSystem.InputValue)">OnLook(InputValue)</h4>
   <div class="markdown level1 summary"><p>Apply vector 2D data to <a class="xref" href="Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_lookDir">lookDir</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void LookAction(InputAction.CallbackContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void OnLook(InputValue context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -801,7 +804,7 @@ And keep distance between camera to character right</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.InputSystem.InputAction.CallbackContext</span></td>
+        <td><span class="xref">UnityEngine.InputSystem.InputValue</span></td>
         <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
@@ -809,14 +812,14 @@ And keep distance between camera to character right</p>
   </table>
   
   
-  <a id="Elly_Runtime_TopdownCharacter_LookMode_" data-uid="Elly.Runtime.TopdownCharacter.LookMode*"></a>
-  <h4 id="Elly_Runtime_TopdownCharacter_LookMode_UnityEngine_InputSystem_InputAction_CallbackContext_" data-uid="Elly.Runtime.TopdownCharacter.LookMode(UnityEngine.InputSystem.InputAction.CallbackContext)">LookMode(InputAction.CallbackContext)</h4>
+  <a id="Elly_Runtime_TopdownCharacter_OnLookMode_" data-uid="Elly.Runtime.TopdownCharacter.OnLookMode*"></a>
+  <h4 id="Elly_Runtime_TopdownCharacter_OnLookMode_UnityEngine_InputSystem_InputValue_" data-uid="Elly.Runtime.TopdownCharacter.OnLookMode(UnityEngine.InputSystem.InputValue)">OnLookMode(InputValue)</h4>
   <div class="markdown level1 summary"><p>Apply look mode bool to <a class="xref" href="Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_lookMode">lookMode</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void LookMode(InputAction.CallbackContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void OnLookMode(InputValue context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -829,7 +832,7 @@ And keep distance between camera to character right</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.InputSystem.InputAction.CallbackContext</span></td>
+        <td><span class="xref">UnityEngine.InputSystem.InputValue</span></td>
         <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
@@ -837,14 +840,14 @@ And keep distance between camera to character right</p>
   </table>
   
   
-  <a id="Elly_Runtime_TopdownCharacter_MoveAction2D_" data-uid="Elly.Runtime.TopdownCharacter.MoveAction2D*"></a>
-  <h4 id="Elly_Runtime_TopdownCharacter_MoveAction2D_UnityEngine_InputSystem_InputAction_CallbackContext_" data-uid="Elly.Runtime.TopdownCharacter.MoveAction2D(UnityEngine.InputSystem.InputAction.CallbackContext)">MoveAction2D(InputAction.CallbackContext)</h4>
+  <a id="Elly_Runtime_TopdownCharacter_OnMove_" data-uid="Elly.Runtime.TopdownCharacter.OnMove*"></a>
+  <h4 id="Elly_Runtime_TopdownCharacter_OnMove_UnityEngine_InputSystem_InputValue_" data-uid="Elly.Runtime.TopdownCharacter.OnMove(UnityEngine.InputSystem.InputValue)">OnMove(InputValue)</h4>
   <div class="markdown level1 summary"><p>Apply vector 2D data to <a class="xref" href="Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_movingDir">movingDir</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void MoveAction2D(InputAction.CallbackContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void OnMove(InputValue context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -857,7 +860,35 @@ And keep distance between camera to character right</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.InputSystem.InputAction.CallbackContext</span></td>
+        <td><span class="xref">UnityEngine.InputSystem.InputValue</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_TopdownCharacter_OnVertical_" data-uid="Elly.Runtime.TopdownCharacter.OnVertical*"></a>
+  <h4 id="Elly_Runtime_TopdownCharacter_OnVertical_UnityEngine_InputSystem_InputValue_" data-uid="Elly.Runtime.TopdownCharacter.OnVertical(UnityEngine.InputSystem.InputValue)">OnVertical(InputValue)</h4>
+  <div class="markdown level1 summary"><p>Apply zoom number to <a class="xref" href="Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_zoomDir">zoomDir</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnVertical(InputValue context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.InputSystem.InputValue</span></td>
         <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
@@ -889,34 +920,6 @@ And keep distance between camera to character right</p>
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Update">CharacterBase.Update()</a></div>
-  
-  
-  <a id="Elly_Runtime_TopdownCharacter_VerticalMovement_" data-uid="Elly.Runtime.TopdownCharacter.VerticalMovement*"></a>
-  <h4 id="Elly_Runtime_TopdownCharacter_VerticalMovement_UnityEngine_InputSystem_InputAction_CallbackContext_" data-uid="Elly.Runtime.TopdownCharacter.VerticalMovement(UnityEngine.InputSystem.InputAction.CallbackContext)">VerticalMovement(InputAction.CallbackContext)</h4>
-  <div class="markdown level1 summary"><p>Apply zoom number to <a class="xref" href="Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_zoomDir">zoomDir</a></p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void VerticalMovement(InputAction.CallbackContext context)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.InputSystem.InputAction.CallbackContext</span></td>
-        <td><span class="parametername">context</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           
