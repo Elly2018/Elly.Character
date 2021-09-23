@@ -92,25 +92,10 @@ public class CustomCharacter : PlatformCharacter</code></pre>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_InverseY">CharacterBase.InverseY</a>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Controller">CharacterBase.Controller</a>
     </div>
     <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CanSee">CharacterBase._CanSee</a>
-    </div>
-    <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CanMove">CharacterBase._CanMove</a>
-    </div>
-    <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CamCenterMoveSmoothSpeed">CharacterBase.CamCenterMoveSmoothSpeed</a>
-    </div>
-    <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CamCenterRotateSmoothSpeed">CharacterBase.CamCenterRotateSmoothSpeed</a>
-    </div>
-    <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CamMoveSmoothSpeed">CharacterBase.CamMoveSmoothSpeed</a>
-    </div>
-    <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CamRotateSmoothSpeed">CharacterBase.CamRotateSmoothSpeed</a>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Vibration">CharacterBase.Vibration</a>
     </div>
     <div>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CharacterFrontRay">CharacterBase.CharacterFrontRay</a>
@@ -207,6 +192,9 @@ public class CustomCharacter : PlatformCharacter</code></pre>
     </div>
     <div>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_ChangeCanSee_System_Boolean_">CharacterBase.ChangeCanSee(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_SetVibration_System_Single_">CharacterBase.SetVibration(Single)</a>
     </div>
     <div>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_SwitchType__1">CharacterBase.SwitchType&lt;T&gt;()</a>
@@ -387,13 +375,23 @@ protected float ViewDegree</code></pre>
   </h3>
   
   
-  <a id="Elly_Runtime_PlatformCharacter_CameraCenterRoot_" data-uid="Elly.Runtime.PlatformCharacter.CameraCenterRoot*"></a>
-  <h4 id="Elly_Runtime_PlatformCharacter_CameraCenterRoot" data-uid="Elly.Runtime.PlatformCharacter.CameraCenterRoot">CameraCenterRoot()</h4>
+  <a id="Elly_Runtime_PlatformCharacter_CameraPositionUpdate_" data-uid="Elly.Runtime.PlatformCharacter.CameraPositionUpdate*"></a>
+  <h4 id="Elly_Runtime_PlatformCharacter_CameraPositionUpdate" data-uid="Elly.Runtime.PlatformCharacter.CameraPositionUpdate">CameraPositionUpdate()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Transform CameraCenterRoot()</code></pre>
+    <pre><code class="lang-csharp hljs">protected void CameraPositionUpdate()</code></pre>
+  </div>
+  
+  
+  <a id="Elly_Runtime_PlatformCharacter_CameraRiggingRoot_" data-uid="Elly.Runtime.PlatformCharacter.CameraRiggingRoot*"></a>
+  <h4 id="Elly_Runtime_PlatformCharacter_CameraRiggingRoot" data-uid="Elly.Runtime.PlatformCharacter.CameraRiggingRoot">CameraRiggingRoot()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Transform CameraRiggingRoot()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -411,17 +409,7 @@ protected float ViewDegree</code></pre>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraCenterRoot">CharacterBase.CameraCenterRoot()</a></div>
-  
-  
-  <a id="Elly_Runtime_PlatformCharacter_CameraPositionUpdate_" data-uid="Elly.Runtime.PlatformCharacter.CameraPositionUpdate*"></a>
-  <h4 id="Elly_Runtime_PlatformCharacter_CameraPositionUpdate" data-uid="Elly.Runtime.PlatformCharacter.CameraPositionUpdate">CameraPositionUpdate()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void CameraPositionUpdate()</code></pre>
-  </div>
+  <div><a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRiggingRoot">CharacterBase.CameraRiggingRoot()</a></div>
   
   
   <a id="Elly_Runtime_PlatformCharacter_OnLook_" data-uid="Elly.Runtime.PlatformCharacter.OnLook*"></a>

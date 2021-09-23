@@ -5,71 +5,11 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Elly.Editor.CharacterBaseEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Elly.Editor.CharacterBaseEditor.html",
-          "hash": "9fOzWcJ+XB6wgJgRSccKIKYsdopmHaD8N9rAQuv7gQ0="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Elly.Editor.CharacterEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Elly.Editor.CharacterEditor.html",
-          "hash": "fEmoqrRAVjtlOOGyYdd51rb/qZLs9tMXB84z6nu3ZAs="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Elly.Editor.CustomCharacter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Elly.Editor.CustomCharacter.html",
-          "hash": "P1EdS1bTiIov7kuy2+GqaQnewgu6Fno09T6HvgB+61w="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Elly.Editor.TopdownCharacterEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Elly.Editor.TopdownCharacterEditor.html",
-          "hash": "zWGd2oklHcTCr4peDUuRwRwWBNKSLewaF1+DEmmcl8M="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Elly.Editor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Elly.Editor.html",
-          "hash": "2NwK7uxfp6LZm6PeA4MfqDdfTRkKmd7RiE4+37jCqHA="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Elly.MathE.Quaternion.yml",
       "output": {
         ".html": {
           "relative_path": "api/Elly.MathE.Quaternion.html",
-          "hash": "grdJeMq8vrhkpAxh2avEnZz2YoB5d+RlcAnZaeGvR0U="
+          "hash": "KK1qv7iOe1L3CmTWHUeXuRhrBrcjobYQJBEbkoBc3Mw="
         }
       },
       "is_incremental": true,
@@ -93,7 +33,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Runtime.CharacterBase.html",
-          "hash": "f6wsc/zCV4H6vJYU2jDwEqVa4Kr57Sk45kxeo2pBliE="
+          "hash": "GZJvbyxKs9xEI9arQywCTYIBRCkzOpxCbpHSfi4vNYM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Elly.Runtime.ControllerStat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Elly.Runtime.ControllerStat.html",
+          "hash": "nrAmaYKIHVuf6sev64Oah0nIbQhxz7Nn9UuIUxSdA8E="
         }
       },
       "is_incremental": true,
@@ -105,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Runtime.DefaultAICharacter.html",
-          "hash": "AWoi4358NKrscuiT/aKmGDRsTERTZs3zd0ltaiILN+E="
+          "hash": "gyHIPomxQRXQ2asuTNUvBufEHH4opi+S2TfmK/2xvoE="
         }
       },
       "is_incremental": true,
@@ -129,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Runtime.FPSCharacter.html",
-          "hash": "k7QotiyoRSzD96WWRck3jYn40vhlR8kZlVEhcOwdkIY="
+          "hash": "CLm37a1TWEpdDkZF+UHwy2Ix2wVshRUAR3Bb43X4KFc="
         }
       },
       "is_incremental": true,
@@ -141,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Runtime.GhostCharacter.html",
-          "hash": "zMdBWT93jOM38MHnaFmXVF3UwuSAb9JwX5w+vcV6k3Y="
+          "hash": "RB2HPkOX+k9ecwgcixZqVRyCeCc4J9fhtFGgP3L2iXQ="
         }
       },
       "is_incremental": true,
@@ -153,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Runtime.NoneCameraCharacter.html",
-          "hash": "VDzd/YZhZtpxhW5cOrrQHpbMGt01Nde0q8yO080C/ww="
+          "hash": "OWl9uAl41LMC6X3V7cBdBMg7VDof/s/Z1r+Jz+SZC2s="
         }
       },
       "is_incremental": true,
@@ -177,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Runtime.PlatformCharacter.html",
-          "hash": "fUQg0MYOyifFAYp9XCxHMJ3spTP1O+Z3thAxMC7n3zk="
+          "hash": "uCKySIVWKVTuzQz0aRDurKSZ6QCsqPjCQ/FXS66VCL4="
         }
       },
       "is_incremental": true,
@@ -189,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Runtime.TPSCharacter.html",
-          "hash": "IQRcjzKbx3+MgxeN+O4YwUFCnXND830FVExrGkFuWXA="
+          "hash": "+TkxK7hAoCny5P0bc1S0mNlgTqS2qnt+jiDM21oTmMc="
         }
       },
       "is_incremental": true,
@@ -201,7 +153,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Runtime.TopdownCharacter.html",
-          "hash": "9qNKHpk9rUW+6fhJ4oZxHSftWU7PqACWDor90tIifQI="
+          "hash": "xgWRDbD7gSgb3O2Jgye3PhGoh3sV0DTafXqOR5ODI84="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Elly.Runtime.VibrationDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Elly.Runtime.VibrationDirection.html",
+          "hash": "OEzdTFSGdLjOrJp1fBpAkEUISFMKEj2TvdM4OJ4OjoU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Elly.Runtime.VibrationStat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Elly.Runtime.VibrationStat.html",
+          "hash": "l0C7AqRZ9q3G301RcEGaLDPm2K+8lO1010ofI5Ik2eo="
         }
       },
       "is_incremental": true,
@@ -213,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Elly.Runtime.html",
-          "hash": "7wJyOKpZSYLM+mP+CxHi6F7YpSVIDBmmbu3OlcN1jms="
+          "hash": "5ipbpoRHkvme/D0nb4de5/NTPUuFiQbpFFXfxsUCuZM="
         }
       },
       "is_incremental": true,
@@ -249,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ReNtMoMn8ZHY/bP37M/wnEUcJeIvj5uUKLbiuf1pGlE="
+          "hash": "jt0ewe7oLCgKu2drQ+/7tRqNvyQXrHJBPWrOaHGhF/0="
         }
       },
       "is_incremental": false,
@@ -273,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/demo.html",
-          "hash": "kUGB1mfGBH9HcHl0OEC7AkzFEydM6FoPyC448i/l6pk="
+          "hash": "RViwv3tEMH8iEGPzBSJ/bV7vdxlyVw9L9LCbWJCu9wI="
         }
       },
       "is_incremental": true,
@@ -285,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/feature.html",
-          "hash": "5Usf9oqqyZbKCySTHbN/Xsik++ign7rC/tgXrvez49I="
+          "hash": "D5/YVg7NWAa+RoZCw2vfQKsW8fs9cSx8CmAzzQKi1/E="
         }
       },
       "is_incremental": false,
@@ -328,6 +304,50 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/CharacterCreationWindow.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/CharacterCreationWindow.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/CustomNewDropdownOption.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/CustomNewDropdownOption.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/CustomScriptMenuItem.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/CustomScriptMenuItem.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DefaultCustomCode.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DefaultCustomCode.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/MenuItem.png",
       "output": {
         "resource": {
@@ -343,6 +363,17 @@
       "output": {
         "resource": {
           "relative_path": "images/NewInputSystem.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/VibrateExample.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/VibrateExample.png"
         }
       },
       "is_incremental": false,
@@ -391,8 +422,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 19,
-          "skipped_file_count": 19
+          "total_file_count": 17,
+          "skipped_file_count": 17
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

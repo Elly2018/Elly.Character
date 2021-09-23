@@ -7,229 +7,6 @@ references:
   commentId: N:Elly
   fullName: Elly
   nameWithType: Elly
-- uid: Elly.Editor
-  name: Elly.Editor
-  href: api/Elly.Editor.html
-  commentId: N:Elly.Editor
-  fullName: Elly.Editor
-  nameWithType: Elly.Editor
-- uid: Elly.Editor.CharacterBaseEditor
-  name: CharacterBaseEditor
-  href: api/Elly.Editor.CharacterBaseEditor.html
-  commentId: T:Elly.Editor.CharacterBaseEditor
-  fullName: Elly.Editor.CharacterBaseEditor
-  nameWithType: CharacterBaseEditor
-- uid: Elly.Editor.CharacterBaseEditor.DrawCharacterBaseMenu(UnityEditor.SerializedObject)
-  name: DrawCharacterBaseMenu(SerializedObject)
-  href: api/Elly.Editor.CharacterBaseEditor.html#Elly_Editor_CharacterBaseEditor_DrawCharacterBaseMenu_UnityEditor_SerializedObject_
-  commentId: M:Elly.Editor.CharacterBaseEditor.DrawCharacterBaseMenu(UnityEditor.SerializedObject)
-  fullName: Elly.Editor.CharacterBaseEditor.DrawCharacterBaseMenu(UnityEditor.SerializedObject)
-  nameWithType: CharacterBaseEditor.DrawCharacterBaseMenu(SerializedObject)
-- uid: Elly.Editor.CharacterBaseEditor.DrawCharacterBaseMenu*
-  name: DrawCharacterBaseMenu
-  href: api/Elly.Editor.CharacterBaseEditor.html#Elly_Editor_CharacterBaseEditor_DrawCharacterBaseMenu_
-  commentId: Overload:Elly.Editor.CharacterBaseEditor.DrawCharacterBaseMenu
-  isSpec: "True"
-  fullName: Elly.Editor.CharacterBaseEditor.DrawCharacterBaseMenu
-  nameWithType: CharacterBaseEditor.DrawCharacterBaseMenu
-- uid: Elly.Editor.CharacterBaseEditor.DrawMenu(Elly.Runtime.CharacterBase)
-  name: DrawMenu(CharacterBase)
-  href: api/Elly.Editor.CharacterBaseEditor.html#Elly_Editor_CharacterBaseEditor_DrawMenu_Elly_Runtime_CharacterBase_
-  commentId: M:Elly.Editor.CharacterBaseEditor.DrawMenu(Elly.Runtime.CharacterBase)
-  fullName: Elly.Editor.CharacterBaseEditor.DrawMenu(Elly.Runtime.CharacterBase)
-  nameWithType: CharacterBaseEditor.DrawMenu(CharacterBase)
-- uid: Elly.Editor.CharacterBaseEditor.DrawMenu*
-  name: DrawMenu
-  href: api/Elly.Editor.CharacterBaseEditor.html#Elly_Editor_CharacterBaseEditor_DrawMenu_
-  commentId: Overload:Elly.Editor.CharacterBaseEditor.DrawMenu
-  isSpec: "True"
-  fullName: Elly.Editor.CharacterBaseEditor.DrawMenu
-  nameWithType: CharacterBaseEditor.DrawMenu
-- uid: Elly.Editor.CharacterBaseEditor.OnInspectorGUI
-  name: OnInspectorGUI()
-  href: api/Elly.Editor.CharacterBaseEditor.html#Elly_Editor_CharacterBaseEditor_OnInspectorGUI
-  commentId: M:Elly.Editor.CharacterBaseEditor.OnInspectorGUI
-  fullName: Elly.Editor.CharacterBaseEditor.OnInspectorGUI()
-  nameWithType: CharacterBaseEditor.OnInspectorGUI()
-- uid: Elly.Editor.CharacterBaseEditor.OnInspectorGUI*
-  name: OnInspectorGUI
-  href: api/Elly.Editor.CharacterBaseEditor.html#Elly_Editor_CharacterBaseEditor_OnInspectorGUI_
-  commentId: Overload:Elly.Editor.CharacterBaseEditor.OnInspectorGUI
-  isSpec: "True"
-  fullName: Elly.Editor.CharacterBaseEditor.OnInspectorGUI
-  nameWithType: CharacterBaseEditor.OnInspectorGUI
-- uid: Elly.Editor.CharacterEditor
-  name: CharacterEditor
-  href: api/Elly.Editor.CharacterEditor.html
-  commentId: T:Elly.Editor.CharacterEditor
-  fullName: Elly.Editor.CharacterEditor
-  nameWithType: CharacterEditor
-- uid: Elly.Editor.CharacterEditor.CreateFPSCharacterWithCamera
-  name: CreateFPSCharacterWithCamera()
-  href: api/Elly.Editor.CharacterEditor.html#Elly_Editor_CharacterEditor_CreateFPSCharacterWithCamera
-  commentId: M:Elly.Editor.CharacterEditor.CreateFPSCharacterWithCamera
-  fullName: Elly.Editor.CharacterEditor.CreateFPSCharacterWithCamera()
-  nameWithType: CharacterEditor.CreateFPSCharacterWithCamera()
-- uid: Elly.Editor.CharacterEditor.CreateFPSCharacterWithCamera*
-  name: CreateFPSCharacterWithCamera
-  href: api/Elly.Editor.CharacterEditor.html#Elly_Editor_CharacterEditor_CreateFPSCharacterWithCamera_
-  commentId: Overload:Elly.Editor.CharacterEditor.CreateFPSCharacterWithCamera
-  isSpec: "True"
-  fullName: Elly.Editor.CharacterEditor.CreateFPSCharacterWithCamera
-  nameWithType: CharacterEditor.CreateFPSCharacterWithCamera
-- uid: Elly.Editor.CharacterEditor.CreateGhostCharacter
-  name: CreateGhostCharacter()
-  href: api/Elly.Editor.CharacterEditor.html#Elly_Editor_CharacterEditor_CreateGhostCharacter
-  commentId: M:Elly.Editor.CharacterEditor.CreateGhostCharacter
-  fullName: Elly.Editor.CharacterEditor.CreateGhostCharacter()
-  nameWithType: CharacterEditor.CreateGhostCharacter()
-- uid: Elly.Editor.CharacterEditor.CreateGhostCharacter*
-  name: CreateGhostCharacter
-  href: api/Elly.Editor.CharacterEditor.html#Elly_Editor_CharacterEditor_CreateGhostCharacter_
-  commentId: Overload:Elly.Editor.CharacterEditor.CreateGhostCharacter
-  isSpec: "True"
-  fullName: Elly.Editor.CharacterEditor.CreateGhostCharacter
-  nameWithType: CharacterEditor.CreateGhostCharacter
-- uid: Elly.Editor.CharacterEditor.CreateNoneCameraCharacter
-  name: CreateNoneCameraCharacter()
-  href: api/Elly.Editor.CharacterEditor.html#Elly_Editor_CharacterEditor_CreateNoneCameraCharacter
-  commentId: M:Elly.Editor.CharacterEditor.CreateNoneCameraCharacter
-  fullName: Elly.Editor.CharacterEditor.CreateNoneCameraCharacter()
-  nameWithType: CharacterEditor.CreateNoneCameraCharacter()
-- uid: Elly.Editor.CharacterEditor.CreateNoneCameraCharacter*
-  name: CreateNoneCameraCharacter
-  href: api/Elly.Editor.CharacterEditor.html#Elly_Editor_CharacterEditor_CreateNoneCameraCharacter_
-  commentId: Overload:Elly.Editor.CharacterEditor.CreateNoneCameraCharacter
-  isSpec: "True"
-  fullName: Elly.Editor.CharacterEditor.CreateNoneCameraCharacter
-  nameWithType: CharacterEditor.CreateNoneCameraCharacter
-- uid: Elly.Editor.CharacterEditor.CreatePlatformCharacter
-  name: CreatePlatformCharacter()
-  href: api/Elly.Editor.CharacterEditor.html#Elly_Editor_CharacterEditor_CreatePlatformCharacter
-  commentId: M:Elly.Editor.CharacterEditor.CreatePlatformCharacter
-  fullName: Elly.Editor.CharacterEditor.CreatePlatformCharacter()
-  nameWithType: CharacterEditor.CreatePlatformCharacter()
-- uid: Elly.Editor.CharacterEditor.CreatePlatformCharacter*
-  name: CreatePlatformCharacter
-  href: api/Elly.Editor.CharacterEditor.html#Elly_Editor_CharacterEditor_CreatePlatformCharacter_
-  commentId: Overload:Elly.Editor.CharacterEditor.CreatePlatformCharacter
-  isSpec: "True"
-  fullName: Elly.Editor.CharacterEditor.CreatePlatformCharacter
-  nameWithType: CharacterEditor.CreatePlatformCharacter
-- uid: Elly.Editor.CharacterEditor.CreateThirdPersonCharacterWithCamera
-  name: CreateThirdPersonCharacterWithCamera()
-  href: api/Elly.Editor.CharacterEditor.html#Elly_Editor_CharacterEditor_CreateThirdPersonCharacterWithCamera
-  commentId: M:Elly.Editor.CharacterEditor.CreateThirdPersonCharacterWithCamera
-  fullName: Elly.Editor.CharacterEditor.CreateThirdPersonCharacterWithCamera()
-  nameWithType: CharacterEditor.CreateThirdPersonCharacterWithCamera()
-- uid: Elly.Editor.CharacterEditor.CreateThirdPersonCharacterWithCamera*
-  name: CreateThirdPersonCharacterWithCamera
-  href: api/Elly.Editor.CharacterEditor.html#Elly_Editor_CharacterEditor_CreateThirdPersonCharacterWithCamera_
-  commentId: Overload:Elly.Editor.CharacterEditor.CreateThirdPersonCharacterWithCamera
-  isSpec: "True"
-  fullName: Elly.Editor.CharacterEditor.CreateThirdPersonCharacterWithCamera
-  nameWithType: CharacterEditor.CreateThirdPersonCharacterWithCamera
-- uid: Elly.Editor.CharacterEditor.CreateTopDownCharacter
-  name: CreateTopDownCharacter()
-  href: api/Elly.Editor.CharacterEditor.html#Elly_Editor_CharacterEditor_CreateTopDownCharacter
-  commentId: M:Elly.Editor.CharacterEditor.CreateTopDownCharacter
-  fullName: Elly.Editor.CharacterEditor.CreateTopDownCharacter()
-  nameWithType: CharacterEditor.CreateTopDownCharacter()
-- uid: Elly.Editor.CharacterEditor.CreateTopDownCharacter*
-  name: CreateTopDownCharacter
-  href: api/Elly.Editor.CharacterEditor.html#Elly_Editor_CharacterEditor_CreateTopDownCharacter_
-  commentId: Overload:Elly.Editor.CharacterEditor.CreateTopDownCharacter
-  isSpec: "True"
-  fullName: Elly.Editor.CharacterEditor.CreateTopDownCharacter
-  nameWithType: CharacterEditor.CreateTopDownCharacter
-- uid: Elly.Editor.CharacterEditor.Docs
-  name: Docs()
-  href: api/Elly.Editor.CharacterEditor.html#Elly_Editor_CharacterEditor_Docs
-  commentId: M:Elly.Editor.CharacterEditor.Docs
-  fullName: Elly.Editor.CharacterEditor.Docs()
-  nameWithType: CharacterEditor.Docs()
-- uid: Elly.Editor.CharacterEditor.Docs*
-  name: Docs
-  href: api/Elly.Editor.CharacterEditor.html#Elly_Editor_CharacterEditor_Docs_
-  commentId: Overload:Elly.Editor.CharacterEditor.Docs
-  isSpec: "True"
-  fullName: Elly.Editor.CharacterEditor.Docs
-  nameWithType: CharacterEditor.Docs
-- uid: Elly.Editor.CustomCharacter
-  name: CustomCharacter
-  href: api/Elly.Editor.CustomCharacter.html
-  commentId: T:Elly.Editor.CustomCharacter
-  fullName: Elly.Editor.CustomCharacter
-  nameWithType: CustomCharacter
-- uid: Elly.Editor.CustomCharacter.createCode
-  name: createCode
-  href: api/Elly.Editor.CustomCharacter.html#Elly_Editor_CustomCharacter_createCode
-  commentId: F:Elly.Editor.CustomCharacter.createCode
-  fullName: Elly.Editor.CustomCharacter.createCode
-  nameWithType: CustomCharacter.createCode
-- uid: Elly.Editor.CustomCharacter.CreateCustomCharacter
-  name: CreateCustomCharacter()
-  href: api/Elly.Editor.CustomCharacter.html#Elly_Editor_CustomCharacter_CreateCustomCharacter
-  commentId: M:Elly.Editor.CustomCharacter.CreateCustomCharacter
-  fullName: Elly.Editor.CustomCharacter.CreateCustomCharacter()
-  nameWithType: CustomCharacter.CreateCustomCharacter()
-- uid: Elly.Editor.CustomCharacter.CreateCustomCharacter*
-  name: CreateCustomCharacter
-  href: api/Elly.Editor.CustomCharacter.html#Elly_Editor_CustomCharacter_CreateCustomCharacter_
-  commentId: Overload:Elly.Editor.CustomCharacter.CreateCustomCharacter
-  isSpec: "True"
-  fullName: Elly.Editor.CustomCharacter.CreateCustomCharacter
-  nameWithType: CustomCharacter.CreateCustomCharacter
-- uid: Elly.Editor.CustomCharacter.CreateCustomNoneCameraCharacter
-  name: CreateCustomNoneCameraCharacter()
-  href: api/Elly.Editor.CustomCharacter.html#Elly_Editor_CustomCharacter_CreateCustomNoneCameraCharacter
-  commentId: M:Elly.Editor.CustomCharacter.CreateCustomNoneCameraCharacter
-  fullName: Elly.Editor.CustomCharacter.CreateCustomNoneCameraCharacter()
-  nameWithType: CustomCharacter.CreateCustomNoneCameraCharacter()
-- uid: Elly.Editor.CustomCharacter.CreateCustomNoneCameraCharacter*
-  name: CreateCustomNoneCameraCharacter
-  href: api/Elly.Editor.CustomCharacter.html#Elly_Editor_CustomCharacter_CreateCustomNoneCameraCharacter_
-  commentId: Overload:Elly.Editor.CustomCharacter.CreateCustomNoneCameraCharacter
-  isSpec: "True"
-  fullName: Elly.Editor.CustomCharacter.CreateCustomNoneCameraCharacter
-  nameWithType: CustomCharacter.CreateCustomNoneCameraCharacter
-- uid: Elly.Editor.CustomCharacter.editorWindowText
-  name: editorWindowText
-  href: api/Elly.Editor.CustomCharacter.html#Elly_Editor_CustomCharacter_editorWindowText
-  commentId: F:Elly.Editor.CustomCharacter.editorWindowText
-  fullName: Elly.Editor.CustomCharacter.editorWindowText
-  nameWithType: CustomCharacter.editorWindowText
-- uid: Elly.Editor.CustomCharacter.nonetemplate
-  name: nonetemplate
-  href: api/Elly.Editor.CustomCharacter.html#Elly_Editor_CustomCharacter_nonetemplate
-  commentId: F:Elly.Editor.CustomCharacter.nonetemplate
-  fullName: Elly.Editor.CustomCharacter.nonetemplate
-  nameWithType: CustomCharacter.nonetemplate
-- uid: Elly.Editor.CustomCharacter.template
-  name: template
-  href: api/Elly.Editor.CustomCharacter.html#Elly_Editor_CustomCharacter_template
-  commentId: F:Elly.Editor.CustomCharacter.template
-  fullName: Elly.Editor.CustomCharacter.template
-  nameWithType: CustomCharacter.template
-- uid: Elly.Editor.TopdownCharacterEditor
-  name: TopdownCharacterEditor
-  href: api/Elly.Editor.TopdownCharacterEditor.html
-  commentId: T:Elly.Editor.TopdownCharacterEditor
-  fullName: Elly.Editor.TopdownCharacterEditor
-  nameWithType: TopdownCharacterEditor
-- uid: Elly.Editor.TopdownCharacterEditor.OnInspectorGUI
-  name: OnInspectorGUI()
-  href: api/Elly.Editor.TopdownCharacterEditor.html#Elly_Editor_TopdownCharacterEditor_OnInspectorGUI
-  commentId: M:Elly.Editor.TopdownCharacterEditor.OnInspectorGUI
-  fullName: Elly.Editor.TopdownCharacterEditor.OnInspectorGUI()
-  nameWithType: TopdownCharacterEditor.OnInspectorGUI()
-- uid: Elly.Editor.TopdownCharacterEditor.OnInspectorGUI*
-  name: OnInspectorGUI
-  href: api/Elly.Editor.TopdownCharacterEditor.html#Elly_Editor_TopdownCharacterEditor_OnInspectorGUI_
-  commentId: Overload:Elly.Editor.TopdownCharacterEditor.OnInspectorGUI
-  isSpec: "True"
-  fullName: Elly.Editor.TopdownCharacterEditor.OnInspectorGUI
-  nameWithType: TopdownCharacterEditor.OnInspectorGUI
 - uid: Elly.MathE
   name: MathE
   href: api/Elly.MathE.html
@@ -382,18 +159,6 @@ references:
   commentId: F:Elly.Runtime.CharacterBase._CamRotationDest
   fullName: Elly.Runtime.CharacterBase._CamRotationDest
   nameWithType: CharacterBase._CamRotationDest
-- uid: Elly.Runtime.CharacterBase._CanMove
-  name: _CanMove
-  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CanMove
-  commentId: F:Elly.Runtime.CharacterBase._CanMove
-  fullName: Elly.Runtime.CharacterBase._CanMove
-  nameWithType: CharacterBase._CanMove
-- uid: Elly.Runtime.CharacterBase._CanSee
-  name: _CanSee
-  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CanSee
-  commentId: F:Elly.Runtime.CharacterBase._CanSee
-  fullName: Elly.Runtime.CharacterBase._CanSee
-  nameWithType: CharacterBase._CanSee
 - uid: Elly.Runtime.CharacterBase.Awake
   name: Awake()
   href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Awake
@@ -407,31 +172,6 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.CharacterBase.Awake
   nameWithType: CharacterBase.Awake
-- uid: Elly.Runtime.CharacterBase.CamCenterMoveSmoothSpeed
-  name: CamCenterMoveSmoothSpeed
-  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CamCenterMoveSmoothSpeed
-  commentId: F:Elly.Runtime.CharacterBase.CamCenterMoveSmoothSpeed
-  fullName: Elly.Runtime.CharacterBase.CamCenterMoveSmoothSpeed
-  nameWithType: CharacterBase.CamCenterMoveSmoothSpeed
-- uid: Elly.Runtime.CharacterBase.CamCenterRotateSmoothSpeed
-  name: CamCenterRotateSmoothSpeed
-  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CamCenterRotateSmoothSpeed
-  commentId: F:Elly.Runtime.CharacterBase.CamCenterRotateSmoothSpeed
-  fullName: Elly.Runtime.CharacterBase.CamCenterRotateSmoothSpeed
-  nameWithType: CharacterBase.CamCenterRotateSmoothSpeed
-- uid: Elly.Runtime.CharacterBase.CameraCenterRoot
-  name: CameraCenterRoot()
-  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraCenterRoot
-  commentId: M:Elly.Runtime.CharacterBase.CameraCenterRoot
-  fullName: Elly.Runtime.CharacterBase.CameraCenterRoot()
-  nameWithType: CharacterBase.CameraCenterRoot()
-- uid: Elly.Runtime.CharacterBase.CameraCenterRoot*
-  name: CameraCenterRoot
-  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraCenterRoot_
-  commentId: Overload:Elly.Runtime.CharacterBase.CameraCenterRoot
-  isSpec: "True"
-  fullName: Elly.Runtime.CharacterBase.CameraCenterRoot
-  nameWithType: CharacterBase.CameraCenterRoot
 - uid: Elly.Runtime.CharacterBase.CameraCenterRotateForView(System.Single,System.Single,System.Boolean)
   name: CameraCenterRotateForView(Single, Single, Boolean)
   href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraCenterRotateForView_System_Single_System_Single_System_Boolean_
@@ -489,6 +229,19 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.CharacterBase.CameraLookAtForView
   nameWithType: CharacterBase.CameraLookAtForView
+- uid: Elly.Runtime.CharacterBase.CameraRiggingRoot
+  name: CameraRiggingRoot()
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRiggingRoot
+  commentId: M:Elly.Runtime.CharacterBase.CameraRiggingRoot
+  fullName: Elly.Runtime.CharacterBase.CameraRiggingRoot()
+  nameWithType: CharacterBase.CameraRiggingRoot()
+- uid: Elly.Runtime.CharacterBase.CameraRiggingRoot*
+  name: CameraRiggingRoot
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRiggingRoot_
+  commentId: Overload:Elly.Runtime.CharacterBase.CameraRiggingRoot
+  isSpec: "True"
+  fullName: Elly.Runtime.CharacterBase.CameraRiggingRoot
+  nameWithType: CharacterBase.CameraRiggingRoot
 - uid: Elly.Runtime.CharacterBase.CameraRotateForView(System.Single,System.Single,System.Boolean)
   name: CameraRotateForView(Single, Single, Boolean)
   href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRotateForView_System_Single_System_Single_System_Boolean_
@@ -520,18 +273,6 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.CharacterBase.CameraRotateForView
   nameWithType: CharacterBase.CameraRotateForView
-- uid: Elly.Runtime.CharacterBase.CamMoveSmoothSpeed
-  name: CamMoveSmoothSpeed
-  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CamMoveSmoothSpeed
-  commentId: F:Elly.Runtime.CharacterBase.CamMoveSmoothSpeed
-  fullName: Elly.Runtime.CharacterBase.CamMoveSmoothSpeed
-  nameWithType: CharacterBase.CamMoveSmoothSpeed
-- uid: Elly.Runtime.CharacterBase.CamRotateSmoothSpeed
-  name: CamRotateSmoothSpeed
-  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CamRotateSmoothSpeed
-  commentId: F:Elly.Runtime.CharacterBase.CamRotateSmoothSpeed
-  fullName: Elly.Runtime.CharacterBase.CamRotateSmoothSpeed
-  nameWithType: CharacterBase.CamRotateSmoothSpeed
 - uid: Elly.Runtime.CharacterBase.ChangeCanMove(System.Boolean)
   name: ChangeCanMove(Boolean)
   href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_ChangeCanMove_System_Boolean_
@@ -584,12 +325,12 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.CharacterBase.CharacterFrontRay
   nameWithType: CharacterBase.CharacterFrontRay
-- uid: Elly.Runtime.CharacterBase.InverseY
-  name: InverseY
-  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_InverseY
-  commentId: F:Elly.Runtime.CharacterBase.InverseY
-  fullName: Elly.Runtime.CharacterBase.InverseY
-  nameWithType: CharacterBase.InverseY
+- uid: Elly.Runtime.CharacterBase.Controller
+  name: Controller
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Controller
+  commentId: F:Elly.Runtime.CharacterBase.Controller
+  fullName: Elly.Runtime.CharacterBase.Controller
+  nameWithType: CharacterBase.Controller
 - uid: Elly.Runtime.CharacterBase.LookVector(UnityEngine.Vector2,System.Single)
   name: LookVector(Vector2, Single)
   href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_LookVector_UnityEngine_Vector2_System_Single_
@@ -629,6 +370,19 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.CharacterBase.Reset
   nameWithType: CharacterBase.Reset
+- uid: Elly.Runtime.CharacterBase.SetVibration(System.Single)
+  name: SetVibration(Single)
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_SetVibration_System_Single_
+  commentId: M:Elly.Runtime.CharacterBase.SetVibration(System.Single)
+  fullName: Elly.Runtime.CharacterBase.SetVibration(System.Single)
+  nameWithType: CharacterBase.SetVibration(Single)
+- uid: Elly.Runtime.CharacterBase.SetVibration*
+  name: SetVibration
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_SetVibration_
+  commentId: Overload:Elly.Runtime.CharacterBase.SetVibration
+  isSpec: "True"
+  fullName: Elly.Runtime.CharacterBase.SetVibration
+  nameWithType: CharacterBase.SetVibration
 - uid: Elly.Runtime.CharacterBase.SimpleMove(UnityEngine.Vector3,System.Boolean)
   name: SimpleMove(Vector3, Boolean)
   href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_SimpleMove_UnityEngine_Vector3_System_Boolean_
@@ -709,6 +463,73 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.CharacterBase.Update
   nameWithType: CharacterBase.Update
+- uid: Elly.Runtime.CharacterBase.Vibration
+  name: Vibration
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Vibration
+  commentId: F:Elly.Runtime.CharacterBase.Vibration
+  fullName: Elly.Runtime.CharacterBase.Vibration
+  nameWithType: CharacterBase.Vibration
+- uid: Elly.Runtime.ControllerStat
+  name: ControllerStat
+  href: api/Elly.Runtime.ControllerStat.html
+  commentId: T:Elly.Runtime.ControllerStat
+  fullName: Elly.Runtime.ControllerStat
+  nameWithType: ControllerStat
+- uid: Elly.Runtime.ControllerStat.CamCenterMoveSmoothSpeed
+  name: CamCenterMoveSmoothSpeed
+  href: api/Elly.Runtime.ControllerStat.html#Elly_Runtime_ControllerStat_CamCenterMoveSmoothSpeed
+  commentId: F:Elly.Runtime.ControllerStat.CamCenterMoveSmoothSpeed
+  fullName: Elly.Runtime.ControllerStat.CamCenterMoveSmoothSpeed
+  nameWithType: ControllerStat.CamCenterMoveSmoothSpeed
+- uid: Elly.Runtime.ControllerStat.CamCenterRotateSmoothSpeed
+  name: CamCenterRotateSmoothSpeed
+  href: api/Elly.Runtime.ControllerStat.html#Elly_Runtime_ControllerStat_CamCenterRotateSmoothSpeed
+  commentId: F:Elly.Runtime.ControllerStat.CamCenterRotateSmoothSpeed
+  fullName: Elly.Runtime.ControllerStat.CamCenterRotateSmoothSpeed
+  nameWithType: ControllerStat.CamCenterRotateSmoothSpeed
+- uid: Elly.Runtime.ControllerStat.CamMoveSmoothSpeed
+  name: CamMoveSmoothSpeed
+  href: api/Elly.Runtime.ControllerStat.html#Elly_Runtime_ControllerStat_CamMoveSmoothSpeed
+  commentId: F:Elly.Runtime.ControllerStat.CamMoveSmoothSpeed
+  fullName: Elly.Runtime.ControllerStat.CamMoveSmoothSpeed
+  nameWithType: ControllerStat.CamMoveSmoothSpeed
+- uid: Elly.Runtime.ControllerStat.CamRotateSmoothSpeed
+  name: CamRotateSmoothSpeed
+  href: api/Elly.Runtime.ControllerStat.html#Elly_Runtime_ControllerStat_CamRotateSmoothSpeed
+  commentId: F:Elly.Runtime.ControllerStat.CamRotateSmoothSpeed
+  fullName: Elly.Runtime.ControllerStat.CamRotateSmoothSpeed
+  nameWithType: ControllerStat.CamRotateSmoothSpeed
+- uid: Elly.Runtime.ControllerStat.CanMove
+  name: CanMove
+  href: api/Elly.Runtime.ControllerStat.html#Elly_Runtime_ControllerStat_CanMove
+  commentId: F:Elly.Runtime.ControllerStat.CanMove
+  fullName: Elly.Runtime.ControllerStat.CanMove
+  nameWithType: ControllerStat.CanMove
+- uid: Elly.Runtime.ControllerStat.CanSee
+  name: CanSee
+  href: api/Elly.Runtime.ControllerStat.html#Elly_Runtime_ControllerStat_CanSee
+  commentId: F:Elly.Runtime.ControllerStat.CanSee
+  fullName: Elly.Runtime.ControllerStat.CanSee
+  nameWithType: ControllerStat.CanSee
+- uid: Elly.Runtime.ControllerStat.Default
+  name: Default
+  href: api/Elly.Runtime.ControllerStat.html#Elly_Runtime_ControllerStat_Default
+  commentId: P:Elly.Runtime.ControllerStat.Default
+  fullName: Elly.Runtime.ControllerStat.Default
+  nameWithType: ControllerStat.Default
+- uid: Elly.Runtime.ControllerStat.Default*
+  name: Default
+  href: api/Elly.Runtime.ControllerStat.html#Elly_Runtime_ControllerStat_Default_
+  commentId: Overload:Elly.Runtime.ControllerStat.Default
+  isSpec: "True"
+  fullName: Elly.Runtime.ControllerStat.Default
+  nameWithType: ControllerStat.Default
+- uid: Elly.Runtime.ControllerStat.InverseY
+  name: InverseY
+  href: api/Elly.Runtime.ControllerStat.html#Elly_Runtime_ControllerStat_InverseY
+  commentId: F:Elly.Runtime.ControllerStat.InverseY
+  fullName: Elly.Runtime.ControllerStat.InverseY
+  nameWithType: ControllerStat.InverseY
 - uid: Elly.Runtime.DefaultAICharacter
   name: DefaultAICharacter
   href: api/Elly.Runtime.DefaultAICharacter.html
@@ -985,19 +806,6 @@ references:
   commentId: T:Elly.Runtime.PlatformCharacter
   fullName: Elly.Runtime.PlatformCharacter
   nameWithType: PlatformCharacter
-- uid: Elly.Runtime.PlatformCharacter.CameraCenterRoot
-  name: CameraCenterRoot()
-  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_CameraCenterRoot
-  commentId: M:Elly.Runtime.PlatformCharacter.CameraCenterRoot
-  fullName: Elly.Runtime.PlatformCharacter.CameraCenterRoot()
-  nameWithType: PlatformCharacter.CameraCenterRoot()
-- uid: Elly.Runtime.PlatformCharacter.CameraCenterRoot*
-  name: CameraCenterRoot
-  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_CameraCenterRoot_
-  commentId: Overload:Elly.Runtime.PlatformCharacter.CameraCenterRoot
-  isSpec: "True"
-  fullName: Elly.Runtime.PlatformCharacter.CameraCenterRoot
-  nameWithType: PlatformCharacter.CameraCenterRoot
 - uid: Elly.Runtime.PlatformCharacter.CameraPositionUpdate
   name: CameraPositionUpdate()
   href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_CameraPositionUpdate
@@ -1011,6 +819,19 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.PlatformCharacter.CameraPositionUpdate
   nameWithType: PlatformCharacter.CameraPositionUpdate
+- uid: Elly.Runtime.PlatformCharacter.CameraRiggingRoot
+  name: CameraRiggingRoot()
+  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_CameraRiggingRoot
+  commentId: M:Elly.Runtime.PlatformCharacter.CameraRiggingRoot
+  fullName: Elly.Runtime.PlatformCharacter.CameraRiggingRoot()
+  nameWithType: PlatformCharacter.CameraRiggingRoot()
+- uid: Elly.Runtime.PlatformCharacter.CameraRiggingRoot*
+  name: CameraRiggingRoot
+  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_CameraRiggingRoot_
+  commentId: Overload:Elly.Runtime.PlatformCharacter.CameraRiggingRoot
+  isSpec: "True"
+  fullName: Elly.Runtime.PlatformCharacter.CameraRiggingRoot
+  nameWithType: PlatformCharacter.CameraRiggingRoot
 - uid: Elly.Runtime.PlatformCharacter.Direction
   name: PlatformCharacter.Direction
   href: api/Elly.Runtime.PlatformCharacter.Direction.html
@@ -1538,3 +1359,151 @@ references:
   commentId: F:Elly.Runtime.TPSCharacter.ViewSpeed
   fullName: Elly.Runtime.TPSCharacter.ViewSpeed
   nameWithType: TPSCharacter.ViewSpeed
+- uid: Elly.Runtime.VibrationDirection
+  name: VibrationDirection
+  href: api/Elly.Runtime.VibrationDirection.html
+  commentId: T:Elly.Runtime.VibrationDirection
+  fullName: Elly.Runtime.VibrationDirection
+  nameWithType: VibrationDirection
+- uid: Elly.Runtime.VibrationDirection.X
+  name: X
+  href: api/Elly.Runtime.VibrationDirection.html#Elly_Runtime_VibrationDirection_X
+  commentId: F:Elly.Runtime.VibrationDirection.X
+  fullName: Elly.Runtime.VibrationDirection.X
+  nameWithType: VibrationDirection.X
+- uid: Elly.Runtime.VibrationDirection.XY
+  name: XY
+  href: api/Elly.Runtime.VibrationDirection.html#Elly_Runtime_VibrationDirection_XY
+  commentId: F:Elly.Runtime.VibrationDirection.XY
+  fullName: Elly.Runtime.VibrationDirection.XY
+  nameWithType: VibrationDirection.XY
+- uid: Elly.Runtime.VibrationDirection.XYZ
+  name: XYZ
+  href: api/Elly.Runtime.VibrationDirection.html#Elly_Runtime_VibrationDirection_XYZ
+  commentId: F:Elly.Runtime.VibrationDirection.XYZ
+  fullName: Elly.Runtime.VibrationDirection.XYZ
+  nameWithType: VibrationDirection.XYZ
+- uid: Elly.Runtime.VibrationDirection.XZ
+  name: XZ
+  href: api/Elly.Runtime.VibrationDirection.html#Elly_Runtime_VibrationDirection_XZ
+  commentId: F:Elly.Runtime.VibrationDirection.XZ
+  fullName: Elly.Runtime.VibrationDirection.XZ
+  nameWithType: VibrationDirection.XZ
+- uid: Elly.Runtime.VibrationDirection.Y
+  name: Y
+  href: api/Elly.Runtime.VibrationDirection.html#Elly_Runtime_VibrationDirection_Y
+  commentId: F:Elly.Runtime.VibrationDirection.Y
+  fullName: Elly.Runtime.VibrationDirection.Y
+  nameWithType: VibrationDirection.Y
+- uid: Elly.Runtime.VibrationDirection.YZ
+  name: YZ
+  href: api/Elly.Runtime.VibrationDirection.html#Elly_Runtime_VibrationDirection_YZ
+  commentId: F:Elly.Runtime.VibrationDirection.YZ
+  fullName: Elly.Runtime.VibrationDirection.YZ
+  nameWithType: VibrationDirection.YZ
+- uid: Elly.Runtime.VibrationDirection.Z
+  name: Z
+  href: api/Elly.Runtime.VibrationDirection.html#Elly_Runtime_VibrationDirection_Z
+  commentId: F:Elly.Runtime.VibrationDirection.Z
+  fullName: Elly.Runtime.VibrationDirection.Z
+  nameWithType: VibrationDirection.Z
+- uid: Elly.Runtime.VibrationStat
+  name: VibrationStat
+  href: api/Elly.Runtime.VibrationStat.html
+  commentId: T:Elly.Runtime.VibrationStat
+  fullName: Elly.Runtime.VibrationStat
+  nameWithType: VibrationStat
+- uid: Elly.Runtime.VibrationStat.Default
+  name: Default
+  href: api/Elly.Runtime.VibrationStat.html#Elly_Runtime_VibrationStat_Default
+  commentId: P:Elly.Runtime.VibrationStat.Default
+  fullName: Elly.Runtime.VibrationStat.Default
+  nameWithType: VibrationStat.Default
+- uid: Elly.Runtime.VibrationStat.Default*
+  name: Default
+  href: api/Elly.Runtime.VibrationStat.html#Elly_Runtime_VibrationStat_Default_
+  commentId: Overload:Elly.Runtime.VibrationStat.Default
+  isSpec: "True"
+  fullName: Elly.Runtime.VibrationStat.Default
+  nameWithType: VibrationStat.Default
+- uid: Elly.Runtime.VibrationStat.Dir
+  name: Dir
+  href: api/Elly.Runtime.VibrationStat.html#Elly_Runtime_VibrationStat_Dir
+  commentId: F:Elly.Runtime.VibrationStat.Dir
+  fullName: Elly.Runtime.VibrationStat.Dir
+  nameWithType: VibrationStat.Dir
+- uid: Elly.Runtime.VibrationStat.Frequency
+  name: Frequency
+  href: api/Elly.Runtime.VibrationStat.html#Elly_Runtime_VibrationStat_Frequency
+  commentId: F:Elly.Runtime.VibrationStat.Frequency
+  fullName: Elly.Runtime.VibrationStat.Frequency
+  nameWithType: VibrationStat.Frequency
+- uid: Elly.Runtime.VibrationStat.SetVibrationDirection(Elly.Runtime.VibrationDirection)
+  name: SetVibrationDirection(VibrationDirection)
+  href: api/Elly.Runtime.VibrationStat.html#Elly_Runtime_VibrationStat_SetVibrationDirection_Elly_Runtime_VibrationDirection_
+  commentId: M:Elly.Runtime.VibrationStat.SetVibrationDirection(Elly.Runtime.VibrationDirection)
+  fullName: Elly.Runtime.VibrationStat.SetVibrationDirection(Elly.Runtime.VibrationDirection)
+  nameWithType: VibrationStat.SetVibrationDirection(VibrationDirection)
+- uid: Elly.Runtime.VibrationStat.SetVibrationDirection(UnityEngine.Vector3)
+  name: SetVibrationDirection(Vector3)
+  href: api/Elly.Runtime.VibrationStat.html#Elly_Runtime_VibrationStat_SetVibrationDirection_UnityEngine_Vector3_
+  commentId: M:Elly.Runtime.VibrationStat.SetVibrationDirection(UnityEngine.Vector3)
+  fullName: Elly.Runtime.VibrationStat.SetVibrationDirection(UnityEngine.Vector3)
+  nameWithType: VibrationStat.SetVibrationDirection(Vector3)
+- uid: Elly.Runtime.VibrationStat.SetVibrationDirection*
+  name: SetVibrationDirection
+  href: api/Elly.Runtime.VibrationStat.html#Elly_Runtime_VibrationStat_SetVibrationDirection_
+  commentId: Overload:Elly.Runtime.VibrationStat.SetVibrationDirection
+  isSpec: "True"
+  fullName: Elly.Runtime.VibrationStat.SetVibrationDirection
+  nameWithType: VibrationStat.SetVibrationDirection
+- uid: Elly.Runtime.VibrationStat.SmoothTime
+  name: SmoothTime
+  href: api/Elly.Runtime.VibrationStat.html#Elly_Runtime_VibrationStat_SmoothTime
+  commentId: F:Elly.Runtime.VibrationStat.SmoothTime
+  fullName: Elly.Runtime.VibrationStat.SmoothTime
+  nameWithType: VibrationStat.SmoothTime
+- uid: Elly.Runtime.VibrationStat.Strength
+  name: Strength
+  href: api/Elly.Runtime.VibrationStat.html#Elly_Runtime_VibrationStat_Strength
+  commentId: F:Elly.Runtime.VibrationStat.Strength
+  fullName: Elly.Runtime.VibrationStat.Strength
+  nameWithType: VibrationStat.Strength
+- uid: Elly.Runtime.VibrationStat.Tolerance
+  name: Tolerance
+  href: api/Elly.Runtime.VibrationStat.html#Elly_Runtime_VibrationStat_Tolerance
+  commentId: F:Elly.Runtime.VibrationStat.Tolerance
+  fullName: Elly.Runtime.VibrationStat.Tolerance
+  nameWithType: VibrationStat.Tolerance
+- uid: Elly.Runtime.VibrationStat.Update
+  name: Update()
+  href: api/Elly.Runtime.VibrationStat.html#Elly_Runtime_VibrationStat_Update
+  commentId: M:Elly.Runtime.VibrationStat.Update
+  fullName: Elly.Runtime.VibrationStat.Update()
+  nameWithType: VibrationStat.Update()
+- uid: Elly.Runtime.VibrationStat.Update*
+  name: Update
+  href: api/Elly.Runtime.VibrationStat.html#Elly_Runtime_VibrationStat_Update_
+  commentId: Overload:Elly.Runtime.VibrationStat.Update
+  isSpec: "True"
+  fullName: Elly.Runtime.VibrationStat.Update
+  nameWithType: VibrationStat.Update
+- uid: Elly.Runtime.VibrationStat.Velocity
+  name: Velocity
+  href: api/Elly.Runtime.VibrationStat.html#Elly_Runtime_VibrationStat_Velocity
+  commentId: F:Elly.Runtime.VibrationStat.Velocity
+  fullName: Elly.Runtime.VibrationStat.Velocity
+  nameWithType: VibrationStat.Velocity
+- uid: Elly.Runtime.VibrationStat.Vibration
+  name: Vibration
+  href: api/Elly.Runtime.VibrationStat.html#Elly_Runtime_VibrationStat_Vibration
+  commentId: P:Elly.Runtime.VibrationStat.Vibration
+  fullName: Elly.Runtime.VibrationStat.Vibration
+  nameWithType: VibrationStat.Vibration
+- uid: Elly.Runtime.VibrationStat.Vibration*
+  name: Vibration
+  href: api/Elly.Runtime.VibrationStat.html#Elly_Runtime_VibrationStat_Vibration_
+  commentId: Overload:Elly.Runtime.VibrationStat.Vibration
+  isSpec: "True"
+  fullName: Elly.Runtime.VibrationStat.Vibration
+  nameWithType: VibrationStat.Vibration

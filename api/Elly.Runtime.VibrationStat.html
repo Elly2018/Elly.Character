@@ -1,0 +1,414 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct VibrationStat
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct VibrationStat
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Elly.Runtime.VibrationStat">
+  
+  
+  <h1 id="Elly_Runtime_VibrationStat" data-uid="Elly.Runtime.VibrationStat" class="text-break">Struct VibrationStat
+  </h1>
+  <div class="markdown level0 summary"><p>Vibration value pack</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Elly.Runtime.html">Elly.Runtime</a></h6>
+  <h6><strong>Assembly</strong>: Elly.Character.dll</h6>
+  <h5 id="Elly_Runtime_VibrationStat_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public struct VibrationStat</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Elly_Runtime_VibrationStat_Dir" data-uid="Elly.Runtime.VibrationStat.Dir">Dir</h4>
+  <div class="markdown level1 summary"><p>Vibration direction <br>
+It will vibration by two point: [dir, -dir]</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;Vibration direction&quot;)]
+public Vector3 Dir</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_VibrationStat_Frequency" data-uid="Elly.Runtime.VibrationStat.Frequency">Frequency</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;Frequency will effect vibrate speed&quot;)]
+public float Frequency</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_VibrationStat_SmoothTime" data-uid="Elly.Runtime.VibrationStat.SmoothTime">SmoothTime</h4>
+  <div class="markdown level1 summary"><p>The lower the value, the faster strength value decrease</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;Slow down smoothTime&quot;)]
+public float SmoothTime</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_VibrationStat_Strength" data-uid="Elly.Runtime.VibrationStat.Strength">Strength</h4>
+  <div class="markdown level1 summary"><p>Strength is determine vibrate speed and if vibration is enable <br>
+During the update this value will decreasse over time smoothly <br>
+When it hit the tolerance value it will set to 0</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;Strength is determine vibrate speed and if vibration is enable&quot;)]
+public float Strength</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_VibrationStat_Tolerance" data-uid="Elly.Runtime.VibrationStat.Tolerance">Tolerance</h4>
+  <div class="markdown level1 summary"><p>When strength is lower than this value, just set to 0</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;When strength is lower than this value, just set to 0&quot;)]
+public float Tolerance</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_VibrationStat_Velocity" data-uid="Elly.Runtime.VibrationStat.Velocity">Velocity</h4>
+  <div class="markdown level1 summary"><p>Smoothdamp velocity</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public float Velocity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Elly_Runtime_VibrationStat_Default_" data-uid="Elly.Runtime.VibrationStat.Default*"></a>
+  <h4 id="Elly_Runtime_VibrationStat_Default" data-uid="Elly.Runtime.VibrationStat.Default">Default</h4>
+  <div class="markdown level1 summary"><p>Default vibration values</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly VibrationStat Default { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Elly.Runtime.VibrationStat.html">VibrationStat</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_VibrationStat_Vibration_" data-uid="Elly.Runtime.VibrationStat.Vibration*"></a>
+  <h4 id="Elly_Runtime_VibrationStat_Vibration" data-uid="Elly.Runtime.VibrationStat.Vibration">Vibration</h4>
+  <div class="markdown level1 summary"><p>Current vibration additional vector <br>
+This is the result calculate vector <br>
+Apply this to camera position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Vector3 Vibration { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Elly_Runtime_VibrationStat_SetVibrationDirection_" data-uid="Elly.Runtime.VibrationStat.SetVibrationDirection*"></a>
+  <h4 id="Elly_Runtime_VibrationStat_SetVibrationDirection_Elly_Runtime_VibrationDirection_" data-uid="Elly.Runtime.VibrationStat.SetVibrationDirection(Elly.Runtime.VibrationDirection)">SetVibrationDirection(VibrationDirection)</h4>
+  <div class="markdown level1 summary"><p>Set vibrate direction</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetVibrationDirection(VibrationDirection dir)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Elly.Runtime.VibrationDirection.html">VibrationDirection</a></td>
+        <td><span class="parametername">dir</span></td>
+        <td><p>Direction</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_VibrationStat_SetVibrationDirection_" data-uid="Elly.Runtime.VibrationStat.SetVibrationDirection*"></a>
+  <h4 id="Elly_Runtime_VibrationStat_SetVibrationDirection_UnityEngine_Vector3_" data-uid="Elly.Runtime.VibrationStat.SetVibrationDirection(UnityEngine.Vector3)">SetVibrationDirection(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Set vibrate direction</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetVibrationDirection(Vector3 dir)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">dir</span></td>
+        <td><p>Direction</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_VibrationStat_Update_" data-uid="Elly.Runtime.VibrationStat.Update*"></a>
+  <h4 id="Elly_Runtime_VibrationStat_Update" data-uid="Elly.Runtime.VibrationStat.Update">Update()</h4>
+  <div class="markdown level1 summary"><p>Strength decrease smoothly over time</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

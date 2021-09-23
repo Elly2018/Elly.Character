@@ -1,0 +1,360 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct ControllerStat
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct ControllerStat
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Elly.Runtime.ControllerStat">
+  
+  
+  <h1 id="Elly_Runtime_ControllerStat" data-uid="Elly.Runtime.ControllerStat" class="text-break">Struct ControllerStat
+  </h1>
+  <div class="markdown level0 summary"><p>Controller value pack</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Elly.Runtime.html">Elly.Runtime</a></h6>
+  <h6><strong>Assembly</strong>: Elly.Character.dll</h6>
+  <h5 id="Elly_Runtime_ControllerStat_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public struct ControllerStat</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Elly_Runtime_ControllerStat_CamCenterMoveSmoothSpeed" data-uid="Elly.Runtime.ControllerStat.CamCenterMoveSmoothSpeed">CamCenterMoveSmoothSpeed</h4>
+  <div class="markdown level1 summary"><p>Camera rigging transform smoothing moving speed <br>
+The small the number, the faster it move <br>
+If it's 0 then it won't called smoothdamp function, it will just apply the <seealso cref="!:_CamCenterMovingDest"></seealso></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;The lower the value, the faster it move&quot;)]
+[Range(0F, 2F)]
+public float CamCenterMoveSmoothSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_ControllerStat_CamCenterRotateSmoothSpeed" data-uid="Elly.Runtime.ControllerStat.CamCenterRotateSmoothSpeed">CamCenterRotateSmoothSpeed</h4>
+  <div class="markdown level1 summary"><p>Camera rigging transform smoothing rotating speed <br>
+The small the number, the faster it rotate <br>
+If it's 0 then it won't called smoothdamp function, it will just apply the <seealso cref="!:_CamCenterRotationDest"></seealso></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;The lower the value, the faster it rotate&quot;)]
+[Range(0F, 2F)]
+public float CamCenterRotateSmoothSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_ControllerStat_CamMoveSmoothSpeed" data-uid="Elly.Runtime.ControllerStat.CamMoveSmoothSpeed">CamMoveSmoothSpeed</h4>
+  <div class="markdown level1 summary"><p>Camera transform smoothing moving speed <br>
+The small the number, the faster it move <br>
+If it's 0 then it won't called smoothdamp function, it will just apply the <seealso cref="!:_CamMovingDest"></seealso></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;The lower the value, the faster it move&quot;)]
+[Range(0F, 2F)]
+public float CamMoveSmoothSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_ControllerStat_CamRotateSmoothSpeed" data-uid="Elly.Runtime.ControllerStat.CamRotateSmoothSpeed">CamRotateSmoothSpeed</h4>
+  <div class="markdown level1 summary"><p>Camera transform smoothing rotating speed <br>
+The small the number, the faster it rotate <br>
+If it's 0 then it won't called smoothdamp function, it will just apply the <seealso cref="!:_CamRotationDest"></seealso></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;The lower the value, the faster it rotate&quot;)]
+[Range(0F, 2F)]
+public float CamRotateSmoothSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_ControllerStat_CanMove" data-uid="Elly.Runtime.ControllerStat.CanMove">CanMove</h4>
+  <div class="markdown level1 summary"><p>The trigger tell if player moving control is enable</p>
+<pre><code>if (_CanMove){
+    // Insert moving related code here
+}</code></pre>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;Moving control enable&quot;)]
+public bool CanMove</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_ControllerStat_CanSee" data-uid="Elly.Runtime.ControllerStat.CanSee">CanSee</h4>
+  <div class="markdown level1 summary"><p>The trigger tell if player looking control is enable</p>
+<pre><code>if (_CanSee){
+    // Insert seeing related code here
+}</code></pre>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;Rotate control enable&quot;)]
+public bool CanSee</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_ControllerStat_InverseY" data-uid="Elly.Runtime.ControllerStat.InverseY">InverseY</h4>
+  <div class="markdown level1 summary"><p>Player look control y will multiply by -1 <br>
+If false then it will multiply by 1</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;Inverse mouse y&quot;)]
+public bool InverseY</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Elly_Runtime_ControllerStat_Default_" data-uid="Elly.Runtime.ControllerStat.Default*"></a>
+  <h4 id="Elly_Runtime_ControllerStat_Default" data-uid="Elly.Runtime.ControllerStat.Default">Default</h4>
+  <div class="markdown level1 summary"><p>Default controller values</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ControllerStat Default { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Elly.Runtime.ControllerStat.html">ControllerStat</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
