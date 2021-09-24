@@ -249,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/custom.html",
-          "hash": "LOALzfEyWzdjax68XZaK+Tj85xrZ0jmGtQbbhSFNlLY="
+          "hash": "J5Yrr3/oQTSdWqIqrHGgiJijMeatFujSmZozxjLJIuc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -264,7 +264,7 @@
           "hash": "bWuT/0TgsF2tOFgHFSkZxJlF2yElWNKDmrvMwL28F60="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
