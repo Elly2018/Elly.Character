@@ -110,16 +110,16 @@ public class CustomCharacter : TopdownCharacter</code></pre>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase___Camera">CharacterBase.__Camera</a>
     </div>
     <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CameraCenter">CharacterBase._CameraCenter</a>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CameraRigging">CharacterBase._CameraRigging</a>
     </div>
     <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase___CameraCenter">CharacterBase.__CameraCenter</a>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase___CameraRigging">CharacterBase.__CameraRigging</a>
     </div>
     <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterMovingDest">CharacterBase._CamCenterMovingDest</a>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRiggingMovingDest">CharacterBase._CamRiggingMovingDest</a>
     </div>
     <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterRotationDest">CharacterBase._CamCenterRotationDest</a>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRiggingRotationDest">CharacterBase._CamRiggingRotationDest</a>
     </div>
     <div>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamMovingDest">CharacterBase._CamMovingDest</a>
@@ -128,10 +128,10 @@ public class CustomCharacter : TopdownCharacter</code></pre>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRotationDest">CharacterBase._CamRotationDest</a>
     </div>
     <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterMovingVelocity">CharacterBase._CamCenterMovingVelocity</a>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRiggingMovingVelocity">CharacterBase._CamRiggingMovingVelocity</a>
     </div>
     <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterRotatingVelocity">CharacterBase._CamCenterRotatingVelocity</a>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRiggingRotatingVelocity">CharacterBase._CamRiggingRotatingVelocity</a>
     </div>
     <div>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamMovingVelocity">CharacterBase._CamMovingVelocity</a>
@@ -207,6 +207,21 @@ public class CustomCharacter : TopdownCharacter</code></pre>
     </div>
     <div>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_MoveVector_UnityEngine_Vector3_System_Single_System_Single_">CharacterBase.MoveVector(Vector3, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_VibrationUpdate">CharacterBase.VibrationUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraPositionSmoothDamp">CharacterBase.CameraPositionSmoothDamp()</a>
+    </div>
+    <div>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRotationSmoothDamp">CharacterBase.CameraRotationSmoothDamp()</a>
+    </div>
+    <div>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRiggingPositionSmoothDamp">CharacterBase.CameraRiggingPositionSmoothDamp()</a>
+    </div>
+    <div>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRiggingRotationSmoothDamp">CharacterBase.CameraRiggingRotationSmoothDamp()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Elly.Runtime.html">Elly.Runtime</a></h6>
@@ -294,6 +309,33 @@ protected float DegreeBounds</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Elly_Runtime_TopdownCharacter_ForceOnGround" data-uid="Elly.Runtime.TopdownCharacter.ForceOnGround">ForceOnGround</h4>
+  <div class="markdown level1 summary"><p>Should it trying to casting the ground and teleport it</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Setting&quot;)]
+[SerializeField]
+protected bool ForceOnGround</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -490,8 +532,7 @@ In <a class="xref" href="Elly.Runtime.TopdownCharacter.html#Elly_Runtime_Topdown
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;Setting&quot;)]
-[SerializeField]
+    <pre><code class="lang-csharp hljs">[SerializeField]
 protected float StartDistance</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -762,7 +803,7 @@ If even the plane does not intersect with the ray, Return transform position</p>
   
   <a id="Elly_Runtime_TopdownCharacter_CameraUpdate_" data-uid="Elly.Runtime.TopdownCharacter.CameraUpdate*"></a>
   <h4 id="Elly_Runtime_TopdownCharacter_CameraUpdate" data-uid="Elly.Runtime.TopdownCharacter.CameraUpdate">CameraUpdate()</h4>
-  <div class="markdown level1 summary"><p>Set character position to <a class="xref" href="Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_ViewPos">ViewPos</a> <br>
+  <div class="markdown level1 summary"><p>Set character position to <a class="xref" href="Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_ViewPos">ViewPos</a> if force on ground is enable <br>
 And keep distance between camera to character right</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -770,6 +811,73 @@ And keep distance between camera to character right</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void CameraUpdate()</code></pre>
   </div>
+  
+  
+  <a id="Elly_Runtime_TopdownCharacter_FixedUpdate_" data-uid="Elly.Runtime.TopdownCharacter.FixedUpdate*"></a>
+  <h4 id="Elly_Runtime_TopdownCharacter_FixedUpdate" data-uid="Elly.Runtime.TopdownCharacter.FixedUpdate">FixedUpdate()</h4>
+  <div class="markdown level1 summary"><p>Execute moving action</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void FixedUpdate()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_FixedUpdate">CharacterBase.FixedUpdate()</a></div>
+  
+  
+  <a id="Elly_Runtime_TopdownCharacter_LookAction_" data-uid="Elly.Runtime.TopdownCharacter.LookAction*"></a>
+  <h4 id="Elly_Runtime_TopdownCharacter_LookAction_UnityEngine_Vector2_" data-uid="Elly.Runtime.TopdownCharacter.LookAction(UnityEngine.Vector2)">LookAction(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void LookAction(Vector2 dir)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">dir</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Elly_Runtime_TopdownCharacter_MoveAction_" data-uid="Elly.Runtime.TopdownCharacter.MoveAction*"></a>
+  <h4 id="Elly_Runtime_TopdownCharacter_MoveAction_UnityEngine_Vector2_" data-uid="Elly.Runtime.TopdownCharacter.MoveAction(UnityEngine.Vector2)">MoveAction(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void MoveAction(Vector2 dir)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">dir</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Elly_Runtime_TopdownCharacter_OnLook_" data-uid="Elly.Runtime.TopdownCharacter.OnLook*"></a>
@@ -856,14 +964,14 @@ And keep distance between camera to character right</p>
   </table>
   
   
-  <a id="Elly_Runtime_TopdownCharacter_OnVertical_" data-uid="Elly.Runtime.TopdownCharacter.OnVertical*"></a>
-  <h4 id="Elly_Runtime_TopdownCharacter_OnVertical_UnityEngine_InputSystem_InputValue_" data-uid="Elly.Runtime.TopdownCharacter.OnVertical(UnityEngine.InputSystem.InputValue)">OnVertical(InputValue)</h4>
+  <a id="Elly_Runtime_TopdownCharacter_OnZoom_" data-uid="Elly.Runtime.TopdownCharacter.OnZoom*"></a>
+  <h4 id="Elly_Runtime_TopdownCharacter_OnZoom_UnityEngine_InputSystem_InputValue_" data-uid="Elly.Runtime.TopdownCharacter.OnZoom(UnityEngine.InputSystem.InputValue)">OnZoom(InputValue)</h4>
   <div class="markdown level1 summary"><p>Apply zoom number to <a class="xref" href="Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_zoomDir">zoomDir</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void OnVertical(InputValue context)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void OnZoom(InputValue context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -899,7 +1007,7 @@ And keep distance between camera to character right</p>
   
   <a id="Elly_Runtime_TopdownCharacter_Update_" data-uid="Elly.Runtime.TopdownCharacter.Update*"></a>
   <h4 id="Elly_Runtime_TopdownCharacter_Update" data-uid="Elly.Runtime.TopdownCharacter.Update">Update()</h4>
-  <div class="markdown level1 summary"><p>Execute moving, looking, zooming action</p>
+  <div class="markdown level1 summary"><p>Execute looking, zooming action</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -908,6 +1016,33 @@ And keep distance between camera to character right</p>
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Update">CharacterBase.Update()</a></div>
+  
+  
+  <a id="Elly_Runtime_TopdownCharacter_ZoomAction_" data-uid="Elly.Runtime.TopdownCharacter.ZoomAction*"></a>
+  <h4 id="Elly_Runtime_TopdownCharacter_ZoomAction_System_Single_" data-uid="Elly.Runtime.TopdownCharacter.ZoomAction(System.Single)">ZoomAction(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ZoomAction(float dir)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">dir</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

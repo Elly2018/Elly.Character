@@ -61,12 +61,31 @@ references:
   isSpec: "True"
   fullName: Elly.MathE.Quaternion.WorldToLocal
   nameWithType: MathE.Quaternion.WorldToLocal
+- uid: Elly.MathE.RotationAngle360ToPositionNegative180(System.Single)
+  name: RotationAngle360ToPositionNegative180(Single)
+  href: api/Elly.MathE.html#Elly_MathE_RotationAngle360ToPositionNegative180_System_Single_
+  commentId: M:Elly.MathE.RotationAngle360ToPositionNegative180(System.Single)
+  fullName: Elly.MathE.RotationAngle360ToPositionNegative180(System.Single)
+  nameWithType: MathE.RotationAngle360ToPositionNegative180(Single)
+- uid: Elly.MathE.RotationAngle360ToPositionNegative180*
+  name: RotationAngle360ToPositionNegative180
+  href: api/Elly.MathE.html#Elly_MathE_RotationAngle360ToPositionNegative180_
+  commentId: Overload:Elly.MathE.RotationAngle360ToPositionNegative180
+  isSpec: "True"
+  fullName: Elly.MathE.RotationAngle360ToPositionNegative180
+  nameWithType: MathE.RotationAngle360ToPositionNegative180
 - uid: Elly.Runtime
   name: Elly.Runtime
   href: api/Elly.Runtime.html
   commentId: N:Elly.Runtime
   fullName: Elly.Runtime
   nameWithType: Elly.Runtime
+- uid: Elly.Runtime.BuiltInScript
+  name: BuiltInScript
+  href: api/Elly.Runtime.BuiltInScript.html
+  commentId: T:Elly.Runtime.BuiltInScript
+  fullName: Elly.Runtime.BuiltInScript
+  nameWithType: BuiltInScript
 - uid: Elly.Runtime.CharacterBase
   name: CharacterBase
   href: api/Elly.Runtime.CharacterBase.html
@@ -79,36 +98,12 @@ references:
   commentId: F:Elly.Runtime.CharacterBase.__Camera
   fullName: Elly.Runtime.CharacterBase.__Camera
   nameWithType: CharacterBase.__Camera
-- uid: Elly.Runtime.CharacterBase.__CameraCenter
-  name: __CameraCenter
-  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase___CameraCenter
-  commentId: F:Elly.Runtime.CharacterBase.__CameraCenter
-  fullName: Elly.Runtime.CharacterBase.__CameraCenter
-  nameWithType: CharacterBase.__CameraCenter
-- uid: Elly.Runtime.CharacterBase._CamCenterMovingDest
-  name: _CamCenterMovingDest
-  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterMovingDest
-  commentId: F:Elly.Runtime.CharacterBase._CamCenterMovingDest
-  fullName: Elly.Runtime.CharacterBase._CamCenterMovingDest
-  nameWithType: CharacterBase._CamCenterMovingDest
-- uid: Elly.Runtime.CharacterBase._CamCenterMovingVelocity
-  name: _CamCenterMovingVelocity
-  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterMovingVelocity
-  commentId: F:Elly.Runtime.CharacterBase._CamCenterMovingVelocity
-  fullName: Elly.Runtime.CharacterBase._CamCenterMovingVelocity
-  nameWithType: CharacterBase._CamCenterMovingVelocity
-- uid: Elly.Runtime.CharacterBase._CamCenterRotatingVelocity
-  name: _CamCenterRotatingVelocity
-  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterRotatingVelocity
-  commentId: F:Elly.Runtime.CharacterBase._CamCenterRotatingVelocity
-  fullName: Elly.Runtime.CharacterBase._CamCenterRotatingVelocity
-  nameWithType: CharacterBase._CamCenterRotatingVelocity
-- uid: Elly.Runtime.CharacterBase._CamCenterRotationDest
-  name: _CamCenterRotationDest
-  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterRotationDest
-  commentId: F:Elly.Runtime.CharacterBase._CamCenterRotationDest
-  fullName: Elly.Runtime.CharacterBase._CamCenterRotationDest
-  nameWithType: CharacterBase._CamCenterRotationDest
+- uid: Elly.Runtime.CharacterBase.__CameraRigging
+  name: __CameraRigging
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase___CameraRigging
+  commentId: F:Elly.Runtime.CharacterBase.__CameraRigging
+  fullName: Elly.Runtime.CharacterBase.__CameraRigging
+  nameWithType: CharacterBase.__CameraRigging
 - uid: Elly.Runtime.CharacterBase._Camera
   name: _Camera
   href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__Camera
@@ -122,19 +117,19 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.CharacterBase._Camera
   nameWithType: CharacterBase._Camera
-- uid: Elly.Runtime.CharacterBase._CameraCenter
-  name: _CameraCenter
-  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CameraCenter
-  commentId: P:Elly.Runtime.CharacterBase._CameraCenter
-  fullName: Elly.Runtime.CharacterBase._CameraCenter
-  nameWithType: CharacterBase._CameraCenter
-- uid: Elly.Runtime.CharacterBase._CameraCenter*
-  name: _CameraCenter
-  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CameraCenter_
-  commentId: Overload:Elly.Runtime.CharacterBase._CameraCenter
+- uid: Elly.Runtime.CharacterBase._CameraRigging
+  name: _CameraRigging
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CameraRigging
+  commentId: P:Elly.Runtime.CharacterBase._CameraRigging
+  fullName: Elly.Runtime.CharacterBase._CameraRigging
+  nameWithType: CharacterBase._CameraRigging
+- uid: Elly.Runtime.CharacterBase._CameraRigging*
+  name: _CameraRigging
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CameraRigging_
+  commentId: Overload:Elly.Runtime.CharacterBase._CameraRigging
   isSpec: "True"
-  fullName: Elly.Runtime.CharacterBase._CameraCenter
-  nameWithType: CharacterBase._CameraCenter
+  fullName: Elly.Runtime.CharacterBase._CameraRigging
+  nameWithType: CharacterBase._CameraRigging
 - uid: Elly.Runtime.CharacterBase._CamMovingDest
   name: _CamMovingDest
   href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamMovingDest
@@ -147,6 +142,30 @@ references:
   commentId: F:Elly.Runtime.CharacterBase._CamMovingVelocity
   fullName: Elly.Runtime.CharacterBase._CamMovingVelocity
   nameWithType: CharacterBase._CamMovingVelocity
+- uid: Elly.Runtime.CharacterBase._CamRiggingMovingDest
+  name: _CamRiggingMovingDest
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRiggingMovingDest
+  commentId: F:Elly.Runtime.CharacterBase._CamRiggingMovingDest
+  fullName: Elly.Runtime.CharacterBase._CamRiggingMovingDest
+  nameWithType: CharacterBase._CamRiggingMovingDest
+- uid: Elly.Runtime.CharacterBase._CamRiggingMovingVelocity
+  name: _CamRiggingMovingVelocity
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRiggingMovingVelocity
+  commentId: F:Elly.Runtime.CharacterBase._CamRiggingMovingVelocity
+  fullName: Elly.Runtime.CharacterBase._CamRiggingMovingVelocity
+  nameWithType: CharacterBase._CamRiggingMovingVelocity
+- uid: Elly.Runtime.CharacterBase._CamRiggingRotatingVelocity
+  name: _CamRiggingRotatingVelocity
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRiggingRotatingVelocity
+  commentId: F:Elly.Runtime.CharacterBase._CamRiggingRotatingVelocity
+  fullName: Elly.Runtime.CharacterBase._CamRiggingRotatingVelocity
+  nameWithType: CharacterBase._CamRiggingRotatingVelocity
+- uid: Elly.Runtime.CharacterBase._CamRiggingRotationDest
+  name: _CamRiggingRotationDest
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRiggingRotationDest
+  commentId: F:Elly.Runtime.CharacterBase._CamRiggingRotationDest
+  fullName: Elly.Runtime.CharacterBase._CamRiggingRotationDest
+  nameWithType: CharacterBase._CamRiggingRotationDest
 - uid: Elly.Runtime.CharacterBase._CamRotatingVelocity
   name: _CamRotatingVelocity
   href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRotatingVelocity
@@ -229,6 +248,32 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.CharacterBase.CameraLookAtForView
   nameWithType: CharacterBase.CameraLookAtForView
+- uid: Elly.Runtime.CharacterBase.CameraPositionSmoothDamp
+  name: CameraPositionSmoothDamp()
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraPositionSmoothDamp
+  commentId: M:Elly.Runtime.CharacterBase.CameraPositionSmoothDamp
+  fullName: Elly.Runtime.CharacterBase.CameraPositionSmoothDamp()
+  nameWithType: CharacterBase.CameraPositionSmoothDamp()
+- uid: Elly.Runtime.CharacterBase.CameraPositionSmoothDamp*
+  name: CameraPositionSmoothDamp
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraPositionSmoothDamp_
+  commentId: Overload:Elly.Runtime.CharacterBase.CameraPositionSmoothDamp
+  isSpec: "True"
+  fullName: Elly.Runtime.CharacterBase.CameraPositionSmoothDamp
+  nameWithType: CharacterBase.CameraPositionSmoothDamp
+- uid: Elly.Runtime.CharacterBase.CameraRiggingPositionSmoothDamp
+  name: CameraRiggingPositionSmoothDamp()
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRiggingPositionSmoothDamp
+  commentId: M:Elly.Runtime.CharacterBase.CameraRiggingPositionSmoothDamp
+  fullName: Elly.Runtime.CharacterBase.CameraRiggingPositionSmoothDamp()
+  nameWithType: CharacterBase.CameraRiggingPositionSmoothDamp()
+- uid: Elly.Runtime.CharacterBase.CameraRiggingPositionSmoothDamp*
+  name: CameraRiggingPositionSmoothDamp
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRiggingPositionSmoothDamp_
+  commentId: Overload:Elly.Runtime.CharacterBase.CameraRiggingPositionSmoothDamp
+  isSpec: "True"
+  fullName: Elly.Runtime.CharacterBase.CameraRiggingPositionSmoothDamp
+  nameWithType: CharacterBase.CameraRiggingPositionSmoothDamp
 - uid: Elly.Runtime.CharacterBase.CameraRiggingRoot
   name: CameraRiggingRoot()
   href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRiggingRoot
@@ -242,6 +287,19 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.CharacterBase.CameraRiggingRoot
   nameWithType: CharacterBase.CameraRiggingRoot
+- uid: Elly.Runtime.CharacterBase.CameraRiggingRotationSmoothDamp
+  name: CameraRiggingRotationSmoothDamp()
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRiggingRotationSmoothDamp
+  commentId: M:Elly.Runtime.CharacterBase.CameraRiggingRotationSmoothDamp
+  fullName: Elly.Runtime.CharacterBase.CameraRiggingRotationSmoothDamp()
+  nameWithType: CharacterBase.CameraRiggingRotationSmoothDamp()
+- uid: Elly.Runtime.CharacterBase.CameraRiggingRotationSmoothDamp*
+  name: CameraRiggingRotationSmoothDamp
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRiggingRotationSmoothDamp_
+  commentId: Overload:Elly.Runtime.CharacterBase.CameraRiggingRotationSmoothDamp
+  isSpec: "True"
+  fullName: Elly.Runtime.CharacterBase.CameraRiggingRotationSmoothDamp
+  nameWithType: CharacterBase.CameraRiggingRotationSmoothDamp
 - uid: Elly.Runtime.CharacterBase.CameraRotateForView(System.Single,System.Single,System.Boolean)
   name: CameraRotateForView(Single, Single, Boolean)
   href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRotateForView_System_Single_System_Single_System_Boolean_
@@ -273,6 +331,19 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.CharacterBase.CameraRotateForView
   nameWithType: CharacterBase.CameraRotateForView
+- uid: Elly.Runtime.CharacterBase.CameraRotationSmoothDamp
+  name: CameraRotationSmoothDamp()
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRotationSmoothDamp
+  commentId: M:Elly.Runtime.CharacterBase.CameraRotationSmoothDamp
+  fullName: Elly.Runtime.CharacterBase.CameraRotationSmoothDamp()
+  nameWithType: CharacterBase.CameraRotationSmoothDamp()
+- uid: Elly.Runtime.CharacterBase.CameraRotationSmoothDamp*
+  name: CameraRotationSmoothDamp
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRotationSmoothDamp_
+  commentId: Overload:Elly.Runtime.CharacterBase.CameraRotationSmoothDamp
+  isSpec: "True"
+  fullName: Elly.Runtime.CharacterBase.CameraRotationSmoothDamp
+  nameWithType: CharacterBase.CameraRotationSmoothDamp
 - uid: Elly.Runtime.CharacterBase.ChangeCanMove(System.Boolean)
   name: ChangeCanMove(Boolean)
   href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_ChangeCanMove_System_Boolean_
@@ -331,6 +402,19 @@ references:
   commentId: F:Elly.Runtime.CharacterBase.Controller
   fullName: Elly.Runtime.CharacterBase.Controller
   nameWithType: CharacterBase.Controller
+- uid: Elly.Runtime.CharacterBase.FixedUpdate
+  name: FixedUpdate()
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_FixedUpdate
+  commentId: M:Elly.Runtime.CharacterBase.FixedUpdate
+  fullName: Elly.Runtime.CharacterBase.FixedUpdate()
+  nameWithType: CharacterBase.FixedUpdate()
+- uid: Elly.Runtime.CharacterBase.FixedUpdate*
+  name: FixedUpdate
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_FixedUpdate_
+  commentId: Overload:Elly.Runtime.CharacterBase.FixedUpdate
+  isSpec: "True"
+  fullName: Elly.Runtime.CharacterBase.FixedUpdate
+  nameWithType: CharacterBase.FixedUpdate
 - uid: Elly.Runtime.CharacterBase.LookVector(UnityEngine.Vector2,System.Single)
   name: LookVector(Vector2, Single)
   href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_LookVector_UnityEngine_Vector2_System_Single_
@@ -469,30 +553,43 @@ references:
   commentId: F:Elly.Runtime.CharacterBase.Vibration
   fullName: Elly.Runtime.CharacterBase.Vibration
   nameWithType: CharacterBase.Vibration
+- uid: Elly.Runtime.CharacterBase.VibrationUpdate
+  name: VibrationUpdate()
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_VibrationUpdate
+  commentId: M:Elly.Runtime.CharacterBase.VibrationUpdate
+  fullName: Elly.Runtime.CharacterBase.VibrationUpdate()
+  nameWithType: CharacterBase.VibrationUpdate()
+- uid: Elly.Runtime.CharacterBase.VibrationUpdate*
+  name: VibrationUpdate
+  href: api/Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_VibrationUpdate_
+  commentId: Overload:Elly.Runtime.CharacterBase.VibrationUpdate
+  isSpec: "True"
+  fullName: Elly.Runtime.CharacterBase.VibrationUpdate
+  nameWithType: CharacterBase.VibrationUpdate
 - uid: Elly.Runtime.ControllerStat
   name: ControllerStat
   href: api/Elly.Runtime.ControllerStat.html
   commentId: T:Elly.Runtime.ControllerStat
   fullName: Elly.Runtime.ControllerStat
   nameWithType: ControllerStat
-- uid: Elly.Runtime.ControllerStat.CamCenterMoveSmoothSpeed
-  name: CamCenterMoveSmoothSpeed
-  href: api/Elly.Runtime.ControllerStat.html#Elly_Runtime_ControllerStat_CamCenterMoveSmoothSpeed
-  commentId: F:Elly.Runtime.ControllerStat.CamCenterMoveSmoothSpeed
-  fullName: Elly.Runtime.ControllerStat.CamCenterMoveSmoothSpeed
-  nameWithType: ControllerStat.CamCenterMoveSmoothSpeed
-- uid: Elly.Runtime.ControllerStat.CamCenterRotateSmoothSpeed
-  name: CamCenterRotateSmoothSpeed
-  href: api/Elly.Runtime.ControllerStat.html#Elly_Runtime_ControllerStat_CamCenterRotateSmoothSpeed
-  commentId: F:Elly.Runtime.ControllerStat.CamCenterRotateSmoothSpeed
-  fullName: Elly.Runtime.ControllerStat.CamCenterRotateSmoothSpeed
-  nameWithType: ControllerStat.CamCenterRotateSmoothSpeed
 - uid: Elly.Runtime.ControllerStat.CamMoveSmoothSpeed
   name: CamMoveSmoothSpeed
   href: api/Elly.Runtime.ControllerStat.html#Elly_Runtime_ControllerStat_CamMoveSmoothSpeed
   commentId: F:Elly.Runtime.ControllerStat.CamMoveSmoothSpeed
   fullName: Elly.Runtime.ControllerStat.CamMoveSmoothSpeed
   nameWithType: ControllerStat.CamMoveSmoothSpeed
+- uid: Elly.Runtime.ControllerStat.CamRiggingMoveSmoothSpeed
+  name: CamRiggingMoveSmoothSpeed
+  href: api/Elly.Runtime.ControllerStat.html#Elly_Runtime_ControllerStat_CamRiggingMoveSmoothSpeed
+  commentId: F:Elly.Runtime.ControllerStat.CamRiggingMoveSmoothSpeed
+  fullName: Elly.Runtime.ControllerStat.CamRiggingMoveSmoothSpeed
+  nameWithType: ControllerStat.CamRiggingMoveSmoothSpeed
+- uid: Elly.Runtime.ControllerStat.CamRiggingRotateSmoothSpeed
+  name: CamRiggingRotateSmoothSpeed
+  href: api/Elly.Runtime.ControllerStat.html#Elly_Runtime_ControllerStat_CamRiggingRotateSmoothSpeed
+  commentId: F:Elly.Runtime.ControllerStat.CamRiggingRotateSmoothSpeed
+  fullName: Elly.Runtime.ControllerStat.CamRiggingRotateSmoothSpeed
+  nameWithType: ControllerStat.CamRiggingRotateSmoothSpeed
 - uid: Elly.Runtime.ControllerStat.CamRotateSmoothSpeed
   name: CamRotateSmoothSpeed
   href: api/Elly.Runtime.ControllerStat.html#Elly_Runtime_ControllerStat_CamRotateSmoothSpeed
@@ -560,18 +657,57 @@ references:
   commentId: F:Elly.Runtime.FPSCharacter.DegreeBounds
   fullName: Elly.Runtime.FPSCharacter.DegreeBounds
   nameWithType: FPSCharacter.DegreeBounds
+- uid: Elly.Runtime.FPSCharacter.FixedUpdate
+  name: FixedUpdate()
+  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_FixedUpdate
+  commentId: M:Elly.Runtime.FPSCharacter.FixedUpdate
+  fullName: Elly.Runtime.FPSCharacter.FixedUpdate()
+  nameWithType: FPSCharacter.FixedUpdate()
+- uid: Elly.Runtime.FPSCharacter.FixedUpdate*
+  name: FixedUpdate
+  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_FixedUpdate_
+  commentId: Overload:Elly.Runtime.FPSCharacter.FixedUpdate
+  isSpec: "True"
+  fullName: Elly.Runtime.FPSCharacter.FixedUpdate
+  nameWithType: FPSCharacter.FixedUpdate
 - uid: Elly.Runtime.FPSCharacter.jump
   name: jump
   href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_jump
   commentId: F:Elly.Runtime.FPSCharacter.jump
   fullName: Elly.Runtime.FPSCharacter.jump
   nameWithType: FPSCharacter.jump
+- uid: Elly.Runtime.FPSCharacter.LookAction(UnityEngine.Vector2)
+  name: LookAction(Vector2)
+  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_LookAction_UnityEngine_Vector2_
+  commentId: M:Elly.Runtime.FPSCharacter.LookAction(UnityEngine.Vector2)
+  fullName: Elly.Runtime.FPSCharacter.LookAction(UnityEngine.Vector2)
+  nameWithType: FPSCharacter.LookAction(Vector2)
+- uid: Elly.Runtime.FPSCharacter.LookAction*
+  name: LookAction
+  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_LookAction_
+  commentId: Overload:Elly.Runtime.FPSCharacter.LookAction
+  isSpec: "True"
+  fullName: Elly.Runtime.FPSCharacter.LookAction
+  nameWithType: FPSCharacter.LookAction
 - uid: Elly.Runtime.FPSCharacter.lookDir
   name: lookDir
   href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_lookDir
   commentId: F:Elly.Runtime.FPSCharacter.lookDir
   fullName: Elly.Runtime.FPSCharacter.lookDir
   nameWithType: FPSCharacter.lookDir
+- uid: Elly.Runtime.FPSCharacter.MoveAction(UnityEngine.Vector3)
+  name: MoveAction(Vector3)
+  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_MoveAction_UnityEngine_Vector3_
+  commentId: M:Elly.Runtime.FPSCharacter.MoveAction(UnityEngine.Vector3)
+  fullName: Elly.Runtime.FPSCharacter.MoveAction(UnityEngine.Vector3)
+  nameWithType: FPSCharacter.MoveAction(Vector3)
+- uid: Elly.Runtime.FPSCharacter.MoveAction*
+  name: MoveAction
+  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_MoveAction_
+  commentId: Overload:Elly.Runtime.FPSCharacter.MoveAction
+  isSpec: "True"
+  fullName: Elly.Runtime.FPSCharacter.MoveAction
+  nameWithType: FPSCharacter.MoveAction
 - uid: Elly.Runtime.FPSCharacter.MoveSpeed
   name: MoveSpeed
   href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_MoveSpeed
@@ -642,6 +778,19 @@ references:
   commentId: F:Elly.Runtime.FPSCharacter.squat
   fullName: Elly.Runtime.FPSCharacter.squat
   nameWithType: FPSCharacter.squat
+- uid: Elly.Runtime.FPSCharacter.Start
+  name: Start()
+  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_Start
+  commentId: M:Elly.Runtime.FPSCharacter.Start
+  fullName: Elly.Runtime.FPSCharacter.Start()
+  nameWithType: FPSCharacter.Start()
+- uid: Elly.Runtime.FPSCharacter.Start*
+  name: Start
+  href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_Start_
+  commentId: Overload:Elly.Runtime.FPSCharacter.Start
+  isSpec: "True"
+  fullName: Elly.Runtime.FPSCharacter.Start
+  nameWithType: FPSCharacter.Start
 - uid: Elly.Runtime.FPSCharacter.SwitchAction(Elly.Runtime.CharacterBase)
   name: SwitchAction(CharacterBase)
   href: api/Elly.Runtime.FPSCharacter.html#Elly_Runtime_FPSCharacter_SwitchAction_Elly_Runtime_CharacterBase_
@@ -692,12 +841,51 @@ references:
   commentId: F:Elly.Runtime.GhostCharacter.DegreeBounds
   fullName: Elly.Runtime.GhostCharacter.DegreeBounds
   nameWithType: GhostCharacter.DegreeBounds
+- uid: Elly.Runtime.GhostCharacter.FixedUpdate
+  name: FixedUpdate()
+  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_FixedUpdate
+  commentId: M:Elly.Runtime.GhostCharacter.FixedUpdate
+  fullName: Elly.Runtime.GhostCharacter.FixedUpdate()
+  nameWithType: GhostCharacter.FixedUpdate()
+- uid: Elly.Runtime.GhostCharacter.FixedUpdate*
+  name: FixedUpdate
+  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_FixedUpdate_
+  commentId: Overload:Elly.Runtime.GhostCharacter.FixedUpdate
+  isSpec: "True"
+  fullName: Elly.Runtime.GhostCharacter.FixedUpdate
+  nameWithType: GhostCharacter.FixedUpdate
+- uid: Elly.Runtime.GhostCharacter.LookAction(UnityEngine.Vector2)
+  name: LookAction(Vector2)
+  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_LookAction_UnityEngine_Vector2_
+  commentId: M:Elly.Runtime.GhostCharacter.LookAction(UnityEngine.Vector2)
+  fullName: Elly.Runtime.GhostCharacter.LookAction(UnityEngine.Vector2)
+  nameWithType: GhostCharacter.LookAction(Vector2)
+- uid: Elly.Runtime.GhostCharacter.LookAction*
+  name: LookAction
+  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_LookAction_
+  commentId: Overload:Elly.Runtime.GhostCharacter.LookAction
+  isSpec: "True"
+  fullName: Elly.Runtime.GhostCharacter.LookAction
+  nameWithType: GhostCharacter.LookAction
 - uid: Elly.Runtime.GhostCharacter.lookDir
   name: lookDir
   href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_lookDir
   commentId: F:Elly.Runtime.GhostCharacter.lookDir
   fullName: Elly.Runtime.GhostCharacter.lookDir
   nameWithType: GhostCharacter.lookDir
+- uid: Elly.Runtime.GhostCharacter.MoveAction(UnityEngine.Vector3)
+  name: MoveAction(Vector3)
+  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_MoveAction_UnityEngine_Vector3_
+  commentId: M:Elly.Runtime.GhostCharacter.MoveAction(UnityEngine.Vector3)
+  fullName: Elly.Runtime.GhostCharacter.MoveAction(UnityEngine.Vector3)
+  nameWithType: GhostCharacter.MoveAction(Vector3)
+- uid: Elly.Runtime.GhostCharacter.MoveAction*
+  name: MoveAction
+  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_MoveAction_
+  commentId: Overload:Elly.Runtime.GhostCharacter.MoveAction
+  isSpec: "True"
+  fullName: Elly.Runtime.GhostCharacter.MoveAction
+  nameWithType: GhostCharacter.MoveAction
 - uid: Elly.Runtime.GhostCharacter.MoveSpeed
   name: MoveSpeed
   href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_MoveSpeed
@@ -762,6 +950,19 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.GhostCharacter.OnVertical
   nameWithType: GhostCharacter.OnVertical
+- uid: Elly.Runtime.GhostCharacter.Start
+  name: Start()
+  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_Start
+  commentId: M:Elly.Runtime.GhostCharacter.Start
+  fullName: Elly.Runtime.GhostCharacter.Start()
+  nameWithType: GhostCharacter.Start()
+- uid: Elly.Runtime.GhostCharacter.Start*
+  name: Start
+  href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_Start_
+  commentId: Overload:Elly.Runtime.GhostCharacter.Start
+  isSpec: "True"
+  fullName: Elly.Runtime.GhostCharacter.Start
+  nameWithType: GhostCharacter.Start
 - uid: Elly.Runtime.GhostCharacter.SwitchAction(Elly.Runtime.CharacterBase)
   name: SwitchAction(CharacterBase)
   href: api/Elly.Runtime.GhostCharacter.html#Elly_Runtime_GhostCharacter_SwitchAction_Elly_Runtime_CharacterBase_
@@ -868,6 +1069,19 @@ references:
   commentId: F:Elly.Runtime.PlatformCharacter.Distance
   fullName: Elly.Runtime.PlatformCharacter.Distance
   nameWithType: PlatformCharacter.Distance
+- uid: Elly.Runtime.PlatformCharacter.FixedUpdate
+  name: FixedUpdate()
+  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_FixedUpdate
+  commentId: M:Elly.Runtime.PlatformCharacter.FixedUpdate
+  fullName: Elly.Runtime.PlatformCharacter.FixedUpdate()
+  nameWithType: PlatformCharacter.FixedUpdate()
+- uid: Elly.Runtime.PlatformCharacter.FixedUpdate*
+  name: FixedUpdate
+  href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_FixedUpdate_
+  commentId: Overload:Elly.Runtime.PlatformCharacter.FixedUpdate
+  isSpec: "True"
+  fullName: Elly.Runtime.PlatformCharacter.FixedUpdate
+  nameWithType: PlatformCharacter.FixedUpdate
 - uid: Elly.Runtime.PlatformCharacter.lookDir
   name: lookDir
   href: api/Elly.Runtime.PlatformCharacter.html#Elly_Runtime_PlatformCharacter_lookDir
@@ -974,12 +1188,44 @@ references:
   commentId: F:Elly.Runtime.TopdownCharacter.DegreeBounds
   fullName: Elly.Runtime.TopdownCharacter.DegreeBounds
   nameWithType: TopdownCharacter.DegreeBounds
+- uid: Elly.Runtime.TopdownCharacter.FixedUpdate
+  name: FixedUpdate()
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_FixedUpdate
+  commentId: M:Elly.Runtime.TopdownCharacter.FixedUpdate
+  fullName: Elly.Runtime.TopdownCharacter.FixedUpdate()
+  nameWithType: TopdownCharacter.FixedUpdate()
+- uid: Elly.Runtime.TopdownCharacter.FixedUpdate*
+  name: FixedUpdate
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_FixedUpdate_
+  commentId: Overload:Elly.Runtime.TopdownCharacter.FixedUpdate
+  isSpec: "True"
+  fullName: Elly.Runtime.TopdownCharacter.FixedUpdate
+  nameWithType: TopdownCharacter.FixedUpdate
+- uid: Elly.Runtime.TopdownCharacter.ForceOnGround
+  name: ForceOnGround
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_ForceOnGround
+  commentId: F:Elly.Runtime.TopdownCharacter.ForceOnGround
+  fullName: Elly.Runtime.TopdownCharacter.ForceOnGround
+  nameWithType: TopdownCharacter.ForceOnGround
 - uid: Elly.Runtime.TopdownCharacter.HitLayer
   name: HitLayer
   href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_HitLayer
   commentId: F:Elly.Runtime.TopdownCharacter.HitLayer
   fullName: Elly.Runtime.TopdownCharacter.HitLayer
   nameWithType: TopdownCharacter.HitLayer
+- uid: Elly.Runtime.TopdownCharacter.LookAction(UnityEngine.Vector2)
+  name: LookAction(Vector2)
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_LookAction_UnityEngine_Vector2_
+  commentId: M:Elly.Runtime.TopdownCharacter.LookAction(UnityEngine.Vector2)
+  fullName: Elly.Runtime.TopdownCharacter.LookAction(UnityEngine.Vector2)
+  nameWithType: TopdownCharacter.LookAction(Vector2)
+- uid: Elly.Runtime.TopdownCharacter.LookAction*
+  name: LookAction
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_LookAction_
+  commentId: Overload:Elly.Runtime.TopdownCharacter.LookAction
+  isSpec: "True"
+  fullName: Elly.Runtime.TopdownCharacter.LookAction
+  nameWithType: TopdownCharacter.LookAction
 - uid: Elly.Runtime.TopdownCharacter.lookDir
   name: lookDir
   href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_lookDir
@@ -1056,6 +1302,19 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.TopdownCharacter.MouseRay
   nameWithType: TopdownCharacter.MouseRay
+- uid: Elly.Runtime.TopdownCharacter.MoveAction(UnityEngine.Vector2)
+  name: MoveAction(Vector2)
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_MoveAction_UnityEngine_Vector2_
+  commentId: M:Elly.Runtime.TopdownCharacter.MoveAction(UnityEngine.Vector2)
+  fullName: Elly.Runtime.TopdownCharacter.MoveAction(UnityEngine.Vector2)
+  nameWithType: TopdownCharacter.MoveAction(Vector2)
+- uid: Elly.Runtime.TopdownCharacter.MoveAction*
+  name: MoveAction
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_MoveAction_
+  commentId: Overload:Elly.Runtime.TopdownCharacter.MoveAction
+  isSpec: "True"
+  fullName: Elly.Runtime.TopdownCharacter.MoveAction
+  nameWithType: TopdownCharacter.MoveAction
 - uid: Elly.Runtime.TopdownCharacter.MoveSpeed
   name: MoveSpeed
   href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_MoveSpeed
@@ -1120,19 +1379,19 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.TopdownCharacter.OnMove
   nameWithType: TopdownCharacter.OnMove
-- uid: Elly.Runtime.TopdownCharacter.OnVertical(UnityEngine.InputSystem.InputValue)
-  name: OnVertical(InputValue)
-  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_OnVertical_UnityEngine_InputSystem_InputValue_
-  commentId: M:Elly.Runtime.TopdownCharacter.OnVertical(UnityEngine.InputSystem.InputValue)
-  fullName: Elly.Runtime.TopdownCharacter.OnVertical(UnityEngine.InputSystem.InputValue)
-  nameWithType: TopdownCharacter.OnVertical(InputValue)
-- uid: Elly.Runtime.TopdownCharacter.OnVertical*
-  name: OnVertical
-  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_OnVertical_
-  commentId: Overload:Elly.Runtime.TopdownCharacter.OnVertical
+- uid: Elly.Runtime.TopdownCharacter.OnZoom(UnityEngine.InputSystem.InputValue)
+  name: OnZoom(InputValue)
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_OnZoom_UnityEngine_InputSystem_InputValue_
+  commentId: M:Elly.Runtime.TopdownCharacter.OnZoom(UnityEngine.InputSystem.InputValue)
+  fullName: Elly.Runtime.TopdownCharacter.OnZoom(UnityEngine.InputSystem.InputValue)
+  nameWithType: TopdownCharacter.OnZoom(InputValue)
+- uid: Elly.Runtime.TopdownCharacter.OnZoom*
+  name: OnZoom
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_OnZoom_
+  commentId: Overload:Elly.Runtime.TopdownCharacter.OnZoom
   isSpec: "True"
-  fullName: Elly.Runtime.TopdownCharacter.OnVertical
-  nameWithType: TopdownCharacter.OnVertical
+  fullName: Elly.Runtime.TopdownCharacter.OnZoom
+  nameWithType: TopdownCharacter.OnZoom
 - uid: Elly.Runtime.TopdownCharacter.Start
   name: Start()
   href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_Start
@@ -1184,6 +1443,19 @@ references:
   commentId: F:Elly.Runtime.TopdownCharacter.ViewSpeed
   fullName: Elly.Runtime.TopdownCharacter.ViewSpeed
   nameWithType: TopdownCharacter.ViewSpeed
+- uid: Elly.Runtime.TopdownCharacter.ZoomAction(System.Single)
+  name: ZoomAction(Single)
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_ZoomAction_System_Single_
+  commentId: M:Elly.Runtime.TopdownCharacter.ZoomAction(System.Single)
+  fullName: Elly.Runtime.TopdownCharacter.ZoomAction(System.Single)
+  nameWithType: TopdownCharacter.ZoomAction(Single)
+- uid: Elly.Runtime.TopdownCharacter.ZoomAction*
+  name: ZoomAction
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_ZoomAction_
+  commentId: Overload:Elly.Runtime.TopdownCharacter.ZoomAction
+  isSpec: "True"
+  fullName: Elly.Runtime.TopdownCharacter.ZoomAction
+  nameWithType: TopdownCharacter.ZoomAction
 - uid: Elly.Runtime.TopdownCharacter.zoomDir
   name: zoomDir
   href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_zoomDir
@@ -1227,12 +1499,38 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.TPSCharacter.CameraPosition
   nameWithType: TPSCharacter.CameraPosition
+- uid: Elly.Runtime.TPSCharacter.CameraYAxisApplyToCharacter
+  name: CameraYAxisApplyToCharacter()
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_CameraYAxisApplyToCharacter
+  commentId: M:Elly.Runtime.TPSCharacter.CameraYAxisApplyToCharacter
+  fullName: Elly.Runtime.TPSCharacter.CameraYAxisApplyToCharacter()
+  nameWithType: TPSCharacter.CameraYAxisApplyToCharacter()
+- uid: Elly.Runtime.TPSCharacter.CameraYAxisApplyToCharacter*
+  name: CameraYAxisApplyToCharacter
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_CameraYAxisApplyToCharacter_
+  commentId: Overload:Elly.Runtime.TPSCharacter.CameraYAxisApplyToCharacter
+  isSpec: "True"
+  fullName: Elly.Runtime.TPSCharacter.CameraYAxisApplyToCharacter
+  nameWithType: TPSCharacter.CameraYAxisApplyToCharacter
 - uid: Elly.Runtime.TPSCharacter.DegreeBounds
   name: DegreeBounds
   href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_DegreeBounds
   commentId: F:Elly.Runtime.TPSCharacter.DegreeBounds
   fullName: Elly.Runtime.TPSCharacter.DegreeBounds
   nameWithType: TPSCharacter.DegreeBounds
+- uid: Elly.Runtime.TPSCharacter.FixedUpdate
+  name: FixedUpdate()
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_FixedUpdate
+  commentId: M:Elly.Runtime.TPSCharacter.FixedUpdate
+  fullName: Elly.Runtime.TPSCharacter.FixedUpdate()
+  nameWithType: TPSCharacter.FixedUpdate()
+- uid: Elly.Runtime.TPSCharacter.FixedUpdate*
+  name: FixedUpdate
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_FixedUpdate_
+  commentId: Overload:Elly.Runtime.TPSCharacter.FixedUpdate
+  isSpec: "True"
+  fullName: Elly.Runtime.TPSCharacter.FixedUpdate
+  nameWithType: TPSCharacter.FixedUpdate
 - uid: Elly.Runtime.TPSCharacter.HitLayer
   name: HitLayer
   href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_HitLayer
@@ -1251,6 +1549,19 @@ references:
   commentId: F:Elly.Runtime.TPSCharacter.lookDir
   fullName: Elly.Runtime.TPSCharacter.lookDir
   nameWithType: TPSCharacter.lookDir
+- uid: Elly.Runtime.TPSCharacter.MoveAction(UnityEngine.Vector3)
+  name: MoveAction(Vector3)
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_MoveAction_UnityEngine_Vector3_
+  commentId: M:Elly.Runtime.TPSCharacter.MoveAction(UnityEngine.Vector3)
+  fullName: Elly.Runtime.TPSCharacter.MoveAction(UnityEngine.Vector3)
+  nameWithType: TPSCharacter.MoveAction(Vector3)
+- uid: Elly.Runtime.TPSCharacter.MoveAction*
+  name: MoveAction
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_MoveAction_
+  commentId: Overload:Elly.Runtime.TPSCharacter.MoveAction
+  isSpec: "True"
+  fullName: Elly.Runtime.TPSCharacter.MoveAction
+  nameWithType: TPSCharacter.MoveAction
 - uid: Elly.Runtime.TPSCharacter.MoveSpeed
   name: MoveSpeed
   href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_MoveSpeed
@@ -1321,6 +1632,19 @@ references:
   commentId: F:Elly.Runtime.TPSCharacter.squat
   fullName: Elly.Runtime.TPSCharacter.squat
   nameWithType: TPSCharacter.squat
+- uid: Elly.Runtime.TPSCharacter.Start
+  name: Start()
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_Start
+  commentId: M:Elly.Runtime.TPSCharacter.Start
+  fullName: Elly.Runtime.TPSCharacter.Start()
+  nameWithType: TPSCharacter.Start()
+- uid: Elly.Runtime.TPSCharacter.Start*
+  name: Start
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_Start_
+  commentId: Overload:Elly.Runtime.TPSCharacter.Start
+  isSpec: "True"
+  fullName: Elly.Runtime.TPSCharacter.Start
+  nameWithType: TPSCharacter.Start
 - uid: Elly.Runtime.TPSCharacter.SwitchAction(Elly.Runtime.CharacterBase)
   name: SwitchAction(CharacterBase)
   href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_SwitchAction_Elly_Runtime_CharacterBase_

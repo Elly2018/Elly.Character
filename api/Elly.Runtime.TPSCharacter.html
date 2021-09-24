@@ -110,16 +110,16 @@ public class CustomCharacter : TPSCharacter</code></pre>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase___Camera">CharacterBase.__Camera</a>
     </div>
     <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CameraCenter">CharacterBase._CameraCenter</a>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CameraRigging">CharacterBase._CameraRigging</a>
     </div>
     <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase___CameraCenter">CharacterBase.__CameraCenter</a>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase___CameraRigging">CharacterBase.__CameraRigging</a>
     </div>
     <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterMovingDest">CharacterBase._CamCenterMovingDest</a>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRiggingMovingDest">CharacterBase._CamRiggingMovingDest</a>
     </div>
     <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterRotationDest">CharacterBase._CamCenterRotationDest</a>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRiggingRotationDest">CharacterBase._CamRiggingRotationDest</a>
     </div>
     <div>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamMovingDest">CharacterBase._CamMovingDest</a>
@@ -128,10 +128,10 @@ public class CustomCharacter : TPSCharacter</code></pre>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRotationDest">CharacterBase._CamRotationDest</a>
     </div>
     <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterMovingVelocity">CharacterBase._CamCenterMovingVelocity</a>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRiggingMovingVelocity">CharacterBase._CamRiggingMovingVelocity</a>
     </div>
     <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamCenterRotatingVelocity">CharacterBase._CamCenterRotatingVelocity</a>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamRiggingRotatingVelocity">CharacterBase._CamRiggingRotatingVelocity</a>
     </div>
     <div>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase__CamMovingVelocity">CharacterBase._CamMovingVelocity</a>
@@ -141,9 +141,6 @@ public class CustomCharacter : TPSCharacter</code></pre>
     </div>
     <div>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Awake">CharacterBase.Awake()</a>
-    </div>
-    <div>
-      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Start">CharacterBase.Start()</a>
     </div>
     <div>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Reset">CharacterBase.Reset()</a>
@@ -207,6 +204,21 @@ public class CustomCharacter : TPSCharacter</code></pre>
     </div>
     <div>
       <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_MoveVector_UnityEngine_Vector3_System_Single_System_Single_">CharacterBase.MoveVector(Vector3, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_VibrationUpdate">CharacterBase.VibrationUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraPositionSmoothDamp">CharacterBase.CameraPositionSmoothDamp()</a>
+    </div>
+    <div>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRotationSmoothDamp">CharacterBase.CameraRotationSmoothDamp()</a>
+    </div>
+    <div>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRiggingPositionSmoothDamp">CharacterBase.CameraRiggingPositionSmoothDamp()</a>
+    </div>
+    <div>
+      <a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_CameraRiggingRotationSmoothDamp">CharacterBase.CameraRiggingRotationSmoothDamp()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Elly.Runtime.html">Elly.Runtime</a></h6>
@@ -526,6 +538,59 @@ protected float ViewSpeed</code></pre>
   </div>
   
   
+  <a id="Elly_Runtime_TPSCharacter_CameraYAxisApplyToCharacter_" data-uid="Elly.Runtime.TPSCharacter.CameraYAxisApplyToCharacter*"></a>
+  <h4 id="Elly_Runtime_TPSCharacter_CameraYAxisApplyToCharacter" data-uid="Elly.Runtime.TPSCharacter.CameraYAxisApplyToCharacter">CameraYAxisApplyToCharacter()</h4>
+  <div class="markdown level1 summary"><p>Let character facing camera's forward <br>
+Zero the camera rotation y <br>
+Then adding to character y axis</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CameraYAxisApplyToCharacter()</code></pre>
+  </div>
+  
+  
+  <a id="Elly_Runtime_TPSCharacter_FixedUpdate_" data-uid="Elly.Runtime.TPSCharacter.FixedUpdate*"></a>
+  <h4 id="Elly_Runtime_TPSCharacter_FixedUpdate" data-uid="Elly.Runtime.TPSCharacter.FixedUpdate">FixedUpdate()</h4>
+  <div class="markdown level1 summary"><p>Execute moving action</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void FixedUpdate()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_FixedUpdate">CharacterBase.FixedUpdate()</a></div>
+  
+  
+  <a id="Elly_Runtime_TPSCharacter_MoveAction_" data-uid="Elly.Runtime.TPSCharacter.MoveAction*"></a>
+  <h4 id="Elly_Runtime_TPSCharacter_MoveAction_UnityEngine_Vector3_" data-uid="Elly.Runtime.TPSCharacter.MoveAction(UnityEngine.Vector3)">MoveAction(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void MoveAction(Vector3 dir)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">dir</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Elly_Runtime_TPSCharacter_OnJump_" data-uid="Elly.Runtime.TPSCharacter.OnJump*"></a>
   <h4 id="Elly_Runtime_TPSCharacter_OnJump_UnityEngine_InputSystem_InputValue_" data-uid="Elly.Runtime.TPSCharacter.OnJump(UnityEngine.InputSystem.InputValue)">OnJump(InputValue)</h4>
   <div class="markdown level1 summary"><p>Apply squat bool to <a class="xref" href="Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_jump">jump</a></p>
@@ -638,6 +703,18 @@ protected float ViewSpeed</code></pre>
   </table>
   
   
+  <a id="Elly_Runtime_TPSCharacter_Start_" data-uid="Elly.Runtime.TPSCharacter.Start*"></a>
+  <h4 id="Elly_Runtime_TPSCharacter_Start" data-uid="Elly.Runtime.TPSCharacter.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Start()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Elly.Runtime.CharacterBase.html#Elly_Runtime_CharacterBase_Start">CharacterBase.Start()</a></div>
+  
+  
   <a id="Elly_Runtime_TPSCharacter_SwitchAction_" data-uid="Elly.Runtime.TPSCharacter.SwitchAction*"></a>
   <h4 id="Elly_Runtime_TPSCharacter_SwitchAction_Elly_Runtime_CharacterBase_" data-uid="Elly.Runtime.TPSCharacter.SwitchAction(Elly.Runtime.CharacterBase)">SwitchAction(CharacterBase)</h4>
   <div class="markdown level1 summary"><p>When switch happen, ignore source camera center rotation <br>
@@ -672,7 +749,7 @@ And camera center only care about its position</p>
   
   <a id="Elly_Runtime_TPSCharacter_Update_" data-uid="Elly.Runtime.TPSCharacter.Update*"></a>
   <h4 id="Elly_Runtime_TPSCharacter_Update" data-uid="Elly.Runtime.TPSCharacter.Update">Update()</h4>
-  <div class="markdown level1 summary"><p>Execute moving, looking action</p>
+  <div class="markdown level1 summary"><p>Execute looking action</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
