@@ -252,7 +252,7 @@
           "hash": "J5Yrr3/oQTSdWqIqrHGgiJijMeatFujSmZozxjLJIuc="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -285,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "suGFQfslBOEl69qS8o9NQ0kfxaKZmg/sTeRTjI3mvpY="
+          "hash": "A+JO4WNFLML3aNOM7tnwhwd7GIj8q11fRSCusjOXh5s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
