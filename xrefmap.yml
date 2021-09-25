@@ -7,6 +7,12 @@ references:
   commentId: N:Elly
   fullName: Elly
   nameWithType: Elly
+- uid: Elly.BuiltInScript
+  name: BuiltInScript
+  href: api/Elly.BuiltInScript.html
+  commentId: T:Elly.BuiltInScript
+  fullName: Elly.BuiltInScript
+  nameWithType: BuiltInScript
 - uid: Elly.MathE
   name: MathE
   href: api/Elly.MathE.html
@@ -80,12 +86,6 @@ references:
   commentId: N:Elly.Runtime
   fullName: Elly.Runtime
   nameWithType: Elly.Runtime
-- uid: Elly.Runtime.BuiltInScript
-  name: BuiltInScript
-  href: api/Elly.Runtime.BuiltInScript.html
-  commentId: T:Elly.Runtime.BuiltInScript
-  fullName: Elly.Runtime.BuiltInScript
-  nameWithType: BuiltInScript
 - uid: Elly.Runtime.CharacterBase
   name: CharacterBase
   href: api/Elly.Runtime.CharacterBase.html
@@ -1276,6 +1276,19 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.TopdownCharacter.MinimumDistanceBounds
   nameWithType: TopdownCharacter.MinimumDistanceBounds
+- uid: Elly.Runtime.TopdownCharacter.MouseHit
+  name: MouseHit
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_MouseHit
+  commentId: P:Elly.Runtime.TopdownCharacter.MouseHit
+  fullName: Elly.Runtime.TopdownCharacter.MouseHit
+  nameWithType: TopdownCharacter.MouseHit
+- uid: Elly.Runtime.TopdownCharacter.MouseHit*
+  name: MouseHit
+  href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_MouseHit_
+  commentId: Overload:Elly.Runtime.TopdownCharacter.MouseHit
+  isSpec: "True"
+  fullName: Elly.Runtime.TopdownCharacter.MouseHit
+  nameWithType: TopdownCharacter.MouseHit
 - uid: Elly.Runtime.TopdownCharacter.MouseHitPoint
   name: MouseHitPoint
   href: api/Elly.Runtime.TopdownCharacter.html#Elly_Runtime_TopdownCharacter_MouseHitPoint
@@ -1531,6 +1544,19 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.TPSCharacter.FixedUpdate
   nameWithType: TPSCharacter.FixedUpdate
+- uid: Elly.Runtime.TPSCharacter.GetCameraRayCastingPositionResult
+  name: GetCameraRayCastingPositionResult()
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_GetCameraRayCastingPositionResult
+  commentId: M:Elly.Runtime.TPSCharacter.GetCameraRayCastingPositionResult
+  fullName: Elly.Runtime.TPSCharacter.GetCameraRayCastingPositionResult()
+  nameWithType: TPSCharacter.GetCameraRayCastingPositionResult()
+- uid: Elly.Runtime.TPSCharacter.GetCameraRayCastingPositionResult*
+  name: GetCameraRayCastingPositionResult
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_GetCameraRayCastingPositionResult_
+  commentId: Overload:Elly.Runtime.TPSCharacter.GetCameraRayCastingPositionResult
+  isSpec: "True"
+  fullName: Elly.Runtime.TPSCharacter.GetCameraRayCastingPositionResult
+  nameWithType: TPSCharacter.GetCameraRayCastingPositionResult
 - uid: Elly.Runtime.TPSCharacter.HitLayer
   name: HitLayer
   href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_HitLayer
@@ -1658,6 +1684,19 @@ references:
   isSpec: "True"
   fullName: Elly.Runtime.TPSCharacter.SwitchAction
   nameWithType: TPSCharacter.SwitchAction
+- uid: Elly.Runtime.TPSCharacter.ThridPersonCameraRiggingPositionSmoothDamp
+  name: ThridPersonCameraRiggingPositionSmoothDamp()
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_ThridPersonCameraRiggingPositionSmoothDamp
+  commentId: M:Elly.Runtime.TPSCharacter.ThridPersonCameraRiggingPositionSmoothDamp
+  fullName: Elly.Runtime.TPSCharacter.ThridPersonCameraRiggingPositionSmoothDamp()
+  nameWithType: TPSCharacter.ThridPersonCameraRiggingPositionSmoothDamp()
+- uid: Elly.Runtime.TPSCharacter.ThridPersonCameraRiggingPositionSmoothDamp*
+  name: ThridPersonCameraRiggingPositionSmoothDamp
+  href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_ThridPersonCameraRiggingPositionSmoothDamp_
+  commentId: Overload:Elly.Runtime.TPSCharacter.ThridPersonCameraRiggingPositionSmoothDamp
+  isSpec: "True"
+  fullName: Elly.Runtime.TPSCharacter.ThridPersonCameraRiggingPositionSmoothDamp
+  nameWithType: TPSCharacter.ThridPersonCameraRiggingPositionSmoothDamp
 - uid: Elly.Runtime.TPSCharacter.Update
   name: Update()
   href: api/Elly.Runtime.TPSCharacter.html#Elly_Runtime_TPSCharacter_Update
